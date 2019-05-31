@@ -1,0 +1,29 @@
+---
+layout:     post
+title:      "Check Success"
+subtitle:   "Success Report"
+date:       2019-06-01 05:15:04
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+---
+
+> “Check Succeeded!”
+
+
+## Details
+
+Run check on:
+
+```
+bxy.jar
+sdy.jar
+wsyc.jar
+```
+
+Models are:
+
+```
+
+```
+
