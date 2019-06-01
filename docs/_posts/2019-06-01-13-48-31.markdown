@@ -1,0 +1,37 @@
+---
+layout:     post
+title:      "7 in weak_1 test Model"
+subtitle:   "Error Report"
+date:       2019-06-01 13:48:31
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+
+---
+
+> “Critical Errors Occurred!”
+
+
+## Details
+
+Error on line **119**
+
+```
+./gen_case/weak_1.mdj_Model_7.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/weak_1.mdj)
+
+Test case:
+
+```
+[!] FAILED On Line 375
+[!] ERROR: Line 375 {Failed, class "m1" not found} -> ['bxy', 'wsyc']
+[!] ERROR: Line 375 {Failed, class "m1" not found} -> ['sdy']
+```
+
+
