@@ -1,0 +1,939 @@
+---
+layout:     post
+title:      "2 in Intricate test Model"
+subtitle:   "Error Report"
+date:       2019-06-01 17:20:45
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - CONFLICT
+    - CONFLICT
+
+---
+
+> “Critical Errors Occurred!”
+
+
+## Details
+
+Error on line **106**
+
+```
+./gen_case/Intricate.mdj_Model_2.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/Intricate.mdj)
+
+Error Info:
+
+```
+[!] FAILED On Line 362
+[!] ERROR: Line 362 {Failed, class "Parameter1" not found} -> ['bxy', 'wsyc', 'zmw', 'mjl', 'wsy', 'sdy']
+[!] ERROR: Line 362 {} -> ['qr']
+```
+
+Test Case:
+
+```
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"General","_type":"UMLClass","_id":"AAAAAAFrA49XPojpjSI="}
+{"_parent":"AAAAAAFrA49XPojpjSI=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrA5ARsok9FIs=","source":"AAAAAAFrA49XPojpjSI=","target":"AAAAAAFrA4\/usIkTdF0="}
+{"_parent":"AAAAAAFrA49XPojpjSI=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrA5BL8olSK3Q=","end1":"AAAAAAFrA5BL8olRA1E=","_id":"AAAAAAFrA5BL8olQGrE="}
+{"reference":"AAAAAAFrA4\/usIkTdF0=","multiplicity":"","_parent":"AAAAAAFrA5BL8olQGrE=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrA5BL8olSK3Q="}
+{"reference":"AAAAAAFrA49XPojpjSI=","multiplicity":"","_parent":"AAAAAAFrA5BL8olQGrE=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrA5BL8olRA1E="}
+{"_parent":"AAAAAAFrA49XPojpjSI=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrA9pjGIoIHvI=","end1":"AAAAAAFrA9pjGIoHQL4=","_id":"AAAAAAFrA9pjGIoG\/jE="}
+{"reference":"AAAAAAFrA49XPojpjSI=","multiplicity":"","_parent":"AAAAAAFrA9pjGIoG\/jE=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrA9pjGIoIHvI="}
+{"reference":"AAAAAAFrA49XPojpjSI=","multiplicity":"","_parent":"AAAAAAFrA9pjGIoG\/jE=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrA9pjGIoHQL4="}
+{"_parent":"AAAAAAFrA49XPojpjSI=","visibility":"public","name":"rate","_type":"UMLAttribute","_id":"AAAAAAFrBFKPkUlMjYs=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Universal","_type":"UMLClass","_id":"AAAAAAFrA4\/usIkTdF0="}
+{"_parent":"AAAAAAFrA4\/usIkTdF0=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBD+IP4z68RM=","end1":"AAAAAAFrBD+IP4z5Yo8=","_id":"AAAAAAFrBD+IP4z4RsY="}
+{"reference":"AAAAAAFrA4\/usIkTdF0=","multiplicity":"","_parent":"AAAAAAFrBD+IP4z4RsY=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBD+IP4z68RM="}
+{"reference":"AAAAAAFrA4\/usIkTdF0=","multiplicity":"","_parent":"AAAAAAFrBD+IP4z4RsY=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBD+IP4z5Yo8="}
+{"_parent":"AAAAAAFrA4\/usIkTdF0=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrBESVM5Dnibw=","source":"AAAAAAFrA4\/usIkTdF0=","target":"AAAAAAFrBERiEZBjDd8="}
+{"_parent":"AAAAAAFrA4\/usIkTdF0=","visibility":"public","name":"money","_type":"UMLAttribute","_id":"AAAAAAFrBFLN1U+nna4=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"America","_type":"UMLClass","_id":"AAAAAAFrBEOXX43q8Jw="}
+{"_parent":"AAAAAAFrBEOXX43q8Jw=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrBEO8aI5uHZA=","source":"AAAAAAFrBEOXX43q8Jw=","target":"AAAAAAFrA4\/usIkTdF0="}
+{"_parent":"AAAAAAFrBEOXX43q8Jw=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBEofo6nd7sY=","end1":"AAAAAAFrBEofo6ncPPI=","_id":"AAAAAAFrBEofo6nbTpM="}
+{"reference":"AAAAAAFrBEOXX43q8Jw=","multiplicity":"","_parent":"AAAAAAFrBEofo6nbTpM=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBEofo6nd7sY="}
+{"reference":"AAAAAAFrBETShZP295g=","multiplicity":"","_parent":"AAAAAAFrBEofo6nbTpM=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBEofo6ncPPI="}
+{"_parent":"AAAAAAFrBEOXX43q8Jw=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBEpCIqtK7BQ=","end1":"AAAAAAFrBEpCIqtJcIE=","_id":"AAAAAAFrBEpCIqtI3co="}
+{"reference":"AAAAAAFrBEOXX43q8Jw=","multiplicity":"","_parent":"AAAAAAFrBEpCIqtI3co=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBEpCIqtK7BQ="}
+{"reference":"AAAAAAFrBEal\/5g4csw=","multiplicity":"","_parent":"AAAAAAFrBEpCIqtI3co=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBEpCIqtJcIE="}
+{"_parent":"AAAAAAFrBEOXX43q8Jw=","visibility":"public","name":"rate","_type":"UMLAttribute","_id":"AAAAAAFrBFIvXD7RHRk=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Global","_type":"UMLClass","_id":"AAAAAAFrBERiEZBjDd8="}
+{"_parent":"AAAAAAFrBERiEZBjDd8=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBEwX\/88uw0Y=","end1":"AAAAAAFrBEwX\/88tXHo=","_id":"AAAAAAFrBEwX\/88srzY="}
+{"reference":"AAAAAAFrBERiEZBjDd8=","multiplicity":"","_parent":"AAAAAAFrBEwX\/88srzY=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBEwX\/88uw0Y="}
+{"reference":"AAAAAAFrBERiEZBjDd8=","multiplicity":"","_parent":"AAAAAAFrBEwX\/88srzY=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBEwX\/88tXHo="}
+{"_parent":"AAAAAAFrBERiEZBjDd8=","visibility":"public","name":"price","_type":"UMLAttribute","_id":"AAAAAAFrBFL37FQTNDw=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"China","_type":"UMLClass","_id":"AAAAAAFrBETShZP295g="}
+{"_parent":"AAAAAAFrBETShZP295g=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrBEVeYZR68nc=","source":"AAAAAAFrBETShZP295g=","target":"AAAAAAFrA4\/usIkTdF0="}
+{"_parent":"AAAAAAFrBETShZP295g=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBEpx\/KycoUk=","end1":"AAAAAAFrBEpx\/KybdWY=","_id":"AAAAAAFrBEpx\/KyafEc="}
+{"reference":"AAAAAAFrBETShZP295g=","multiplicity":"","_parent":"AAAAAAFrBEpx\/KyafEc=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBEpx\/KycoUk="}
+{"reference":"AAAAAAFrBEal\/5g4csw=","multiplicity":"","_parent":"AAAAAAFrBEpx\/KyafEc=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBEpx\/KybdWY="}
+{"_parent":"AAAAAAFrBETShZP295g=","visibility":"public","name":"rate","_type":"UMLAttribute","_id":"AAAAAAFrBFJQrUK2ifo=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Europe","_type":"UMLClass","_id":"AAAAAAFrBEal\/5g4csw="}
+{"_parent":"AAAAAAFrBEal\/5g4csw=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrBEbrvpi8ZRI=","source":"AAAAAAFrBEal\/5g4csw=","target":"AAAAAAFrA4\/usIkTdF0="}
+{"_parent":"AAAAAAFrBEal\/5g4csw=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBEqPBK3NBNc=","end1":"AAAAAAFrBEqPBK3MSlE=","_id":"AAAAAAFrBEqPBK3LazE="}
+{"reference":"AAAAAAFrBEal\/5g4csw=","multiplicity":"","_parent":"AAAAAAFrBEqPBK3LazE=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBEqPBK3NBNc="}
+{"reference":"AAAAAAFrBEOXX43q8Jw=","multiplicity":"","_parent":"AAAAAAFrBEqPBK3LazE=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBEqPBK3MSlE="}
+{"_parent":"AAAAAAFrBEal\/5g4csw=","visibility":"public","name":"rate","_type":"UMLAttribute","_id":"AAAAAAFrBFJkZ0R\/J34=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Cash","_type":"UMLInterface","_id":"AAAAAAFrBEcWSZp+lOw="}
+{"_parent":"AAAAAAFrBEcWSZp+lOw=","visibility":"public","name":"getRate","_type":"UMLOperation","_id":"AAAAAAFrBFNAXm1rR4c="}
+{"_parent":"AAAAAAFrBFNAXm1rR4c=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrBFNh4W5Tpqw=","type":"int","direction":"return"}
+{"_parent":"AAAAAAFrBEcWSZp+lOw=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrBEf+upuARr0=","source":"AAAAAAFrBEOXX43q8Jw=","target":"AAAAAAFrBEcWSZp+lOw="}
+{"_parent":"AAAAAAFrBEcWSZp+lOw=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrBEgaY5wQHug=","source":"AAAAAAFrBEal\/5g4csw=","target":"AAAAAAFrBEcWSZp+lOw="}
+{"_parent":"AAAAAAFrBEcWSZp+lOw=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrBEgiGpxOYcA=","source":"AAAAAAFrBETShZP295g=","target":"AAAAAAFrBEcWSZp+lOw="}
+{"_parent":"AAAAAAFrBEcWSZp+lOw=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrBE08KOFhqlo=","source":"AAAAAAFrBEcWSZp+lOw=","target":"AAAAAAFrBEuPRsTsdBw="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Standards","_type":"UMLInterface","_id":"AAAAAAFrBEkGA6MU8WI="}
+{"_parent":"AAAAAAFrBEkGA6MU8WI=","visibility":"public","name":"getStandard","_type":"UMLOperation","_id":"AAAAAAFrBFOo4HPTvNw="}
+{"_parent":"AAAAAAFrBFOo4HPTvNw=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrBFPDVHS7vxM=","type":"int","direction":"return"}
+{"_parent":"AAAAAAFrBEkGA6MU8WI=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrBElK16OYvsY=","source":"AAAAAAFrBERiEZBjDd8=","target":"AAAAAAFrBEkGA6MU8WI="}
+{"_parent":"AAAAAAFrBEkGA6MU8WI=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrB6a2yiS6zvg=","source":"AAAAAAFrBEkGA6MU8WI=","target":"AAAAAAFrB6Xk6BiA3fk="}
+{"_parent":"AAAAAAFrBEkGA6MU8WI=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrB6cjgSvvt+4=","source":"AAAAAAFrBEkGA6MU8WI=","target":"AAAAAAFrB6b+4ykuIKI="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Gold","_type":"UMLInterface","_id":"AAAAAAFrBEuPRsTsdBw="}
+{"_parent":"AAAAAAFrBEuPRsTsdBw=","visibility":"public","name":"getGoldPrice","_type":"UMLOperation","_id":"AAAAAAFrBFN4AW++4BY="}
+{"_parent":"AAAAAAFrBFN4AW++4BY=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrBFOWBnCmHo4=","type":"int","direction":"return"}
+{"_parent":"AAAAAAFrBEuPRsTsdBw=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrBEutB8Yo3OQ=","source":"AAAAAAFrBEOXX43q8Jw=","target":"AAAAAAFrBEuPRsTsdBw="}
+{"_parent":"AAAAAAFrBEuPRsTsdBw=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrBE2ECedcdwA=","source":"AAAAAAFrBEuPRsTsdBw=","target":"AAAAAAFrBEkGA6MU8WI="}
+{"_parent":"AAAAAAFrBEuPRsTsdBw=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrB6Ynlhqo0Fc=","source":"AAAAAAFrBEuPRsTsdBw=","target":"AAAAAAFrB6Xk6BiA3fk="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Africa","_type":"UMLClass","_id":"AAAAAAFrBE5cuwVATCk="}
+{"_parent":"AAAAAAFrBE5cuwVATCk=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrBE6NHAbUo3w=","source":"AAAAAAFrBE5cuwVATCk=","target":"AAAAAAFrA49XPojpjSI="}
+{"_parent":"AAAAAAFrBE5cuwVATCk=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBE76Wg0am4U=","end1":"AAAAAAFrBE76Wg0ZHCw=","_id":"AAAAAAFrBE76Wg0YCcI="}
+{"reference":"AAAAAAFrBETShZP295g=","multiplicity":"","_parent":"AAAAAAFrBE76Wg0YCcI=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBE76Wg0am4U="}
+{"reference":"AAAAAAFrBE5cuwVATCk=","multiplicity":"","_parent":"AAAAAAFrBE76Wg0YCcI=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBE76Wg0ZHCw="}
+{"_parent":"AAAAAAFrBE5cuwVATCk=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBE78vA3Vjik=","end1":"AAAAAAFrBE78vA3UR5I=","_id":"AAAAAAFrBE78vA3T9hg="}
+{"reference":"AAAAAAFrBETShZP295g=","multiplicity":"","_parent":"AAAAAAFrBE78vA3T9hg=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBE78vA3Vjik="}
+{"reference":"AAAAAAFrBE5cuwVATCk=","multiplicity":"","_parent":"AAAAAAFrBE78vA3T9hg=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBE78vA3UR5I="}
+{"_parent":"AAAAAAFrBE5cuwVATCk=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBE7\/zA6f7cQ=","end1":"AAAAAAFrBE7\/zA6esi4=","_id":"AAAAAAFrBE7\/zA6dCK0="}
+{"reference":"AAAAAAFrBETShZP295g=","multiplicity":"","_parent":"AAAAAAFrBE7\/zA6dCK0=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBE7\/zA6f7cQ="}
+{"reference":"AAAAAAFrBE5cuwVATCk=","multiplicity":"","_parent":"AAAAAAFrBE7\/zA6dCK0=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBE7\/zA6esi4="}
+{"_parent":"AAAAAAFrBE5cuwVATCk=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBE8B\/w94Fpc=","end1":"AAAAAAFrBE8B\/w93TSI=","_id":"AAAAAAFrBE8B\/w92qVo="}
+{"reference":"AAAAAAFrBETShZP295g=","multiplicity":"","_parent":"AAAAAAFrBE8B\/w92qVo=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBE8B\/w94Fpc="}
+{"reference":"AAAAAAFrBE5cuwVATCk=","multiplicity":"","_parent":"AAAAAAFrBE8B\/w92qVo=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBE8B\/w93TSI="}
+{"_parent":"AAAAAAFrBE5cuwVATCk=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBE8EHBBgtnI=","end1":"AAAAAAFrBE8EHBBfrcU=","_id":"AAAAAAFrBE8EHBBebJ4="}
+{"reference":"AAAAAAFrBETShZP295g=","multiplicity":"","_parent":"AAAAAAFrBE8EHBBebJ4=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBE8EHBBgtnI="}
+{"reference":"AAAAAAFrBE5cuwVATCk=","multiplicity":"","_parent":"AAAAAAFrBE8EHBBebJ4=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBE8EHBBfrcU="}
+{"_parent":"AAAAAAFrBE5cuwVATCk=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBE8GbRFXqBc=","end1":"AAAAAAFrBE8GbRFWooA=","_id":"AAAAAAFrBE8GbRFVgyk="}
+{"reference":"AAAAAAFrBETShZP295g=","multiplicity":"","_parent":"AAAAAAFrBE8GbRFVgyk=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBE8GbRFXqBc="}
+{"reference":"AAAAAAFrBE5cuwVATCk=","multiplicity":"","_parent":"AAAAAAFrBE8GbRFVgyk=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBE8GbRFWooA="}
+{"_parent":"AAAAAAFrBE5cuwVATCk=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBE8IpRJdznM=","end1":"AAAAAAFrBE8IpRJceZs=","_id":"AAAAAAFrBE8IpRJbuzU="}
+{"reference":"AAAAAAFrBETShZP295g=","multiplicity":"","_parent":"AAAAAAFrBE8IpRJbuzU=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBE8IpRJdznM="}
+{"reference":"AAAAAAFrBE5cuwVATCk=","multiplicity":"","_parent":"AAAAAAFrBE8IpRJbuzU=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBE8IpRJceZs="}
+{"_parent":"AAAAAAFrBE5cuwVATCk=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBFXHY+Q6tRw=","end1":"AAAAAAFrBFXHY+Q5ctA=","_id":"AAAAAAFrBFXHY+Q40Tw="}
+{"reference":"AAAAAAFrA49XPojpjSI=","multiplicity":"","_parent":"AAAAAAFrBFXHY+Q40Tw=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBFXHY+Q6tRw="}
+{"reference":"AAAAAAFrBE5cuwVATCk=","multiplicity":"","_parent":"AAAAAAFrBFXHY+Q40Tw=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBFXHY+Q5ctA="}
+{"_parent":"AAAAAAFrBE5cuwVATCk=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBFXZmOZ\/2Y0=","end1":"AAAAAAFrBFXZmOZ+97M=","_id":"AAAAAAFrBFXZmOZ955w="}
+{"reference":"AAAAAAFrA49XPojpjSI=","multiplicity":"","_parent":"AAAAAAFrBFXZmOZ955w=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBFXZmOZ\/2Y0="}
+{"reference":"AAAAAAFrBE5cuwVATCk=","multiplicity":"","_parent":"AAAAAAFrBFXZmOZ955w=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBFXZmOZ+97M="}
+{"_parent":"AAAAAAFrBE5cuwVATCk=","visibility":"public","name":"rate","_type":"UMLAttribute","_id":"AAAAAAFrBFJ9w0eDk9c=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Trade","_type":"UMLInterface","_id":"AAAAAAFrB6Xk6BiA3fk="}
+{"_parent":"AAAAAAFrB6Xk6BiA3fk=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrB6aXbyHeBqo=","source":"AAAAAAFrB6Xk6BiA3fk=","target":"AAAAAAFrB6Z4VB+2c50="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"TradeWar","_type":"UMLInterface","_id":"AAAAAAFrB6Z4VB+2c50="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"PeaceWar","_type":"UMLInterface","_id":"AAAAAAFrB6b+4ykuIKI="}
+END_OF_MODEL
+CLASS_ATTR_COUNT getRate SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST America
+CLASS_OPERATION_COUNT Trade NON_RETURN
+CLASS_TOP_BASE rate
+CLASS_OPERATION_VISIBILITY Standards PeaceWar
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST Europe
+CLASS_ATTR_COUNT Africa ALL
+CLASS_TOP_BASE Trade
+CLASS_OPERATION_VISIBILITY Global getRate
+CLASS_OPERATION_COUNT Standards PARAM
+CLASS_OPERATION_VISIBILITY General money
+CLASS_ATTR_COUNT TradeWar SELF_ONLY
+CLASS_OPERATION_VISIBILITY getGoldPrice rate
+CLASS_ASSO_CLASS_LIST getStandard
+CLASS_OPERATION_VISIBILITY rate Global
+CLASS_OPERATION_COUNT Cash NON_RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST getRate
+CLASS_ASSO_CLASS_LIST China
+CLASS_TOP_BASE America
+CLASS_ASSO_CLASS_LIST rate
+CLASS_ASSO_CLASS_LIST Standards
+CLASS_ATTR_COUNT Standards SELF_ONLY
+CLASS_OPERATION_VISIBILITY rate Europe
+CLASS_INFO_HIDDEN price
+CLASS_OPERATION_COUNT rate NON_PARAM
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_ASSO_CLASS_LIST TradeWar
+CLASS_OPERATION_COUNT Cash NON_PARAM
+CLASS_OPERATION_COUNT rate ALL
+CLASS_IMPLEMENT_INTERFACE_LIST getGoldPrice
+CLASS_ATTR_COUNT Europe ALL
+CLASS_ATTR_COUNT price SELF_ONLY
+CLASS_INFO_HIDDEN Universal
+CLASS_OPERATION_VISIBILITY TradeWar rate
+CLASS_INFO_HIDDEN Cash
+CLASS_ASSO_CLASS_LIST rate
+CLASS_COUNT
+CLASS_COUNT
+CLASS_INFO_HIDDEN rate
+CLASS_TOP_BASE getGoldPrice
+CLASS_OPERATION_VISIBILITY rate PeaceWar
+CLASS_ATTR_VISIBILITY rate TradeWar
+CLASS_IMPLEMENT_INTERFACE_LIST money
+CLASS_ASSO_COUNT rate
+CLASS_OPERATION_VISIBILITY Gold money
+CLASS_ATTR_COUNT Universal SELF_ONLY
+CLASS_OPERATION_COUNT rate RETURN
+CLASS_INFO_HIDDEN Africa
+CLASS_OPERATION_VISIBILITY TradeWar rate
+CLASS_TOP_BASE getRate
+CLASS_ATTR_COUNT rate SELF_ONLY
+CLASS_OPERATION_COUNT Global RETURN
+CLASS_ASSO_COUNT TradeWar
+CLASS_COUNT
+CLASS_ATTR_COUNT getGoldPrice ALL
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_ASSO_CLASS_LIST rate
+CLASS_INFO_HIDDEN rate
+CLASS_IMPLEMENT_INTERFACE_LIST getRate
+CLASS_OPERATION_VISIBILITY Standards getRate
+CLASS_ATTR_VISIBILITY getStandard money
+CLASS_ASSO_COUNT Gold
+CLASS_INFO_HIDDEN rate
+CLASS_TOP_BASE Africa
+CLASS_ATTR_COUNT money SELF_ONLY
+CLASS_ASSO_COUNT PeaceWar
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_IMPLEMENT_INTERFACE_LIST China
+CLASS_OPERATION_VISIBILITY money Global
+CLASS_ATTR_VISIBILITY rate Universal
+CLASS_ATTR_VISIBILITY rate rate
+CLASS_ATTR_COUNT rate ALL
+CLASS_TOP_BASE Cash
+CLASS_ATTR_VISIBILITY America rate
+CLASS_TOP_BASE rate
+CLASS_IMPLEMENT_INTERFACE_LIST Standards
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_ASSO_COUNT America
+CLASS_OPERATION_COUNT China NON_PARAM
+CLASS_ASSO_CLASS_LIST Africa
+CLASS_OPERATION_VISIBILITY rate getGoldPrice
+CLASS_COUNT
+CLASS_ATTR_COUNT price ALL
+CLASS_ASSO_COUNT Trade
+CLASS_TOP_BASE General
+CLASS_COUNT
+CLASS_ASSO_COUNT Trade
+CLASS_ASSO_CLASS_LIST getRate
+CLASS_ASSO_CLASS_LIST China
+CLASS_ASSO_COUNT China
+CLASS_ATTR_VISIBILITY China price
+CLASS_ATTR_VISIBILITY getRate rate
+CLASS_OPERATION_COUNT Gold PARAM
+CLASS_ASSO_COUNT money
+CLASS_INFO_HIDDEN Standards
+CLASS_ASSO_COUNT getStandard
+CLASS_ATTR_VISIBILITY PeaceWar America
+CLASS_ATTR_VISIBILITY rate Standards
+CLASS_OPERATION_VISIBILITY Europe Gold
+CLASS_INFO_HIDDEN getStandard
+CLASS_TOP_BASE General
+CLASS_INFO_HIDDEN Africa
+CLASS_COUNT
+CLASS_ATTR_COUNT TradeWar ALL
+CLASS_OPERATION_VISIBILITY Gold General
+CLASS_TOP_BASE money
+CLASS_OPERATION_COUNT Global RETURN
+CLASS_INFO_HIDDEN PeaceWar
+CLASS_IMPLEMENT_INTERFACE_LIST America
+CLASS_IMPLEMENT_INTERFACE_LIST money
+CLASS_IMPLEMENT_INTERFACE_LIST America
+CLASS_COUNT
+CLASS_ATTR_COUNT Standards SELF_ONLY
+CLASS_ASSO_COUNT Africa
+CLASS_OPERATION_VISIBILITY rate rate
+CLASS_OPERATION_VISIBILITY rate rate
+CLASS_ATTR_VISIBILITY Standards TradeWar
+CLASS_COUNT
+CLASS_TOP_BASE rate
+CLASS_COUNT
+CLASS_TOP_BASE rate
+CLASS_OPERATION_COUNT price NON_PARAM
+CLASS_OPERATION_COUNT Cash NON_RETURN
+CLASS_ASSO_COUNT getGoldPrice
+CLASS_ASSO_COUNT money
+CLASS_ASSO_CLASS_LIST rate
+CLASS_ATTR_COUNT Gold ALL
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY rate rate
+CLASS_ATTR_COUNT rate SELF_ONLY
+CLASS_TOP_BASE Standards
+CLASS_ATTR_COUNT TradeWar SELF_ONLY
+CLASS_ATTR_COUNT getRate ALL
+CLASS_ASSO_CLASS_LIST getRate
+CLASS_OPERATION_COUNT America NON_PARAM
+CLASS_COUNT
+CLASS_TOP_BASE rate
+CLASS_IMPLEMENT_INTERFACE_LIST China
+CLASS_COUNT
+CLASS_ATTR_COUNT Universal SELF_ONLY
+CLASS_INFO_HIDDEN Africa
+CLASS_TOP_BASE Gold
+CLASS_TOP_BASE Universal
+CLASS_INFO_HIDDEN getGoldPrice
+CLASS_OPERATION_VISIBILITY Cash Cash
+CLASS_ASSO_CLASS_LIST money
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_TOP_BASE getStandard
+CLASS_INFO_HIDDEN money
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_IMPLEMENT_INTERFACE_LIST getGoldPrice
+CLASS_INFO_HIDDEN rate
+CLASS_TOP_BASE rate
+CLASS_ATTR_VISIBILITY Cash Global
+CLASS_TOP_BASE price
+CLASS_OPERATION_VISIBILITY Standards Universal
+CLASS_ASSO_CLASS_LIST getStandard
+CLASS_OPERATION_VISIBILITY price General
+CLASS_ASSO_COUNT America
+CLASS_ASSO_CLASS_LIST rate
+CLASS_TOP_BASE Universal
+CLASS_ASSO_CLASS_LIST getRate
+CLASS_ASSO_CLASS_LIST rate
+CLASS_ATTR_COUNT Cash ALL
+CLASS_ASSO_CLASS_LIST America
+CLASS_ASSO_COUNT money
+CLASS_IMPLEMENT_INTERFACE_LIST getStandard
+CLASS_TOP_BASE Africa
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY Standards America
+CLASS_OPERATION_VISIBILITY rate China
+CLASS_ASSO_CLASS_LIST rate
+CLASS_TOP_BASE getRate
+CLASS_ASSO_COUNT Global
+CLASS_OPERATION_COUNT Trade NON_PARAM
+CLASS_ATTR_COUNT getStandard ALL
+CLASS_ASSO_COUNT Gold
+CLASS_OPERATION_COUNT Global NON_PARAM
+CLASS_COUNT
+CLASS_INFO_HIDDEN rate
+CLASS_ASSO_COUNT General
+CLASS_ATTR_COUNT rate SELF_ONLY
+CLASS_ASSO_COUNT Cash
+CLASS_IMPLEMENT_INTERFACE_LIST PeaceWar
+CLASS_ATTR_VISIBILITY Universal rate
+CLASS_OPERATION_COUNT Europe NON_PARAM
+CLASS_ASSO_CLASS_LIST getRate
+CLASS_ATTR_VISIBILITY price getRate
+CLASS_INFO_HIDDEN money
+CLASS_IMPLEMENT_INTERFACE_LIST TradeWar
+CLASS_ATTR_COUNT Universal SELF_ONLY
+CLASS_OPERATION_VISIBILITY rate General
+CLASS_INFO_HIDDEN getGoldPrice
+CLASS_ASSO_CLASS_LIST getGoldPrice
+CLASS_ASSO_COUNT Cash
+CLASS_ATTR_VISIBILITY TradeWar getGoldPrice
+CLASS_ASSO_CLASS_LIST getStandard
+CLASS_TOP_BASE Universal
+CLASS_IMPLEMENT_INTERFACE_LIST China
+CLASS_IMPLEMENT_INTERFACE_LIST Trade
+CLASS_OPERATION_COUNT Europe NON_PARAM
+CLASS_ASSO_COUNT Cash
+CLASS_OPERATION_VISIBILITY rate Africa
+CLASS_INFO_HIDDEN General
+CLASS_OPERATION_COUNT money PARAM
+CLASS_ATTR_COUNT rate SELF_ONLY
+CLASS_ATTR_COUNT money ALL
+CLASS_ATTR_VISIBILITY getGoldPrice rate
+CLASS_IMPLEMENT_INTERFACE_LIST Trade
+CLASS_INFO_HIDDEN TradeWar
+CLASS_OPERATION_COUNT price RETURN
+CLASS_ASSO_CLASS_LIST China
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_ASSO_CLASS_LIST getRate
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST Standards
+CLASS_OPERATION_COUNT Gold PARAM
+CLASS_ATTR_VISIBILITY money Standards
+CLASS_ASSO_CLASS_LIST rate
+CLASS_COUNT
+CLASS_ASSO_COUNT rate
+CLASS_ATTR_COUNT money SELF_ONLY
+CLASS_ASSO_CLASS_LIST rate
+CLASS_ASSO_CLASS_LIST Gold
+CLASS_ASSO_COUNT Africa
+CLASS_ASSO_CLASS_LIST Cash
+CLASS_IMPLEMENT_INTERFACE_LIST Europe
+CLASS_IMPLEMENT_INTERFACE_LIST getGoldPrice
+CLASS_IMPLEMENT_INTERFACE_LIST Africa
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_OPERATION_COUNT China NON_RETURN
+CLASS_ASSO_CLASS_LIST Gold
+CLASS_ASSO_COUNT Europe
+CLASS_ATTR_VISIBILITY General TradeWar
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST Africa
+CLASS_IMPLEMENT_INTERFACE_LIST Standards
+CLASS_IMPLEMENT_INTERFACE_LIST price
+CLASS_ATTR_COUNT Universal ALL
+CLASS_ATTR_VISIBILITY PeaceWar Cash
+CLASS_OPERATION_COUNT Universal NON_PARAM
+CLASS_IMPLEMENT_INTERFACE_LIST getRate
+CLASS_ASSO_COUNT rate
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST Universal
+CLASS_ATTR_COUNT America ALL
+CLASS_ASSO_CLASS_LIST getStandard
+CLASS_ASSO_COUNT money
+CLASS_IMPLEMENT_INTERFACE_LIST Europe
+CLASS_ASSO_COUNT PeaceWar
+CLASS_OPERATION_VISIBILITY rate Universal
+CLASS_OPERATION_VISIBILITY rate Europe
+CLASS_TOP_BASE General
+CLASS_TOP_BASE Gold
+CLASS_COUNT
+CLASS_COUNT
+CLASS_ASSO_COUNT Trade
+CLASS_ASSO_COUNT Cash
+CLASS_INFO_HIDDEN price
+CLASS_ASSO_CLASS_LIST getStandard
+CLASS_INFO_HIDDEN getStandard
+CLASS_TOP_BASE rate
+CLASS_OPERATION_COUNT Global PARAM
+CLASS_ATTR_COUNT price SELF_ONLY
+CLASS_OPERATION_VISIBILITY General Europe
+CLASS_INFO_HIDDEN price
+CLASS_ASSO_CLASS_LIST Trade
+CLASS_ASSO_COUNT Europe
+CLASS_COUNT
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST money
+CLASS_OPERATION_COUNT Cash NON_RETURN
+CLASS_INFO_HIDDEN getRate
+CLASS_ASSO_COUNT China
+CLASS_ASSO_CLASS_LIST Universal
+CLASS_ATTR_COUNT Africa SELF_ONLY
+CLASS_INFO_HIDDEN Universal
+CLASS_TOP_BASE Standards
+CLASS_OPERATION_COUNT China NON_RETURN
+CLASS_ASSO_CLASS_LIST getRate
+CLASS_COUNT
+CLASS_ASSO_COUNT rate
+CLASS_INFO_HIDDEN Trade
+CLASS_ASSO_COUNT rate
+CLASS_ASSO_COUNT money
+CLASS_TOP_BASE getStandard
+CLASS_OPERATION_VISIBILITY Universal General
+CLASS_ASSO_CLASS_LIST rate
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY TradeWar rate
+CLASS_COUNT
+CLASS_ASSO_COUNT rate
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST rate
+CLASS_ATTR_COUNT rate ALL
+CLASS_OPERATION_VISIBILITY getStandard Global
+CLASS_ASSO_CLASS_LIST China
+CLASS_INFO_HIDDEN rate
+CLASS_TOP_BASE Standards
+CLASS_COUNT
+CLASS_ASSO_COUNT China
+CLASS_ATTR_COUNT General ALL
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST getStandard
+CLASS_ATTR_COUNT PeaceWar SELF_ONLY
+CLASS_ATTR_COUNT rate ALL
+CLASS_ATTR_VISIBILITY China Trade
+CLASS_ATTR_VISIBILITY getStandard rate
+CLASS_ASSO_COUNT getGoldPrice
+CLASS_TOP_BASE rate
+CLASS_TOP_BASE Cash
+CLASS_ATTR_COUNT America SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST Africa
+CLASS_INFO_HIDDEN rate
+CLASS_OPERATION_COUNT getStandard ALL
+CLASS_OPERATION_COUNT rate NON_RETURN
+CLASS_ATTR_VISIBILITY Cash rate
+CLASS_OPERATION_COUNT Universal ALL
+CLASS_ATTR_COUNT America ALL
+CLASS_ASSO_COUNT rate
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_ASSO_COUNT Gold
+CLASS_OPERATION_COUNT rate NON_PARAM
+CLASS_OPERATION_VISIBILITY Cash Africa
+CLASS_OPERATION_VISIBILITY getRate rate
+CLASS_OPERATION_VISIBILITY Trade Gold
+CLASS_OPERATION_VISIBILITY money Africa
+CLASS_INFO_HIDDEN rate
+CLASS_OPERATION_VISIBILITY price rate
+CLASS_ATTR_COUNT getStandard ALL
+CLASS_OPERATION_VISIBILITY Standards General
+CLASS_COUNT
+CLASS_ATTR_COUNT Universal SELF_ONLY
+CLASS_OPERATION_VISIBILITY Universal Trade
+CLASS_ATTR_COUNT money ALL
+CLASS_COUNT
+CLASS_TOP_BASE Europe
+CLASS_IMPLEMENT_INTERFACE_LIST General
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY rate Universal
+CLASS_COUNT
+CLASS_ATTR_COUNT price ALL
+CLASS_OPERATION_VISIBILITY getGoldPrice rate
+CLASS_ASSO_CLASS_LIST Cash
+CLASS_OPERATION_VISIBILITY Universal Gold
+CLASS_INFO_HIDDEN Cash
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY Cash PeaceWar
+CLASS_ATTR_VISIBILITY China PeaceWar
+CLASS_ATTR_COUNT price ALL
+CLASS_ATTR_COUNT Europe ALL
+CLASS_ATTR_VISIBILITY Europe money
+CLASS_ATTR_COUNT rate ALL
+CLASS_ATTR_VISIBILITY Universal PeaceWar
+CLASS_ATTR_VISIBILITY Global Europe
+CLASS_ASSO_COUNT Trade
+CLASS_IMPLEMENT_INTERFACE_LIST getGoldPrice
+CLASS_TOP_BASE price
+CLASS_ATTR_COUNT getGoldPrice ALL
+CLASS_ATTR_COUNT rate SELF_ONLY
+CLASS_COUNT
+CLASS_ASSO_COUNT rate
+CLASS_INFO_HIDDEN General
+CLASS_COUNT
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY Gold rate
+CLASS_IMPLEMENT_INTERFACE_LIST Africa
+CLASS_OPERATION_COUNT price NON_RETURN
+CLASS_ATTR_VISIBILITY Europe getGoldPrice
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST rate
+CLASS_TOP_BASE Universal
+CLASS_ATTR_COUNT getStandard SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST General
+CLASS_ASSO_COUNT China
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_INFO_HIDDEN rate
+CLASS_ATTR_COUNT General SELF_ONLY
+CLASS_ASSO_COUNT Global
+CLASS_IMPLEMENT_INTERFACE_LIST General
+CLASS_ATTR_VISIBILITY Gold rate
+CLASS_INFO_HIDDEN rate
+CLASS_ATTR_COUNT Universal ALL
+CLASS_OPERATION_COUNT price ALL
+CLASS_IMPLEMENT_INTERFACE_LIST Cash
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST price
+CLASS_TOP_BASE price
+CLASS_ASSO_COUNT China
+CLASS_INFO_HIDDEN rate
+CLASS_OPERATION_VISIBILITY rate America
+CLASS_ASSO_CLASS_LIST rate
+CLASS_OPERATION_COUNT rate NON_PARAM
+CLASS_INFO_HIDDEN price
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY General getRate
+CLASS_ATTR_VISIBILITY Africa Global
+CLASS_OPERATION_VISIBILITY TradeWar Cash
+CLASS_OPERATION_COUNT China NON_RETURN
+CLASS_ATTR_COUNT China SELF_ONLY
+CLASS_COUNT
+CLASS_INFO_HIDDEN General
+CLASS_ASSO_CLASS_LIST getStandard
+CLASS_ASSO_CLASS_LIST Europe
+CLASS_INFO_HIDDEN Europe
+CLASS_ATTR_COUNT price SELF_ONLY
+CLASS_TOP_BASE China
+CLASS_ATTR_COUNT TradeWar ALL
+CLASS_OPERATION_VISIBILITY General price
+CLASS_ATTR_COUNT rate ALL
+CLASS_COUNT
+CLASS_ATTR_COUNT Global ALL
+CLASS_TOP_BASE rate
+CLASS_IMPLEMENT_INTERFACE_LIST Universal
+CLASS_IMPLEMENT_INTERFACE_LIST Trade
+CLASS_INFO_HIDDEN money
+CLASS_OPERATION_VISIBILITY rate rate
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST Gold
+CLASS_TOP_BASE Africa
+CLASS_TOP_BASE Global
+CLASS_IMPLEMENT_INTERFACE_LIST Europe
+CLASS_IMPLEMENT_INTERFACE_LIST America
+CLASS_ATTR_VISIBILITY America getStandard
+CLASS_OPERATION_COUNT rate PARAM
+CLASS_TOP_BASE Europe
+CLASS_INFO_HIDDEN Universal
+CLASS_ASSO_COUNT Trade
+CLASS_IMPLEMENT_INTERFACE_LIST TradeWar
+CLASS_ATTR_COUNT rate SELF_ONLY
+CLASS_OPERATION_COUNT getRate PARAM
+CLASS_ATTR_COUNT rate ALL
+CLASS_OPERATION_VISIBILITY Gold Standards
+CLASS_ASSO_COUNT money
+CLASS_INFO_HIDDEN Africa
+CLASS_OPERATION_COUNT rate ALL
+CLASS_ASSO_CLASS_LIST getStandard
+CLASS_ATTR_VISIBILITY TradeWar General
+CLASS_IMPLEMENT_INTERFACE_LIST getRate
+CLASS_OPERATION_VISIBILITY Trade rate
+CLASS_IMPLEMENT_INTERFACE_LIST money
+CLASS_IMPLEMENT_INTERFACE_LIST getRate
+CLASS_INFO_HIDDEN Global
+CLASS_ATTR_COUNT getRate SELF_ONLY
+CLASS_INFO_HIDDEN Standards
+CLASS_OPERATION_VISIBILITY getStandard rate
+CLASS_OPERATION_VISIBILITY rate PeaceWar
+CLASS_OPERATION_VISIBILITY Universal General
+CLASS_ATTR_VISIBILITY getStandard rate
+CLASS_ASSO_COUNT Africa
+CLASS_ASSO_COUNT rate
+CLASS_OPERATION_VISIBILITY Africa rate
+CLASS_TOP_BASE China
+CLASS_ASSO_CLASS_LIST General
+CLASS_TOP_BASE Standards
+CLASS_OPERATION_COUNT America PARAM
+CLASS_TOP_BASE PeaceWar
+CLASS_IMPLEMENT_INTERFACE_LIST Trade
+CLASS_TOP_BASE price
+CLASS_OPERATION_VISIBILITY Europe TradeWar
+CLASS_TOP_BASE rate
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST Universal
+CLASS_ATTR_VISIBILITY Gold Cash
+CLASS_ASSO_COUNT Trade
+CLASS_OPERATION_COUNT Standards NON_RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST Global
+CLASS_ATTR_VISIBILITY getStandard money
+CLASS_ASSO_CLASS_LIST America
+CLASS_ATTR_COUNT Universal ALL
+CLASS_ASSO_CLASS_LIST Africa
+CLASS_INFO_HIDDEN PeaceWar
+CLASS_ATTR_COUNT TradeWar SELF_ONLY
+CLASS_ATTR_COUNT getRate SELF_ONLY
+CLASS_INFO_HIDDEN money
+CLASS_ASSO_CLASS_LIST getRate
+CLASS_ATTR_COUNT China ALL
+CLASS_ASSO_CLASS_LIST rate
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST getStandard
+CLASS_COUNT
+CLASS_ATTR_COUNT getRate ALL
+CLASS_ASSO_COUNT rate
+CLASS_INFO_HIDDEN rate
+CLASS_ATTR_COUNT Africa SELF_ONLY
+CLASS_ASSO_COUNT Universal
+CLASS_ASSO_COUNT General
+CLASS_TOP_BASE PeaceWar
+CLASS_IMPLEMENT_INTERFACE_LIST America
+CLASS_OPERATION_VISIBILITY China Global
+CLASS_INFO_HIDDEN rate
+CLASS_ASSO_CLASS_LIST getGoldPrice
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST China
+CLASS_INFO_HIDDEN Trade
+CLASS_IMPLEMENT_INTERFACE_LIST China
+CLASS_ASSO_CLASS_LIST PeaceWar
+CLASS_ASSO_CLASS_LIST Gold
+CLASS_TOP_BASE Gold
+CLASS_INFO_HIDDEN General
+CLASS_OPERATION_VISIBILITY PeaceWar Global
+CLASS_ASSO_COUNT rate
+CLASS_ASSO_CLASS_LIST PeaceWar
+CLASS_TOP_BASE price
+CLASS_IMPLEMENT_INTERFACE_LIST Cash
+CLASS_ATTR_VISIBILITY Cash General
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY rate rate
+CLASS_ASSO_COUNT getRate
+CLASS_OPERATION_COUNT price NON_PARAM
+CLASS_OPERATION_COUNT rate PARAM
+CLASS_OPERATION_VISIBILITY General General
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY price rate
+CLASS_INFO_HIDDEN Cash
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY Standards getGoldPrice
+CLASS_ATTR_COUNT getRate ALL
+CLASS_INFO_HIDDEN rate
+CLASS_ATTR_COUNT rate SELF_ONLY
+CLASS_ATTR_COUNT China SELF_ONLY
+CLASS_OPERATION_VISIBILITY rate Standards
+CLASS_COUNT
+CLASS_ATTR_COUNT Europe SELF_ONLY
+CLASS_ASSO_CLASS_LIST America
+CLASS_ATTR_VISIBILITY TradeWar getStandard
+CLASS_TOP_BASE getRate
+CLASS_TOP_BASE China
+CLASS_INFO_HIDDEN Global
+CLASS_ASSO_COUNT money
+CLASS_ATTR_COUNT price SELF_ONLY
+CLASS_OPERATION_VISIBILITY Gold rate
+CLASS_OPERATION_VISIBILITY Standards China
+CLASS_ASSO_CLASS_LIST Europe
+CLASS_OPERATION_VISIBILITY Europe rate
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY Universal rate
+CLASS_ASSO_CLASS_LIST America
+CLASS_OPERATION_VISIBILITY Global Trade
+CLASS_IMPLEMENT_INTERFACE_LIST China
+CLASS_ATTR_VISIBILITY Europe rate
+CLASS_INFO_HIDDEN General
+CLASS_ASSO_COUNT Global
+CLASS_TOP_BASE Universal
+CLASS_ATTR_COUNT Trade ALL
+CLASS_ASSO_COUNT China
+CLASS_ATTR_COUNT rate SELF_ONLY
+CLASS_INFO_HIDDEN America
+CLASS_OPERATION_COUNT getRate NON_RETURN
+CLASS_COUNT
+CLASS_OPERATION_COUNT rate PARAM
+CLASS_IMPLEMENT_INTERFACE_LIST money
+CLASS_IMPLEMENT_INTERFACE_LIST America
+CLASS_OPERATION_COUNT rate NON_RETURN
+CLASS_ASSO_CLASS_LIST Africa
+CLASS_ASSO_CLASS_LIST price
+CLASS_COUNT
+CLASS_OPERATION_COUNT rate PARAM
+CLASS_TOP_BASE getGoldPrice
+CLASS_ATTR_VISIBILITY PeaceWar Global
+CLASS_TOP_BASE rate
+CLASS_INFO_HIDDEN getStandard
+CLASS_IMPLEMENT_INTERFACE_LIST getStandard
+CLASS_IMPLEMENT_INTERFACE_LIST Global
+CLASS_INFO_HIDDEN Global
+CLASS_OPERATION_VISIBILITY Gold getRate
+CLASS_OPERATION_VISIBILITY getStandard price
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_OPERATION_COUNT Europe RETURN
+CLASS_ASSO_CLASS_LIST China
+CLASS_TOP_BASE Trade
+CLASS_COUNT
+CLASS_INFO_HIDDEN TradeWar
+CLASS_OPERATION_COUNT getStandard RETURN
+CLASS_ASSO_CLASS_LIST Europe
+CLASS_ATTR_COUNT getStandard ALL
+CLASS_ASSO_CLASS_LIST rate
+CLASS_ASSO_COUNT rate
+CLASS_IMPLEMENT_INTERFACE_LIST getStandard
+CLASS_TOP_BASE Gold
+CLASS_TOP_BASE General
+CLASS_INFO_HIDDEN TradeWar
+CLASS_INFO_HIDDEN getGoldPrice
+CLASS_OPERATION_COUNT getGoldPrice ALL
+CLASS_INFO_HIDDEN rate
+CLASS_COUNT
+CLASS_INFO_HIDDEN Europe
+CLASS_INFO_HIDDEN Standards
+CLASS_ATTR_VISIBILITY Trade Universal
+CLASS_COUNT
+CLASS_TOP_BASE getRate
+CLASS_ASSO_COUNT getRate
+CLASS_ASSO_COUNT TradeWar
+CLASS_OPERATION_VISIBILITY Trade America
+CLASS_OPERATION_VISIBILITY money Global
+CLASS_COUNT
+CLASS_INFO_HIDDEN rate
+CLASS_IMPLEMENT_INTERFACE_LIST Trade
+CLASS_TOP_BASE Universal
+CLASS_OPERATION_VISIBILITY rate rate
+CLASS_INFO_HIDDEN getRate
+CLASS_IMPLEMENT_INTERFACE_LIST Universal
+CLASS_ASSO_CLASS_LIST getRate
+CLASS_ASSO_CLASS_LIST Gold
+CLASS_COUNT
+CLASS_ATTR_COUNT Standards SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST Global
+CLASS_COUNT
+CLASS_OPERATION_COUNT Europe NON_PARAM
+CLASS_ATTR_VISIBILITY getGoldPrice America
+CLASS_ASSO_COUNT General
+CLASS_TOP_BASE General
+CLASS_IMPLEMENT_INTERFACE_LIST General
+CLASS_TOP_BASE General
+CLASS_ATTR_COUNT rate ALL
+CLASS_TOP_BASE PeaceWar
+CLASS_TOP_BASE rate
+CLASS_TOP_BASE getRate
+CLASS_ATTR_VISIBILITY Gold getRate
+CLASS_ATTR_VISIBILITY Universal rate
+CLASS_IMPLEMENT_INTERFACE_LIST China
+CLASS_INFO_HIDDEN Standards
+CLASS_OPERATION_VISIBILITY rate Trade
+CLASS_COUNT
+CLASS_INFO_HIDDEN getStandard
+CLASS_INFO_HIDDEN Global
+CLASS_ATTR_COUNT rate SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST Gold
+CLASS_ATTR_COUNT rate SELF_ONLY
+CLASS_ATTR_COUNT America SELF_ONLY
+CLASS_COUNT
+CLASS_COUNT
+CLASS_INFO_HIDDEN PeaceWar
+CLASS_OPERATION_VISIBILITY Cash America
+CLASS_OPERATION_COUNT General RETURN
+CLASS_COUNT
+CLASS_ATTR_COUNT Africa SELF_ONLY
+CLASS_ATTR_COUNT Standards ALL
+CLASS_INFO_HIDDEN Trade
+CLASS_COUNT
+CLASS_TOP_BASE getGoldPrice
+CLASS_OPERATION_COUNT Global NON_RETURN
+CLASS_ATTR_VISIBILITY Europe rate
+CLASS_OPERATION_VISIBILITY General rate
+CLASS_IMPLEMENT_INTERFACE_LIST Gold
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST rate
+CLASS_OPERATION_COUNT Trade ALL
+CLASS_ASSO_CLASS_LIST Gold
+CLASS_OPERATION_COUNT money ALL
+CLASS_OPERATION_COUNT price NON_PARAM
+CLASS_TOP_BASE Cash
+CLASS_INFO_HIDDEN money
+CLASS_OPERATION_COUNT Trade PARAM
+CLASS_INFO_HIDDEN Standards
+CLASS_OPERATION_VISIBILITY price TradeWar
+CLASS_OPERATION_VISIBILITY Global Trade
+CLASS_ATTR_VISIBILITY America Standards
+CLASS_ASSO_CLASS_LIST Universal
+CLASS_ATTR_COUNT TradeWar ALL
+CLASS_COUNT
+CLASS_ATTR_COUNT Cash SELF_ONLY
+CLASS_TOP_BASE Africa
+CLASS_IMPLEMENT_INTERFACE_LIST Standards
+CLASS_INFO_HIDDEN Europe
+CLASS_INFO_HIDDEN Standards
+CLASS_INFO_HIDDEN America
+CLASS_COUNT
+CLASS_OPERATION_COUNT Cash RETURN
+CLASS_TOP_BASE Europe
+CLASS_ATTR_COUNT China SELF_ONLY
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_ASSO_CLASS_LIST getRate
+CLASS_INFO_HIDDEN PeaceWar
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_OPERATION_COUNT rate PARAM
+CLASS_ATTR_COUNT Africa ALL
+CLASS_ASSO_COUNT Europe
+CLASS_ASSO_CLASS_LIST China
+CLASS_OPERATION_COUNT Universal RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_ASSO_CLASS_LIST Global
+CLASS_OPERATION_COUNT Gold ALL
+CLASS_TOP_BASE money
+CLASS_OPERATION_VISIBILITY getRate General
+CLASS_INFO_HIDDEN Standards
+CLASS_OPERATION_VISIBILITY Universal Universal
+CLASS_OPERATION_VISIBILITY Africa getRate
+CLASS_OPERATION_COUNT getGoldPrice NON_RETURN
+CLASS_ASSO_CLASS_LIST Universal
+CLASS_ASSO_CLASS_LIST Africa
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_OPERATION_VISIBILITY money Standards
+CLASS_TOP_BASE America
+CLASS_INFO_HIDDEN rate
+CLASS_TOP_BASE General
+CLASS_OPERATION_COUNT money NON_PARAM
+CLASS_INFO_HIDDEN rate
+CLASS_ASSO_CLASS_LIST Trade
+CLASS_ASSO_CLASS_LIST Africa
+CLASS_COUNT
+CLASS_OPERATION_COUNT rate RETURN
+CLASS_ATTR_VISIBILITY money America
+CLASS_IMPLEMENT_INTERFACE_LIST getStandard
+CLASS_ATTR_COUNT PeaceWar SELF_ONLY
+CLASS_TOP_BASE rate
+CLASS_IMPLEMENT_INTERFACE_LIST money
+CLASS_OPERATION_COUNT rate PARAM
+CLASS_OPERATION_VISIBILITY Trade getGoldPrice
+CLASS_ATTR_COUNT Standards ALL
+CLASS_ATTR_VISIBILITY getRate rate
+CLASS_COUNT
+CLASS_ASSO_COUNT rate
+CLASS_OPERATION_VISIBILITY Universal getGoldPrice
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_ASSO_COUNT getRate
+CLASS_IMPLEMENT_INTERFACE_LIST Standards
+CLASS_OPERATION_VISIBILITY money Universal
+CLASS_ASSO_COUNT Universal
+CLASS_INFO_HIDDEN rate
+CLASS_ASSO_COUNT Standards
+CLASS_TOP_BASE China
+CLASS_OPERATION_VISIBILITY rate Universal
+CLASS_ATTR_COUNT rate ALL
+CLASS_ATTR_COUNT rate ALL
+CLASS_ATTR_VISIBILITY General rate
+CLASS_IMPLEMENT_INTERFACE_LIST Gold
+CLASS_TOP_BASE Africa
+CLASS_ASSO_COUNT General
+CLASS_ATTR_VISIBILITY China Africa
+CLASS_ATTR_VISIBILITY price Universal
+CLASS_TOP_BASE rate
+CLASS_ASSO_COUNT rate
+CLASS_ASSO_COUNT getGoldPrice
+CLASS_ATTR_COUNT money ALL
+CLASS_INFO_HIDDEN Universal
+CLASS_ASSO_COUNT rate
+CLASS_OPERATION_VISIBILITY Universal Standards
+CLASS_ATTR_VISIBILITY rate Trade
+CLASS_ATTR_COUNT Europe SELF_ONLY
+CLASS_OPERATION_VISIBILITY rate Trade
+CLASS_ASSO_COUNT PeaceWar
+CLASS_ASSO_COUNT China
+CLASS_IMPLEMENT_INTERFACE_LIST PeaceWar
+CLASS_OPERATION_VISIBILITY Gold Africa
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_COUNT
+CLASS_ASSO_COUNT Cash
+CLASS_ATTR_COUNT rate SELF_ONLY
+CLASS_OPERATION_VISIBILITY Gold General
+CLASS_ATTR_VISIBILITY getRate price
+CLASS_ASSO_CLASS_LIST rate
+CLASS_ATTR_VISIBILITY America General
+CLASS_ATTR_COUNT rate SELF_ONLY
+CLASS_ATTR_COUNT Trade ALL
+CLASS_INFO_HIDDEN rate
+CLASS_COUNT
+CLASS_COUNT
+CLASS_INFO_HIDDEN Africa
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_OPERATION_VISIBILITY rate rate
+CLASS_INFO_HIDDEN Trade
+CLASS_IMPLEMENT_INTERFACE_LIST rate
+CLASS_ASSO_CLASS_LIST getGoldPrice
+CLASS_ASSO_COUNT Gold
+CLASS_COUNT
+CLASS_ATTR_COUNT PeaceWar SELF_ONLY
+CLASS_TOP_BASE rate
+CLASS_ASSO_CLASS_LIST TradeWar
+CLASS_ASSO_CLASS_LIST China
+CLASS_INFO_HIDDEN TradeWar
+CLASS_OPERATION_COUNT Trade PARAM
+CLASS_ATTR_COUNT Europe SELF_ONLY
+CLASS_TOP_BASE Trade
+CLASS_INFO_HIDDEN getGoldPrice
+CLASS_OPERATION_COUNT Cash PARAM
+CLASS_INFO_HIDDEN Europe
+CLASS_INFO_HIDDEN Global
+CLASS_OPERATION_VISIBILITY rate TradeWar
+CLASS_OPERATION_VISIBILITY Cash Gold
+CLASS_INFO_HIDDEN rate
+CLASS_ATTR_COUNT China SELF_ONLY
+CLASS_TOP_BASE TradeWar
+CLASS_INFO_HIDDEN General
+CLASS_ASSO_COUNT rate
+CLASS_ASSO_CLASS_LIST rate
+CLASS_ASSO_COUNT getGoldPrice
+CLASS_COUNT
+CLASS_ATTR_COUNT rate SELF_ONLY
+CLASS_ASSO_COUNT rate
+CLASS_OPERATION_VISIBILITY Cash Standards
+CLASS_OPERATION_VISIBILITY America PeaceWar
+CLASS_OPERATION_COUNT rate PARAM
+CLASS_ATTR_COUNT price SELF_ONLY
+CLASS_ATTR_COUNT China ALL
+CLASS_ASSO_CLASS_LIST rate
+CLASS_ASSO_CLASS_LIST Trade
+```
+
+
