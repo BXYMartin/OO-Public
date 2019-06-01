@@ -1,0 +1,37 @@
+---
+layout:     post
+title:      "9 in middle_1 test Model"
+subtitle:   "Error Report"
+date:       2019-06-01 13:44:20
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+
+---
+
+> “Critical Errors Occurred!”
+
+
+## Details
+
+Error on line **18**
+
+```
+./gen_case/middle_1.mdj_Model_9.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/middle_1.mdj)
+
+Test case:
+
+```
+[!] FAILED On Line 18
+[!] ERROR: Line 18 {Failed, class "id" not foundOk, association count of class "C1" is 6.} -> ['sdy']
+[!] ERROR: Line 18 {Failed, class "id" not found} -> ['bxy', 'wsyc']
+```
+
+
