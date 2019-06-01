@@ -1,0 +1,44 @@
+---
+layout:     post
+title:      "Default in Duplicate test 0"
+subtitle:   "Error Report"
+date:       2019-06-01 13:15:24
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - wsyc
+    - sdy
+    - bxy
+
+---
+
+> “Critical Errors Occurred!”
+
+
+## Details
+
+Error on line **1**
+
+```
+./test_case/Duplicate.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/Duplicate.mdj)
+
+Test case:
+
+```
+wsyc ERROR: Runtime Error Occurred!
+[    wsyc]  Time Limit: CPU Time 1.278977
+sdy ERROR: Runtime Error Occurred!
+[     sdy]  Time Limit: CPU Time 1.236553
+bxy ERROR: Runtime Error Occurred!
+[     bxy]  Time Limit: CPU Time 1.244487
+[i]  INFO:	 Useful Lines Count 3/3
+```
+
+
