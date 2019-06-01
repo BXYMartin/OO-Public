@@ -1,0 +1,37 @@
+---
+layout:     post
+title:      "4 in Full test Model"
+subtitle:   "Error Report"
+date:       2019-06-01 13:27:54
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+
+---
+
+> “Critical Errors Occurred!”
+
+
+## Details
+
+Error on line **194**
+
+```
+./gen_case/Full.mdj_Model_4.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/Full.mdj)
+
+Test case:
+
+```
+[!] FAILED On Line 450
+[!] ERROR: Line 450 {Attribute2 in Class4, Attribute2 in Class5, are not hidden.} -> ['wsyc']
+[!] ERROR: Line 450 {Ok, attribute count of class "Class1" is 0.} -> ['bxy', 'sdy']
+```
+
+
