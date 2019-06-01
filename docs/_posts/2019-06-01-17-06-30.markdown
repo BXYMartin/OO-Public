@@ -1,0 +1,451 @@
+---
+layout:     post
+title:      "2 in Full test Model"
+subtitle:   "Error Report"
+date:       2019-06-01 17:06:30
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - CONFLICT
+    - CONFLICT
+
+---
+
+> “Critical Errors Occurred!”
+
+
+## Details
+
+Error on line **1**
+
+```
+./gen_case/Full.mdj_Model_2.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/Full.mdj)
+
+Error Info:
+
+```
+[!] FAILED On Line 1
+[!] ERROR: Line 1 {Ok, implement interfaces of class "ElcKey" are ().} -> ['bxy', 'wsyc', 'zmw', 'mjl', 'sdy']
+[!] ERROR: Line 1 {Failed, class "Operation1" not found} -> ['qr', 'wsy']
+```
+
+Test Case:
+
+```
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class1","_type":"UMLClass","_id":"AAAAAAFrB+igbgj1nYU="}
+{"_parent":"AAAAAAFrB+igbgj1nYU=","visibility":"private","name":"Operation1","_type":"UMLOperation","_id":"AAAAAAFrB+\/Y23iz4Zo="}
+{"_parent":"AAAAAAFrB+\/Y23iz4Zo=","name":"Parameter1","_type":"UMLParameter","_id":"AAAAAAFrB+\/txnrJ0v0=","type":"","direction":"return"}
+{"_parent":"AAAAAAFrB+igbgj1nYU=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrB+kHYArh3Kg=","source":"AAAAAAFrB+igbgj1nYU=","target":"AAAAAAFrB+ipcglHScM="}
+{"_parent":"AAAAAAFrB+igbgj1nYU=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrB+k2xgs4zyk=","end1":"AAAAAAFrB+k2xQs3wOo=","_id":"AAAAAAFrB+k2xQs2r3A="}
+{"reference":"AAAAAAFrB+iu\/QlwoW8=","multiplicity":"","_parent":"AAAAAAFrB+k2xQs2r3A=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrB+k2xgs4zyk="}
+{"reference":"AAAAAAFrB+igbgj1nYU=","multiplicity":"","_parent":"AAAAAAFrB+k2xQs2r3A=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrB+k2xQs3wOo="}
+{"_parent":"AAAAAAFrB+igbgj1nYU=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrB+ns9RGyf2c=","end1":"AAAAAAFrB+ns9RGxZfE=","_id":"AAAAAAFrB+ns9RGwta8="}
+{"reference":"AAAAAAFrB+i2BgnCDWQ=","multiplicity":"","_parent":"AAAAAAFrB+ns9RGwta8=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrB+ns9RGyf2c="}
+{"reference":"AAAAAAFrB+igbgj1nYU=","multiplicity":"","_parent":"AAAAAAFrB+ns9RGwta8=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrB+ns9RGxZfE="}
+{"_parent":"AAAAAAFrB+igbgj1nYU=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrB\/Iv7I7p5JY=","source":"AAAAAAFrB+igbgj1nYU=","target":"AAAAAAFrB+jhGgpmiYM="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class2","_type":"UMLClass","_id":"AAAAAAFrB+ikdwkeeVY="}
+{"_parent":"AAAAAAFrB+ikdwkeeVY=","visibility":"protected","name":"Operation1","_type":"UMLOperation","_id":"AAAAAAFrB\/BCe33+k+g="}
+{"_parent":"AAAAAAFrB\/BCe33+k+g=","name":"Parameter1","_type":"UMLParameter","_id":"AAAAAAFrB\/ChHIEG6xY=","type":"","direction":"out"}
+{"_parent":"AAAAAAFrB\/BCe33+k+g=","name":"Parameter2","_type":"UMLParameter","_id":"AAAAAAFrB\/C9BIKKeKw=","type":"","direction":"return"}
+{"_parent":"AAAAAAFrB+ikdwkeeVY=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrB+kM4gryI1o=","source":"AAAAAAFrB+ikdwkeeVY=","target":"AAAAAAFrB+iu\/QlwoW8="}
+{"_parent":"AAAAAAFrB+ikdwkeeVY=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrB+mPowwt6Do=","end1":"AAAAAAFrB+mPowwsIJ0=","_id":"AAAAAAFrB+mPowwrENI="}
+{"reference":"AAAAAAFrB+lPnwuIFVM=","multiplicity":"","_parent":"AAAAAAFrB+mPowwrENI=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrB+mPowwt6Do="}
+{"reference":"AAAAAAFrB+ikdwkeeVY=","multiplicity":"","_parent":"AAAAAAFrB+mPowwrENI=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrB+mPowwsIJ0="}
+{"_parent":"AAAAAAFrB+ikdwkeeVY=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrB+nCvg6oC7c=","end1":"AAAAAAFrB+nCvg6nyAo=","_id":"AAAAAAFrB+nCvg6msXU="}
+{"reference":"AAAAAAFrB+lPnwuIFVM=","multiplicity":"","_parent":"AAAAAAFrB+nCvg6msXU=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrB+nCvg6oC7c="}
+{"reference":"AAAAAAFrB+ikdwkeeVY=","multiplicity":"","_parent":"AAAAAAFrB+nCvg6msXU=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrB+nCvg6nyAo="}
+{"_parent":"AAAAAAFrB+ikdwkeeVY=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrB\/IVpIznOjM=","source":"AAAAAAFrB+ikdwkeeVY=","target":"AAAAAAFrB+jo4Aq46\/E="}
+{"_parent":"AAAAAAFrB+ikdwkeeVY=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrB\/If743ohp8=","source":"AAAAAAFrB+ikdwkeeVY=","target":"AAAAAAFrB+jkpAqPL7I="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class3","_type":"UMLClass","_id":"AAAAAAFrB+ipcglHScM="}
+{"_parent":"AAAAAAFrB+ipcglHScM=","visibility":"public","name":"Operation1","_type":"UMLOperation","_id":"AAAAAAFrB+97O3KmM+g="}
+{"_parent":"AAAAAAFrB+97O3KmM+g=","name":"Parameter1","_type":"UMLParameter","_id":"AAAAAAFrB++rc3VNFsQ=","type":"","direction":"inout"}
+{"_parent":"AAAAAAFrB+ipcglHScM=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrB+kTNwsDBqE=","source":"AAAAAAFrB+ipcglHScM=","target":"AAAAAAFrB+iu\/QlwoW8="}
+{"_parent":"AAAAAAFrB+ipcglHScM=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrB+nVwRAPWok=","end1":"AAAAAAFrB+nVwRAO0aA=","_id":"AAAAAAFrB+nVwRANyu0="}
+{"reference":"AAAAAAFrB+lPnwuIFVM=","multiplicity":"","_parent":"AAAAAAFrB+nVwRANyu0=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrB+nVwRAPWok="}
+{"reference":"AAAAAAFrB+ipcglHScM=","multiplicity":"","_parent":"AAAAAAFrB+nVwRANyu0=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrB+nVwRAO0aA="}
+{"_parent":"AAAAAAFrB+ipcglHScM=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrB\/JP94\/qkBw=","source":"AAAAAAFrB+ipcglHScM=","target":"AAAAAAFrB+jaiAoUR+A="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class4","_type":"UMLClass","_id":"AAAAAAFrB+iu\/QlwoW8="}
+{"_parent":"AAAAAAFrB+iu\/QlwoW8=","visibility":"private","name":"Operation1","_type":"UMLOperation","_id":"AAAAAAFrB+6jaWYq3M8="}
+{"_parent":"AAAAAAFrB+iu\/QlwoW8=","visibility":"public","name":"Operation2","_type":"UMLOperation","_id":"AAAAAAFrB+7x2GtDWYU="}
+{"_parent":"AAAAAAFrB+7x2GtDWYU=","name":"Parameter1","_type":"UMLParameter","_id":"AAAAAAFrB+8qpm5PFmk=","type":"","direction":"in"}
+{"_parent":"AAAAAAFrB+iu\/QlwoW8=","visibility":"public","name":"Operation3","_type":"UMLOperation","_id":"AAAAAAFrB+8CBmzJx3k="}
+{"_parent":"AAAAAAFrB+8CBmzJx3k=","name":"Parameter1","_type":"UMLParameter","_id":"AAAAAAFrB+9ZFHDCUuE=","type":"","direction":"return"}
+{"_parent":"AAAAAAFrB+iu\/QlwoW8=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrB+kXqgsUKVs=","source":"AAAAAAFrB+iu\/QlwoW8=","target":"AAAAAAFrB+izDgmZs5w="}
+{"_parent":"AAAAAAFrB+iu\/QlwoW8=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrB+mwnw196ys=","end1":"AAAAAAFrB+mwnw18Kx4=","_id":"AAAAAAFrB+mwnw17M44="}
+{"reference":"AAAAAAFrB+iu\/QlwoW8=","multiplicity":"","_parent":"AAAAAAFrB+mwnw17M44=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrB+mwnw196ys="}
+{"reference":"AAAAAAFrB+iu\/QlwoW8=","multiplicity":"","_parent":"AAAAAAFrB+mwnw17M44=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrB+mwnw18Kx4="}
+{"_parent":"AAAAAAFrB+iu\/QlwoW8=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrB+m1Sg4Lx+s=","end1":"AAAAAAFrB+m1Sg4K6RM=","_id":"AAAAAAFrB+m1Sg4JmQM="}
+{"reference":"AAAAAAFrB+iu\/QlwoW8=","multiplicity":"","_parent":"AAAAAAFrB+m1Sg4JmQM=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrB+m1Sg4Lx+s="}
+{"reference":"AAAAAAFrB+iu\/QlwoW8=","multiplicity":"","_parent":"AAAAAAFrB+m1Sg4JmQM=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrB+m1Sg4K6RM="}
+{"_parent":"AAAAAAFrB+iu\/QlwoW8=","visibility":"private","name":"Attribute1","_type":"UMLAttribute","_id":                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  equals ALL
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY o equals
+CLASS_TOP_BASE o
+CLASS_IMPLEMENT_INTERFACE_LIST equals
+CLASS_ATTR_COUNT Operation1 SELF_ONLY
+CLASS_ASSO_CLASS_LIST ElcKey
+CLASS_COUNT
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY Parameter1 getMatchedLockId
+CLASS_ASSO_CLASS_LIST o
+CLASS_TOP_BASE sigCode
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY equals getMatchedLockId
+CLASS_OPERATION_VISIBILITY matchedLockID ElcKey
+CLASS_ASSO_COUNT getMatchedLockId
+CLASS_ASSO_CLASS_LIST matchedLockID
+CLASS_ATTR_VISIBILITY o equals
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY matchedLockID sigCode
+CLASS_COUNT
+CLASS_INFO_HIDDEN Parameter1
+CLASS_OPERATION_COUNT Key NON_PARAM
+CLASS_IMPLEMENT_INTERFACE_LIST Key
+CLASS_COUNT
+CLASS_ATTR_COUNT keyID ALL
+CLASS_ASSO_CLASS_LIST o
+CLASS_INFO_HIDDEN sigCode
+CLASS_IMPLEMENT_INTERFACE_LIST ElcKey
+CLASS_COUNT
+CLASS_OPERATION_COUNT matchedLockID NON_PARAM
+CLASS_ASSO_COUNT equals
+CLASS_OPERATION_VISIBILITY Key Parameter1
+CLASS_IMPLEMENT_INTERFACE_LIST keyID
+CLASS_INFO_HIDDEN Parameter1
+CLASS_ATTR_VISIBILITY ElcKey equals
+CLASS_ATTR_VISIBILITY keyID keyID
+CLASS_OPERATION_COUNT Operation1 NON_RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST ElcKey
+CLASS_ATTR_COUNT getMatchedLockId SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST sigCode
+CLASS_ATTR_COUNT sigCode SELF_ONLY
+CLASS_ATTR_COUNT ElcKey ALL
+CLASS_OPERATION_COUNT Key ALL
+CLASS_ASSO_COUNT o
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY matchedLockID matchedLockID
+CLASS_ATTR_COUNT equals SELF_ONLY
+CLASS_ATTR_COUNT Parameter1 SELF_ONLY
+CLASS_ATTR_COUNT Parameter1 SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST ElcKey
+CLASS_ATTR_VISIBILITY ElcKey keyID
+CLASS_OPERATION_COUNT equals NON_PARAM
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY o ElcKey
+CLASS_COUNT
+CLASS_INFO_HIDDEN Key
+CLASS_OPERATION_VISIBILITY equals Key
+CLASS_ASSO_CLASS_LIST getMatchedLockId
+CLASS_ATTR_COUNT Key ALL
+CLASS_OPERATION_VISIBILITY keyID equals
+CLASS_OPERATION_COUNT equals NON_RETURN
+CLASS_ATTR_VISIBILITY o matchedLockID
+CLASS_ASSO_CLASS_LIST keyID
+CLASS_IMPLEMENT_INTERFACE_LIST o
+CLASS_ASSO_COUNT o
+CLASS_ASSO_COUNT keyID
+CLASS_IMPLEMENT_INTERFACE_LIST Operation1
+CLASS_ATTR_COUNT equals ALL
+CLASS_INFO_HIDDEN equals
+CLASS_ATTR_COUNT matchedLockID SELF_ONLY
+CLASS_OPERATION_COUNT sigCode RETURN
+CLASS_ATTR_VISIBILITY Key getMatchedLockId
+CLASS_ATTR_VISIBILITY equals equals
+CLASS_IMPLEMENT_INTERFACE_LIST equals
+CLASS_OPERATION_VISIBILITY ElcKey ElcKey
+CLASS_COUNT
+CLASS_TOP_BASE o
+CLASS_ATTR_COUNT ElcKey SELF_ONLY
+CLASS_INFO_HIDDEN Key
+CLASS_INFO_HIDDEN sigCode
+CLASS_ASSO_COUNT matchedLockID
+CLASS_OPERATION_COUNT o NON_PARAM
+CLASS_ASSO_COUNT o
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST Operation1
+CLASS_ASSO_CLASS_LIST matchedLockID
+CLASS_TOP_BASE ElcKey
+CLASS_ATTR_VISIBILITY keyID matchedLockID
+CLASS_ATTR_VISIBILITY equals Parameter1
+CLASS_ASSO_CLASS_LIST getMatchedLockId
+CLASS_OPERATION_VISIBILITY getMatchedLockId Operation1
+CLASS_OPERATION_VISIBILITY ElcKey o
+CLASS_ATTR_COUNT Parameter1 SELF_ONLY
+CLASS_OPERATION_VISIBILITY ElcKey Key
+CLASS_INFO_HIDDEN keyID
+CLASS_ASSO_CLASS_LIST equals
+CLASS_TOP_BASE o
+CLASS_ATTR_VISIBILITY matchedLockID equals
+CLASS_ASSO_COUNT getMatchedLockId
+CLASS_ASSO_COUNT equals
+CLASS_OPERATION_COUNT matchedLockID NON_RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST matchedLockID
+CLASS_IMPLEMENT_INTERFACE_LIST Key
+CLASS_OPERATION_COUNT Operation1 ALL
+CLASS_TOP_BASE ElcKey
+CLASS_OPERATION_VISIBILITY Parameter1 equals
+CLASS_COUNT
+CLASS_OPERATION_COUNT equals NON_PARAM
+CLASS_ATTR_COUNT getMatchedLockId ALL
+CLASS_INFO_HIDDEN o
+CLASS_ATTR_VISIBILITY o Key
+CLASS_ATTR_COUNT sigCode SELF_ONLY
+CLASS_ASSO_CLASS_LIST keyID
+CLASS_OPERATION_COUNT Operation1 RETURN
+CLASS_OPERATION_VISIBILITY getMatchedLockId ElcKey
+CLASS_OPERATION_COUNT Key NON_PARAM
+CLASS_OPERATION_COUNT Operation1 RETURN
+CLASS_INFO_HIDDEN keyID
+CLASS_IMPLEMENT_INTERFACE_LIST getMatchedLockId
+CLASS_TOP_BASE equals
+CLASS_ASSO_COUNT o
+CLASS_OPERATION_COUNT Parameter1 NON_PARAM
+CLASS_OPERATION_COUNT o NON_RETURN
+CLASS_ATTR_VISIBILITY sigCode ElcKey
+CLASS_OPERATION_VISIBILITY Key o
+CLASS_INFO_HIDDEN ElcKey
+CLASS_ATTR_VISIBILITY Operation1 o
+CLASS_ATTR_COUNT sigCode SELF_ONLY
+CLASS_COUNT
+CLASS_ASSO_COUNT sigCode
+CLASS_COUNT
+CLASS_INFO_HIDDEN ElcKey
+CLASS_TOP_BASE sigCode
+CLASS_TOP_BASE matchedLockID
+CLASS_OPERATION_COUNT ElcKey NON_RETURN
+CLASS_ATTR_VISIBILITY Key getMatchedLockId
+CLASS_INFO_HIDDEN getMatchedLockId
+CLASS_OPERATION_COUNT Operation1 NON_RETURN
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY equals Parameter1
+CLASS_ATTR_VISIBILITY matchedLockID Key
+CLASS_OPERATION_COUNT Key RETURN
+CLASS_OPERATION_COUNT o NON_PARAM
+CLASS_OPERATION_VISIBILITY Operation1 ElcKey
+CLASS_TOP_BASE Parameter1
+CLASS_TOP_BASE o
+CLASS_ASSO_CLASS_LIST o
+CLASS_INFO_HIDDEN o
+CLASS_IMPLEMENT_INTERFACE_LIST Key
+CLASS_ATTR_COUNT Operation1 ALL
+CLASS_ASSO_CLASS_LIST o
+CLASS_IMPLEMENT_INTERFACE_LIST matchedLockID
+CLASS_ASSO_CLASS_LIST getMatchedLockId
+CLASS_ATTR_VISIBILITY ElcKey Parameter1
+CLASS_OPERATION_COUNT o RETURN
+CLASS_ASSO_COUNT keyID
+CLASS_ASSO_CLASS_LIST Operation1
+CLASS_TOP_BASE ElcKey
+CLASS_TOP_BASE Operation1
+CLASS_ATTR_COUNT getMatchedLockId ALL
+CLASS_OPERATION_COUNT o RETURN
+CLASS_TOP_BASE getMatchedLockId
+CLASS_OPERATION_VISIBILITY Operation1 Key
+CLASS_OPERATION_COUNT Parameter1 NON_RETURN
+CLASS_OPERATION_COUNT equals RETURN
+CLASS_ATTR_VISIBILITY matchedLockID ElcKey
+CLASS_ATTR_COUNT Operation1 SELF_ONLY
+CLASS_TOP_BASE matchedLockID
+CLASS_INFO_HIDDEN o
+CLASS_ATTR_VISIBILITY Operation1 Key
+CLASS_OPERATION_COUNT sigCode PARAM
+CLASS_ATTR_COUNT o SELF_ONLY
+CLASS_ATTR_COUNT Key SELF_ONLY
+CLASS_ATTR_VISIBILITY keyID keyID
+CLASS_ASSO_CLASS_LIST ElcKey
+CLASS_OPERATION_COUNT keyID NON_RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST o
+CLASS_TOP_BASE sigCode
+CLASS_IMPLEMENT_INTERFACE_LIST Parameter1
+CLASS_ASSO_CLASS_LIST Parameter1
+CLASS_IMPLEMENT_INTERFACE_LIST equals
+CLASS_OPERATION_VISIBILITY ElcKey o
+CLASS_ATTR_COUNT o SELF_ONLY
+CLASS_OPERATION_VISIBILITY ElcKey Operation1
+CLASS_IMPLEMENT_INTERFACE_LIST Parameter1
+CLASS_IMPLEMENT_INTERFACE_LIST getMatchedLockId
+CLASS_ATTR_COUNT Key SELF_ONLY
+CLASS_ATTR_VISIBILITY matchedLockID Operation1
+CLASS_TOP_BASE o
+CLASS_INFO_HIDDEN Key
+CLASS_IMPLEMENT_INTERFACE_LIST matchedLockID
+CLASS_OPERATION_VISIBILITY Key matchedLockID
+CLASS_INFO_HIDDEN o
+CLASS_TOP_BASE matchedLockID
+CLASS_TOP_BASE Operation1
+CLASS_TOP_BASE Parameter1
+CLASS_ATTR_COUNT Key SELF_ONLY
+CLASS_OPERATION_COUNT equals RETURN
+CLASS_ATTR_COUNT Parameter1 SELF_ONLY
+CLASS_OPERATION_COUNT matchedLockID NON_RETURN
+CLASS_OPERATION_COUNT o PARAM
+CLASS_ATTR_VISIBILITY getMatchedLockId sigCode
+CLASS_ASSO_CLASS_LIST ElcKey
+CLASS_ATTR_VISIBILITY o o
+CLASS_ASSO_CLASS_LIST o
+CLASS_ASSO_CLASS_LIST Operation1
+CLASS_IMPLEMENT_INTERFACE_LIST ElcKey
+CLASS_INFO_HIDDEN equals
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST getMatchedLockId
+CLASS_ATTR_VISIBILITY o sigCode
+CLASS_TOP_BASE ElcKey
+CLASS_ATTR_VISIBILITY equals Parameter1
+CLASS_COUNT
+CLASS_OPERATION_COUNT Operation1 ALL
+CLASS_OPERATION_COUNT matchedLockID ALL
+CLASS_ATTR_COUNT o ALL
+CLASS_ASSO_COUNT o
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY sigCode ElcKey
+CLASS_OPERATION_COUNT getMatchedLockId RETURN
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST equals
+CLASS_OPERATION_VISIBILITY getMatchedLockId equals
+CLASS_ATTR_VISIBILITY o equals
+CLASS_ATTR_COUNT ElcKey ALL
+CLASS_ATTR_COUNT ElcKey SELF_ONLY
+CLASS_INFO_HIDDEN Operation1
+CLASS_TOP_BASE ElcKey
+CLASS_IMPLEMENT_INTERFACE_LIST Key
+CLASS_INFO_HIDDEN Key
+CLASS_OPERATION_COUNT ElcKey ALL
+CLASS_TOP_BASE Operation1
+CLASS_OPERATION_COUNT Key ALL
+CLASS_TOP_BASE equals
+CLASS_ASSO_COUNT keyID
+CLASS_ASSO_CLASS_LIST equals
+CLASS_ASSO_CLASS_LIST keyID
+CLASS_ASSO_CLASS_LIST o
+CLASS_OPERATION_COUNT ElcKey RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST keyID
+CLASS_OPERATION_VISIBILITY o Parameter1
+CLASS_ATTR_COUNT keyID ALL
+CLASS_ATTR_COUNT sigCode SELF_ONLY
+CLASS_ATTR_COUNT keyID ALL
+CLASS_ASSO_CLASS_LIST Parameter1
+CLASS_IMPLEMENT_INTERFACE_LIST matchedLockID
+CLASS_OPERATION_COUNT equals ALL
+CLASS_INFO_HIDDEN matchedLockID
+CLASS_ASSO_CLASS_LIST ElcKey
+CLASS_TOP_BASE o
+CLASS_IMPLEMENT_INTERFACE_LIST Parameter1
+CLASS_INFO_HIDDEN ElcKey
+CLASS_ASSO_CLASS_LIST sigCode
+CLASS_OPERATION_COUNT Parameter1 NON_RETURN
+CLASS_COUNT
+CLASS_INFO_HIDDEN matchedLockID
+CLASS_OPERATION_COUNT equals RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST keyID
+CLASS_OPERATION_COUNT o ALL
+CLASS_OPERATION_COUNT matchedLockID PARAM
+CLASS_ATTR_COUNT o SELF_ONLY
+CLASS_TOP_BASE equals
+CLASS_TOP_BASE matchedLockID
+CLASS_ATTR_VISIBILITY Parameter1 o
+CLASS_TOP_BASE equals
+CLASS_ASSO_COUNT sigCode
+CLASS_COUNT
+CLASS_INFO_HIDDEN sigCode
+CLASS_IMPLEMENT_INTERFACE_LIST Operation1
+CLASS_ATTR_COUNT getMatchedLockId ALL
+CLASS_ATTR_COUNT o SELF_ONLY
+CLASS_TOP_BASE ElcKey
+CLASS_ASSO_CLASS_LIST Key
+CLASS_INFO_HIDDEN sigCode
+CLASS_ATTR_COUNT getMatchedLockId SELF_ONLY
+CLASS_ATTR_VISIBILITY o keyID
+CLASS_ATTR_COUNT keyID SELF_ONLY
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY getMatchedLockId ElcKey
+CLASS_OPERATION_COUNT keyID PARAM
+CLASS_ASSO_COUNT equals
+CLASS_IMPLEMENT_INTERFACE_LIST ElcKey
+CLASS_TOP_BASE Parameter1
+CLASS_TOP_BASE getMatchedLockId
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY matchedLockID equals
+CLASS_TOP_BASE Operation1
+CLASS_ASSO_COUNT equals
+CLASS_ASSO_COUNT o
+CLASS_OPERATION_COUNT matchedLockID PARAM
+CLASS_ATTR_VISIBILITY sigCode sigCode
+CLASS_TOP_BASE keyID
+CLASS_ATTR_COUNT o ALL
+CLASS_TOP_BASE Key
+CLASS_INFO_HIDDEN ElcKey
+CLASS_COUNT
+CLASS_ASSO_COUNT Operation1
+CLASS_ATTR_COUNT o ALL
+CLASS_IMPLEMENT_INTERFACE_LIST equals
+CLASS_OPERATION_COUNT matchedLockID NON_RETURN
+CLASS_INFO_HIDDEN matchedLockID
+CLASS_IMPLEMENT_INTERFACE_LIST sigCode
+CLASS_ASSO_CLASS_LIST getMatchedLockId
+CLASS_IMPLEMENT_INTERFACE_LIST matchedLockID
+CLASS_ASSO_COUNT o
+CLASS_ATTR_VISIBILITY Parameter1 equals
+CLASS_IMPLEMENT_INTERFACE_LIST Key
+CLASS_COUNT
+CLASS_OPERATION_COUNT equals ALL
+CLASS_OPERATION_COUNT Operation1 NON_PARAM
+CLASS_OPERATION_VISIBILITY Operation1 o
+CLASS_ASSO_COUNT getMatchedLockId
+CLASS_INFO_HIDDEN Parameter1
+CLASS_TOP_BASE Operation1
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY getMatchedLockId equals
+CLASS_INFO_HIDDEN o
+CLASS_ATTR_VISIBILITY Operation1 equals
+CLASS_ATTR_COUNT matchedLockID ALL
+CLASS_INFO_HIDDEN Operation1
+CLASS_OPERATION_VISIBILITY ElcKey Key
+CLASS_OPERATION_COUNT equals ALL
+CLASS_ASSO_CLASS_LIST equals
+CLASS_COUNT
+CLASS_OPERATION_COUNT equals PARAM
+CLASS_TOP_BASE getMatchedLockId
+CLASS_ASSO_CLASS_LIST matchedLockID
+CLASS_TOP_BASE o
+CLASS_OPERATION_COUNT sigCode NON_RETURN
+CLASS_INFO_HIDDEN sigCode
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST matchedLockID
+CLASS_COUNT
+CLASS_OPERATION_COUNT sigCode NON_RETURN
+CLASS_INFO_HIDDEN sigCode
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST sigCode
+CLASS_ASSO_COUNT getMatchedLockId
+CLASS_TOP_BASE o
+CLASS_ATTR_COUNT matchedLockID ALL
+CLASS_ASSO_COUNT ElcKey
+CLASS_INFO_HIDDEN Parameter1
+CLASS_ATTR_VISIBILITY equals o
+CLASS_TOP_BASE Key
+CLASS_ASSO_CLASS_LIST matchedLockID
+CLASS_ASSO_CLASS_LIST equals
+CLASS_OPERATION_COUNT equals PARAM
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY sigCode matchedLockID
+CLASS_TOP_BASE Operation1
+CLASS_IMPLEMENT_INTERFACE_LIST equals
+CLASS_OPERATION_COUNT sigCode RETURN
+CLASS_ASSO_CLASS_LIST ElcKey
+CLASS_OPERATION_VISIBILITY Parameter1 ElcKey
+CLASS_INFO_HIDDEN Parameter1
+CLASS_IMPLEMENT_INTERFACE_LIST ElcKey
+CLASS_TOP_BASE Key
+CLASS_OPERATION_VISIBILITY getMatchedLockId Key
+CLASS_INFO_HIDDEN equals
+CLASS_COUNT
+```
+
+
