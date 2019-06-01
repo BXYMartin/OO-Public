@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "19 in middle_4 test Model"
+title:      "9 in weak_1 test Model"
 subtitle:   "Error Report"
 date:       2019-06-01 13:48:57
 author:     "BXYMartin"
@@ -17,21 +17,21 @@ tags:
 Error on line **214**
 
 ```
-./gen_case/middle_4.mdj_Model_19.test
+./gen_case/weak_1.mdj_Model_9.test
 ```
 
 ## Files
 
 Model File:
 
-[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/middle_4.mdj)
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/weak_1.mdj)
 
 Test case:
 
 ```
 [!] FAILED On Line 214
-[!] ERROR: Line 214 {Yes, information of class "Object" is hidden.Failed, class "b" not found} -> ['bxy']
 [!] ERROR: Line 214 {Yes, information of class "Object" is hidden.} -> ['wsyc', 'sdy']
+[!] ERROR: Line 214 {Yes, information of class "Object" is hidden.Failed, class "b" not found} -> ['bxy']
 ```
 
 
