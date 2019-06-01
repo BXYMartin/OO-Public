@@ -1,0 +1,50 @@
+---
+layout:     post
+title:      "Check Finished"
+subtitle:   "Failure Report"
+date:       2019-06-01 16:29:17
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+---
+
+> “Check Failure!”
+
+
+## Details
+
+Run check on:
+
+```
+bxy.jar
+ljk.jar
+mjl.jar
+qr.jar
+qyj.jar
+sdy.jar
+wsyc.jar
+wsy.jar
+zmw.jar
+```
+
+Models are:
+
+```
+Full.mdj
+Intense.mdj
+Intricate.mdj
+iPhone.mdj
+Mess.mdj
+middle_1.mdj
+middle_2.mdj
+middle_3.mdj
+middle_4.mdj
+open-close.mdj
+Simple.mdj
+Taxi.mdj
+weak_1.mdj
+weak_2.mdj
+weak_3.mdj
+weak_4.mdj
+```
+
