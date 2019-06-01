@@ -1,0 +1,937 @@
+---
+layout:     post
+title:      "3 in open-close test Model"
+subtitle:   "Error Report"
+date:       2019-06-01 17:18:16
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - CONFLICT
+    - CONFLICT
+
+---
+
+> “Critical Errors Occurred!”
+
+
+## Details
+
+Error on line **1**
+
+```
+./gen_case/open-close.mdj_Model_3.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/open-close.mdj)
+
+Error Info:
+
+```
+[!] FAILED On Line 1
+[!] ERROR: Line 1 {Total class count is 7.} -> ['wsyc', 'qr', 'mjl']
+[!] ERROR: Line 1 {Ok, association count of class "Exception" is 0.} -> ['bxy', 'zmw', 'wsy', 'sdy']
+```
+
+Test Case:
+
+```
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Door","_type":"UMLClass","_id":"AAAAAAFqpiMge7NXBnk="}
+{"_parent":"AAAAAAFqpiMge7NXBnk=","visibility":"public","name":"Door","_type":"UMLOperation","_id":"AAAAAAFqpiQWH7O0bzI="}
+{"_parent":"AAAAAAFqpiMge7NXBnk=","visibility":"public","name":"Open","_type":"UMLOperation","_id":"AAAAAAFqpiRcY7O7pzM="}
+{"_parent":"AAAAAAFqpiRcY7O7pzM=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqpim3MbPYrBA=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFqpiRcY7O7pzM=","name":"k","_type":"UMLParameter","_id":"AAAAAAFqpz3cy1dqvuQ=","type":{"$ref":"AAAAAAFqpyZaw1HqYaU="},"direction":"in"}
+{"_parent":"AAAAAAFqpiMge7NXBnk=","visibility":"public","name":"Close","_type":"UMLOperation","_id":"AAAAAAFqpyDeZlAA9wA="}
+{"_parent":"AAAAAAFqpyDeZlAA9wA=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqpyECbVAHLpo=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFqpiMge7NXBnk=","visibility":"public","name":"Register","_type":"UMLOperation","_id":"AAAAAAFqpz7UOVfbTr8="}
+{"_parent":"AAAAAAFqpz7UOVfbTr8=","name":"e","_type":"UMLParameter","_id":"AAAAAAFqpz83w1gSehs=","type":"","direction":"in"}
+{"_parent":"AAAAAAFqpz7UOVfbTr8=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqpz83w1gTXoQ=","type":{"$ref":"AAAAAAFqpyZaw1HqYaU="},"direction":"return"}
+{"_parent":"AAAAAAFqpiMge7NXBnk=","visibility":"public","name":"UnRegister","_type":"UMLOperation","_id":"AAAAAAFqpz98b1heYb8="}
+{"_parent":"AAAAAAFqpz98b1heYb8=","name":"e","_type":"UMLParameter","_id":"AAAAAAFqpz\/Q61inSCc=","type":"","direction":"in"}
+{"_parent":"AAAAAAFqpz98b1heYb8=","name":"k","_type":"UMLParameter","_id":"AAAAAAFqpz\/Q61iokxk=","type":{"$ref":"AAAAAAFqpyZaw1HqYaU="},"direction":"in"}
+{"_parent":"AAAAAAFqpz98b1heYb8=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqpz\/Q61ipA8c=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFqpiMge7NXBnk=","visibility":"public","name":"isOpen","_type":"UMLOperation","_id":"AAAAAAFqwQTh\/MG8LKk="}
+{"_parent":"AAAAAAFqwQTh\/MG8LKk=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqwRJTw8PKJ0k=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFqpiMge7NXBnk=","visibility":"public","name":"getRoomNo","_type":"UMLOperation","_id":"AAAAAAFqwRE8ucKwxBA="}
+{"_parent":"AAAAAAFqwRE8ucKwxBA=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqwRHwR8NkxtQ=","type":"int","direction":"return"}
+{"_parent":"AAAAAAFqpiMge7NXBnk=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFqpyLHQ1BBCwQ=","end1":"AAAAAAFqpyLHQ1BA8jU=","_id":"AAAAAAFqpyLHQ1A\/uHQ="}
+{"reference":"AAAAAAFqyyuTsa1CnU8=","multiplicity":"1","_parent":"AAAAAAFqpyLHQ1A\/uHQ=","visibility":"private","name":"locker","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFqpyLHQ1BBCwQ="}
+{"reference":"AAAAAAFqpiMge7NXBnk=","multiplicity":"","_parent":"AAAAAAFqpyLHQ1A\/uHQ=","visibility":"public","name":"lockedDoor","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFqpyLHQ1BA8jU="}
+{"_parent":"AAAAAAFqpiMge7NXBnk=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFqwUWWHPTc\/rg=","end1":"AAAAAAFqwUWWHPTbrlg=","_id":"AAAAAAFqwUWWHPTahS8="}
+{"reference":"AAAAAAFqwTWWKvND\/ug=","multiplicity":"1..*","_parent":"AAAAAAFqwUWWHPTahS8=","visibility":"private","name":"client","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFqwUWWHPTc\/rg="}
+{"reference":"AAAAAAFqpiMge7NXBnk=","multiplicity":"*","_parent":"AAAAAAFqwUWWHPTahS8=","visibility":"private","name":"rooms","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFqwUWWHPTbrlg="}
+{"_parent":"AAAAAAFqpiMge7NXBnk=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFq4pz3McFqCSQ=","end1":"AAAAAAFq4pz3MMFpo88=","_id":"AAAAAAFq4pz3MMFoTW8="}
+{"reference":"AAAAAAFqp0EJi1lLqGo=","multiplicity":"","_parent":"AAAAAAFq4pz3MMFoTW8=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFq4pz3McFqCSQ="}
+{"reference":"AAAAAAFqpiMge7NXBnk=","multiplicity":"","_parent":"AAAAAAFq4pz3MMFoTW8=","visibility":"public","name":"sdfdsfgsfdg","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFq4pz3MMFpo88="}
+{"_parent":"AAAAAAFqpiMge7NXBnk=","visibility":"public","name":"Class1","_type":"UMLClass","_id":"AAAAAAFq6iC1sOB0huU="}
+{"_parent":"AAAAAAFqpiMge7NXBnk=","visibility":"private","name":"bOpen","_type":"UMLAttribute","_id":"AAAAAAFqpiN8GLOssfo=","type":"boolean"}
+{"_parent":"AAAAAAFqpiMge7NXBnk=","visibility":"private","name":"roomNO","_type":"UMLAttribute","_id":"AAAAAAFqpyGbn1AMoqE=","type":""}
+{"_parent":"AAAAAAFqpiMge7NXBnk=","visibility":"private","name":"guests","_type":"UMLAttribute","_id":"AAAAAAFqp0ZAqWCp\/yc=","type":"Vector<Client>"}
+{"_parent":"AAAAAAFqpiMge7NXBnk=","visibility":"private","name":"assignedKeys","_type":"UMLAttribute","_id":"AAAAAAFqp0bpg2FufMY=","type":"Vector<Key>"}
+{"_parent":"AAAAAAFqpiMge7NXBnk=","visibility":"private","name":"availableKeys","_type":"UMLAttribute","_id":"AAAAAAFqp0frlGIqTHo=","type":"Vector<Key>"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Lock","_type":"UMLClass","_id":"AAAAAAFqpyKBqVAUSAo="}
+{"_parent":"AAAAAAFqpyKBqVAUSAo=","visibility":"public","name":"lock","_type":"UMLOperation","_id":"AAAAAAFqpyVxfVFaqSg="}
+{"_parent":"AAAAAAFqpyVxfVFaqSg=","name":"k","_type":"UMLParameter","_id":"AAAAAAFqpyW721F53Fg=","type":{"$ref":"AAAAAAFqpyZaw1HqYaU="},"direction":"in"}
+{"_parent":"AAAAAAFqpyVxfVFaqSg=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqpyW721F6New=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFqpyKBqVAUSAo=","visibility":"public","name":"unlock","_type":"UMLOperation","_id":"AAAAAAFqpyXW4FGSWdU="}
+{"_parent":"AAAAAAFqpyXW4FGSWdU=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqpyYDplGyRh8=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFqpyKBqVAUSAo=","visibility":"public","name":"match","_type":"UMLOperation","_id":"AAAAAAFqp3wEn26eYK0="}
+{"_parent":"AAAAAAFqp3wEn26eYK0=","name":"k","_type":"UMLParameter","_id":"AAAAAAFqp3xbj27tCmE=","type":{"$ref":"AAAAAAFqpyZaw1HqYaU="},"direction":"in"}
+{"_parent":"AAAAAAFqp3wEn26eYK0=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqp3xbj27uWUQ=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFqpyKBqVAUSAo=","visibility":"public","name":"getLockId","_type":"UMLOperation","_id":"AAAAAAFqyPHMP7qoa18="}
+{"_parent":"AAAAAAFqyPHMP7qoa18=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqyPJLDbsCkeg=","type":"int","direction":"return"}
+{"_parent":"AAAAAAFqpyKBqVAUSAo=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFqyz3DUrUBj9E=","source":"AAAAAAFqpyKBqVAUSAo=","target":"AAAAAAFqyyuTsa1CnU8="}
+{"_parent":"AAAAAAFqpyKBqVAUSAo=","visibility":"private","name":"totalKeys","_type":"UMLAttribute","_id":"AAAAAAFqpyQOxlEmyts=","type":"int"}
+{"_parent":"AAAAAAFqpyKBqVAUSAo=","visibility":"private","name":"keys","_type":"UMLAttribute","_id":"AAAAAAFqpyoRiFMTmMs=","type":"Vector<Key>"}
+{"_parent":"AAAAAAFqpyKBqVAUSAo=","visibility":"private","name":"lockID","_type":"UMLAttribute","_id":"AAAAAAFqpywyyFPNwW8=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Key","_type":"UMLClass","_id":"AAAAAAFqpyZaw1HqYaU="}
+{"_parent":"AAAAAAFqpyZaw1HqYaU=","visibility":"public","name":"equals","_type":"UMLOperation","_id":"AAAAAAFqp0vL7mYHuPo="}
+{"_parent":"AAAAAAFqp0vL7mYHuPo=","name":"o","_type":"UMLParameter","_id":"AAAAAAFqp0xjgmZWAXk=","type":"Object","direction":"in"}
+{"_parent":"AAAAAAFqp0vL7mYHuPo=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqp0xjgmZXPzs=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFqpyZaw1HqYaU=","visibility":"public","name":"getMatchedLockId","_type":"UMLOperation","_id":"AAAAAAFqp37jkXF7CJ4="}
+{"_parent":"AAAAAAFqp37jkXF7CJ4=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqp38tFHHKHMI=","type":"int","direction":"return"}
+{"_parent":"AAAAAAFqpyZaw1HqYaU=","visibility":"private","name":"keyID","_type":"UMLAttribute","_id":"AAAAAAFqpyZ7clI8H7g=","type":"int"}
+{"_parent":"AAAAAAFqpyZaw1HqYaU=","visibility":"private","name":"matchedLockID","_type":"UMLAttribute","_id":"AAAAAAFqpy7tKFUvHfM=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"NoMoreKeyException","_type":"UMLClass","_id":"AAAAAAFqp0EJi1lLqGo="}
+{"_parent":"AAAAAAFqp0EJi1lLqGo=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFqp1LTBmtxfV4=","source":"AAAAAAFqp0EJi1lLqGo=","target":"AAAAAAFqp1KmH2r29Ds="}
+{"_parent":"AAAAAAFqp0EJi1lLqGo=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFq5htejtC7\/sM=","end1":"AAAAAAFq5htejtC6gxI=","_id":"AAAAAAFq5htejtC5T6Q="}
+{"reference":"AAAAAAFqpiMge7NXBnk=","multiplicity":"","_parent":"AAAAAAFq5htejtC5T6Q=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"composite","_id":"AAAAAAFq5htejtC7\/sM="}
+{"reference":"AAAAAAFqp0EJi1lLqGo=","multiplicity":"","_parent":"AAAAAAFq5htejtC5T6Q=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFq5htejtC6gxI="}
+{"_parent":"AAAAAAFqp0EJi1lLqGo=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFq5htsJ9FDz58=","end1":"AAAAAAFq5htsJ9FCuk4=","_id":"AAAAAAFq5htsJ9FBdyU="}
+{"reference":"AAAAAAFqyyuTsa1CnU8=","multiplicity":"","_parent":"AAAAAAFq5htsJ9FBdyU=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"composite","_id":"AAAAAAFq5htsJ9FDz58="}
+{"reference":"AAAAAAFqp0EJi1lLqGo=","multiplicity":"","_parent":"AAAAAAFq5htsJ9FBdyU=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFq5htsJ9FCuk4="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Exception","_type":"UMLClass","_id":"AAAAAAFqp1KmH2r29Ds="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Client","_type":"UMLClass","_id":"AAAAAAFqwTWWKvND\/ug="}
+{"_parent":"AAAAAAFqwTWWKvND\/ug=","visibility":"public","name":"enterRoom","_type":"UMLOperation","_id":"AAAAAAFqwTZbePPJQUA="}
+{"_parent":"AAAAAAFqwTZbePPJQUA=","name":"rn","_type":"UMLParameter","_id":"AAAAAAFqwTaykvPsLIM=","type":"int","direction":"in"}
+{"_parent":"AAAAAAFqwTZbePPJQUA=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqwTbHdfP1AjM=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFqwTWWKvND\/ug=","visibility":"public","name":"leaveRoom","_type":"UMLOperation","_id":"AAAAAAFqwUSAY\/Q9Sfs="}
+{"_parent":"AAAAAAFqwUSAY\/Q9Sfs=","name":"d","_type":"UMLParameter","_id":"AAAAAAFqwUS7n\/RcqDM=","type":{"$ref":"AAAAAAFqpiMge7NXBnk="},"direction":"in"}
+{"_parent":"AAAAAAFqwUSAY\/Q9Sfs=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqwUS7oPRdXXs=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFqwTWWKvND\/ug=","visibility":"public","name":"locateRoom","_type":"UMLOperation","_id":"AAAAAAFqwUTaWPR1AfU="}
+{"_parent":"AAAAAAFqwUTaWPR1AfU=","name":"rn","_type":"UMLParameter","_id":"AAAAAAFqwUUKLfSRkmw=","type":"int","direction":"in"}
+{"_parent":"AAAAAAFqwUTaWPR1AfU=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqwUUfk\/SalJI=","type":{"$ref":"AAAAAAFqpiMge7NXBnk="},"direction":"return"}
+{"_parent":"AAAAAAFqwTWWKvND\/ug=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFqwUbWV\/aI8Po=","end1":"AAAAAAFqwUbWV\/aHDjw=","_id":"AAAAAAFqwUbWV\/aG5TQ="}
+{"reference":"AAAAAAFqpyZaw1HqYaU=","multiplicity":"*","_parent":"AAAAAAFqwUbWV\/aG5TQ=","visibility":"private","name":"keys","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFqwUbWV\/aI8Po="}
+{"reference":"AAAAAAFqwTWWKvND\/ug=","multiplicity":"","_parent":"AAAAAAFqwUbWV\/aG5TQ=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFqwUbWV\/aHDjw="}
+{"_parent":"AAAAAAFqwTWWKvND\/ug=","visibility":"private","name":"clientID","_type":"UMLAttribute","_id":"AAAAAAFqwTXVtfOC318=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"ElcKey","_type":"UMLClass","_id":"AAAAAAFqyyULIat6fvE="}
+{"_parent":"AAAAAAFqyyULIat6fvE=","visibility":"public","name":"equals","_type":"UMLOperation","_id":"AAAAAAFqy0Q7JMCG23I="}
+{"_parent":"AAAAAAFqy0Q7JMCG23I=","name":"o","_type":"UMLParameter","_id":"AAAAAAFqy0SKNsDVObs=","type":"Object","direction":"in"}
+{"_parent":"AAAAAAFqy0Q7JMCG23I=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqy0SKN8DW850=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFqyyULIat6fvE=","visibility":"private","name":"sigCode","_type":"UMLAttribute","_id":"AAAAAAFqy0FPcb5DotA=","type":"long"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Locker","_type":"UMLInterface","_id":"AAAAAAFqyyuTsa1CnU8="}
+{"_parent":"AAAAAAFqyyuTsa1CnU8=","visibility":"public","name":"lock","_type":"UMLOperation","_id":"AAAAAAFqyz66dreg3Oc="}
+{"_parent":"AAAAAAFqyz66dreg3Oc=","name":"k","_type":"UMLParameter","_id":"AAAAAAFqyz9BVbhUGOc=","type":{"$ref":"AAAAAAFqpyZaw1HqYaU="},"direction":"in"}
+{"_parent":"AAAAAAFqyz66dreg3Oc=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqyz9BVrhV7D8=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFqyyuTsa1CnU8=","visibility":"public","name":"unlock","_type":"UMLOperation","_id":"AAAAAAFqyz9aIbipNj8="}
+{"_parent":"AAAAAAFqyz9aIbipNj8=","name":null,"_type":"UMLParameter","_id":"AAAAAAFqyz+Ga7j4px8=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Interface1","_type":"UMLInterface","_id":"AAAAAAFq5hWfnsrejMQ="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Door","_type":"UMLClass","_id":"AAAAAAFq6i\/M3ODSOBc="}
+END_OF_MODEL
+CLASS_ASSO_COUNT Exception
+CLASS_IMPLEMENT_INTERFACE_LIST o
+CLASS_INFO_HIDDEN Door
+CLASS_ATTR_VISIBILITY matchedLockID lock
+CLASS_ATTR_COUNT rn ALL
+CLASS_OPERATION_COUNT Client NON_PARAM
+CLASS_ATTR_COUNT o SELF_ONLY
+CLASS_ATTR_VISIBILITY totalKeys Interface1
+CLASS_ASSO_COUNT Interface1
+CLASS_OPERATION_COUNT k ALL
+CLASS_ATTR_COUNT unlock SELF_ONLY
+CLASS_COUNT
+CLASS_TOP_BASE e
+CLASS_OPERATION_COUNT Key NON_PARAM
+CLASS_COUNT
+CLASS_OPERATION_COUNT e PARAM
+CLASS_OPERATION_COUNT ElcKey ALL
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST rooms
+CLASS_OPERATION_VISIBILITY k Locker
+CLASS_ASSO_COUNT d
+CLASS_OPERATION_COUNT getLockId PARAM
+CLASS_OPERATION_COUNT Close NON_RETURN
+CLASS_OPERATION_COUNT e NON_PARAM
+CLASS_ASSO_COUNT leaveRoom
+CLASS_TOP_BASE unlock
+CLASS_OPERATION_VISIBILITY k match
+CLASS_TOP_BASE Lock
+CLASS_ATTR_COUNT lockedDoor SELF_ONLY
+CLASS_OPERATION_VISIBILITY k Interface1
+CLASS_TOP_BASE lock
+CLASS_IMPLEMENT_INTERFACE_LIST match
+CLASS_ASSO_COUNT locker
+CLASS_IMPLEMENT_INTERFACE_LIST sigCode
+CLASS_ATTR_COUNT equals SELF_ONLY
+CLASS_ASSO_COUNT lock
+CLASS_ATTR_VISIBILITY enterRoom getLockId
+CLASS_ATTR_COUNT Class1 ALL
+CLASS_OPERATION_VISIBILITY client getLockId
+CLASS_COUNT
+CLASS_ASSO_COUNT Open
+CLASS_ATTR_VISIBILITY lock equals
+CLASS_ATTR_COUNT guests SELF_ONLY
+CLASS_OPERATION_COUNT getLockId PARAM
+CLASS_OPERATION_VISIBILITY lockID UnRegister
+CLASS_ATTR_COUNT totalKeys SELF_ONLY
+CLASS_ASSO_CLASS_LIST assignedKeys
+CLASS_IMPLEMENT_INTERFACE_LIST Client
+CLASS_OPERATION_VISIBILITY getRoomNo roomNO
+CLASS_ASSO_COUNT getMatchedLockId
+CLASS_IMPLEMENT_INTERFACE_LIST totalKeys
+CLASS_TOP_BASE guests
+CLASS_TOP_BASE match
+CLASS_ASSO_COUNT getLockId
+CLASS_IMPLEMENT_INTERFACE_LIST Close
+CLASS_COUNT
+CLASS_ASSO_COUNT o
+CLASS_TOP_BASE rooms
+CLASS_OPERATION_COUNT totalKeys NON_PARAM
+CLASS_COUNT
+CLASS_COUNT
+CLASS_TOP_BASE rooms
+CLASS_INFO_HIDDEN getMatchedLockId
+CLASS_ASSO_COUNT availableKeys
+CLASS_ASSO_CLASS_LIST Door
+CLASS_TOP_BASE Open
+CLASS_ATTR_VISIBILITY o rooms
+CLASS_IMPLEMENT_INTERFACE_LIST locker
+CLASS_ATTR_VISIBILITY Open k
+CLASS_ATTR_COUNT unlock ALL
+CLASS_OPERATION_COUNT lockedDoor ALL
+CLASS_IMPLEMENT_INTERFACE_LIST ElcKey
+CLASS_IMPLEMENT_INTERFACE_LIST locker
+CLASS_ASSO_COUNT Key
+CLASS_ASSO_COUNT assignedKeys
+CLASS_ASSO_COUNT Open
+CLASS_COUNT
+CLASS_OPERATION_COUNT rn PARAM
+CLASS_ATTR_VISIBILITY totalKeys isOpen
+CLASS_INFO_HIDDEN e
+CLASS_TOP_BASE Register
+CLASS_INFO_HIDDEN enterRoom
+CLASS_ATTR_VISIBILITY Exception clientID
+CLASS_IMPLEMENT_INTERFACE_LIST Lock
+CLASS_ATTR_VISIBILITY clientID o
+CLASS_OPERATION_VISIBILITY keyID keys
+CLASS_ASSO_CLASS_LIST k
+CLASS_TOP_BASE UnRegister
+CLASS_ATTR_VISIBILITY sigCode NoMoreKeyException
+CLASS_ATTR_COUNT equals ALL
+CLASS_ATTR_VISIBILITY rn lockedDoor
+CLASS_ATTR_COUNT leaveRoom SELF_ONLY
+CLASS_ATTR_VISIBILITY o roomNO
+CLASS_INFO_HIDDEN Open
+CLASS_COUNT
+CLASS_OPERATION_COUNT Open ALL
+CLASS_ATTR_COUNT k SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST lock
+CLASS_ATTR_COUNT e ALL
+CLASS_ASSO_COUNT o
+CLASS_INFO_HIDDEN UnRegister
+CLASS_OPERATION_COUNT totalKeys NON_RETURN
+CLASS_ATTR_VISIBILITY UnRegister lock
+CLASS_OPERATION_VISIBILITY lockID roomNO
+CLASS_OPERATION_COUNT rn ALL
+CLASS_INFO_HIDDEN d
+CLASS_OPERATION_COUNT isOpen PARAM
+CLASS_ATTR_COUNT getMatchedLockId ALL
+CLASS_INFO_HIDDEN matchedLockID
+CLASS_COUNT
+CLASS_ATTR_COUNT match SELF_ONLY
+CLASS_ASSO_COUNT leaveRoom
+CLASS_IMPLEMENT_INTERFACE_LIST Class1
+CLASS_OPERATION_VISIBILITY unlock availableKeys
+CLASS_ASSO_CLASS_LIST bOpen
+CLASS_IMPLEMENT_INTERFACE_LIST d
+CLASS_OPERATION_VISIBILITY Key lockID
+CLASS_ATTR_COUNT rn ALL
+CLASS_TOP_BASE locateRoom
+CLASS_OPERATION_VISIBILITY assignedKeys matchedLockID
+CLASS_ASSO_COUNT lock
+CLASS_ATTR_COUNT clientID ALL
+CLASS_OPERATION_VISIBILITY Client rn
+CLASS_ASSO_COUNT availableKeys
+CLASS_ATTR_VISIBILITY lock availableKeys
+CLASS_TOP_BASE totalKeys
+CLASS_OPERATION_VISIBILITY bOpen unlock
+CLASS_COUNT
+CLASS_OPERATION_COUNT isOpen ALL
+CLASS_OPERATION_VISIBILITY UnRegister locateRoom
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY NoMoreKeyException sigCode
+CLASS_OPERATION_VISIBILITY ElcKey unlock
+CLASS_INFO_HIDDEN isOpen
+CLASS_ASSO_CLASS_LIST sigCode
+CLASS_ASSO_CLASS_LIST lock
+CLASS_ATTR_VISIBILITY sigCode rooms
+CLASS_COUNT
+CLASS_ATTR_COUNT Door ALL
+CLASS_TOP_BASE roomNO
+CLASS_ASSO_CLASS_LIST o
+CLASS_OPERATION_COUNT totalKeys NON_RETURN
+CLASS_TOP_BASE locateRoom
+CLASS_ATTR_VISIBILITY assignedKeys enterRoom
+CLASS_COUNT
+CLASS_OPERATION_COUNT o PARAM
+CLASS_ATTR_COUNT availableKeys ALL
+CLASS_INFO_HIDDEN e
+CLASS_ATTR_VISIBILITY NoMoreKeyException leaveRoom
+CLASS_ASSO_COUNT k
+CLASS_ATTR_COUNT enterRoom SELF_ONLY
+CLASS_TOP_BASE UnRegister
+CLASS_OPERATION_COUNT lock RETURN
+CLASS_OPERATION_VISIBILITY o k
+CLASS_TOP_BASE o
+CLASS_ASSO_COUNT Door
+CLASS_OPERATION_COUNT unlock ALL
+CLASS_ATTR_COUNT availableKeys ALL
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY client equals
+CLASS_OPERATION_VISIBILITY ElcKey Interface1
+CLASS_IMPLEMENT_INTERFACE_LIST rn
+CLASS_INFO_HIDDEN locateRoom
+CLASS_ASSO_COUNT d
+CLASS_IMPLEMENT_INTERFACE_LIST o
+CLASS_INFO_HIDDEN roomNO
+CLASS_ASSO_CLASS_LIST Lock
+CLASS_ASSO_CLASS_LIST lock
+CLASS_ASSO_CLASS_LIST Interface1
+CLASS_IMPLEMENT_INTERFACE_LIST UnRegister
+CLASS_ATTR_COUNT Open ALL
+CLASS_INFO_HIDDEN d
+CLASS_OPERATION_COUNT lock NON_RETURN
+CLASS_TOP_BASE sdfdsfgsfdg
+CLASS_ASSO_CLASS_LIST Register
+CLASS_ASSO_COUNT Interface1
+CLASS_ATTR_COUNT Close SELF_ONLY
+CLASS_ATTR_VISIBILITY o getRoomNo
+CLASS_ATTR_VISIBILITY UnRegister rn
+CLASS_OPERATION_COUNT NoMoreKeyException RETURN
+CLASS_INFO_HIDDEN Exception
+CLASS_TOP_BASE UnRegister
+CLASS_ASSO_CLASS_LIST Client
+CLASS_IMPLEMENT_INTERFACE_LIST locker
+CLASS_OPERATION_VISIBILITY enterRoom availableKeys
+CLASS_ATTR_COUNT Client ALL
+CLASS_OPERATION_VISIBILITY e lock
+CLASS_OPERATION_VISIBILITY k unlock
+CLASS_ASSO_COUNT assignedKeys
+CLASS_COUNT
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY lock roomNO
+CLASS_ATTR_COUNT unlock SELF_ONLY
+CLASS_TOP_BASE e
+CLASS_INFO_HIDDEN unlock
+CLASS_ATTR_COUNT isOpen SELF_ONLY
+CLASS_OPERATION_COUNT lock NON_PARAM
+CLASS_IMPLEMENT_INTERFACE_LIST assignedKeys
+CLASS_OPERATION_VISIBILITY k guests
+CLASS_INFO_HIDDEN locker
+CLASS_ATTR_VISIBILITY e lockedDoor
+CLASS_OPERATION_COUNT matchedLockID RETURN
+CLASS_ASSO_COUNT locateRoom
+CLASS_TOP_BASE Lock
+CLASS_IMPLEMENT_INTERFACE_LIST Lock
+CLASS_ASSO_COUNT totalKeys
+CLASS_IMPLEMENT_INTERFACE_LIST match
+CLASS_ASSO_CLASS_LIST clientID
+CLASS_ATTR_VISIBILITY isOpen unlock
+CLASS_TOP_BASE client
+CLASS_ATTR_VISIBILITY lockID k
+CLASS_OPERATION_COUNT k PARAM
+CLASS_TOP_BASE rn
+CLASS_COUNT
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY k rn
+CLASS_ATTR_VISIBILITY k keys
+CLASS_IMPLEMENT_INTERFACE_LIST Interface1
+CLASS_ATTR_COUNT locker SELF_ONLY
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST Class1
+CLASS_IMPLEMENT_INTERFACE_LIST Open
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST roomNO
+CLASS_INFO_HIDDEN unlock
+CLASS_INFO_HIDDEN keys
+CLASS_ASSO_COUNT match
+CLASS_OPERATION_VISIBILITY unlock equals
+CLASS_OPERATION_COUNT Open RETURN
+CLASS_ATTR_COUNT rn SELF_ONLY
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST matchedLockID
+CLASS_COUNT
+CLASS_ATTR_COUNT o ALL
+CLASS_ASSO_COUNT getLockId
+CLASS_IMPLEMENT_INTERFACE_LIST keys
+CLASS_INFO_HIDDEN k
+CLASS_ATTR_COUNT getLockId ALL
+CLASS_ATTR_COUNT ElcKey SELF_ONLY
+CLASS_COUNT
+CLASS_ASSO_COUNT guests
+CLASS_ASSO_COUNT e
+CLASS_COUNT
+CLASS_INFO_HIDDEN keyID
+CLASS_ASSO_COUNT unlock
+CLASS_ASSO_CLASS_LIST unlock
+CLASS_ASSO_COUNT leaveRoom
+CLASS_OPERATION_COUNT keys NON_PARAM
+CLASS_OPERATION_COUNT rooms NON_PARAM
+CLASS_INFO_HIDDEN equals
+CLASS_OPERATION_VISIBILITY unlock unlock
+CLASS_OPERATION_VISIBILITY client client
+CLASS_TOP_BASE o
+CLASS_IMPLEMENT_INTERFACE_LIST ElcKey
+CLASS_ATTR_VISIBILITY enterRoom o
+CLASS_INFO_HIDDEN lockID
+CLASS_OPERATION_VISIBILITY o bOpen
+CLASS_ASSO_CLASS_LIST availableKeys
+CLASS_TOP_BASE Locker
+CLASS_ATTR_VISIBILITY unlock getRoomNo
+CLASS_ASSO_CLASS_LIST Door
+CLASS_INFO_HIDDEN Door
+CLASS_IMPLEMENT_INTERFACE_LIST Exception
+CLASS_ASSO_CLASS_LIST e
+CLASS_ATTR_COUNT assignedKeys ALL
+CLASS_IMPLEMENT_INTERFACE_LIST keys
+CLASS_ATTR_VISIBILITY Client isOpen
+CLASS_ATTR_VISIBILITY UnRegister lockID
+CLASS_IMPLEMENT_INTERFACE_LIST match
+CLASS_IMPLEMENT_INTERFACE_LIST lockID
+CLASS_TOP_BASE k
+CLASS_OPERATION_COUNT equals NON_RETURN
+CLASS_OPERATION_VISIBILITY clientID UnRegister
+CLASS_OPERATION_COUNT lockID RETURN
+CLASS_TOP_BASE lock
+CLASS_ATTR_COUNT assignedKeys ALL
+CLASS_ATTR_VISIBILITY lockedDoor o
+CLASS_OPERATION_COUNT locateRoom RETURN
+CLASS_COUNT
+CLASS_ATTR_COUNT e ALL
+CLASS_OPERATION_VISIBILITY equals Door
+CLASS_OPERATION_VISIBILITY lockedDoor keyID
+CLASS_ATTR_COUNT client ALL
+CLASS_TOP_BASE UnRegister
+CLASS_ASSO_COUNT o
+CLASS_ASSO_CLASS_LIST lock
+CLASS_OPERATION_COUNT availableKeys NON_PARAM
+CLASS_ATTR_COUNT getLockId SELF_ONLY
+CLASS_ASSO_COUNT Door
+CLASS_ATTR_VISIBILITY equals guests
+CLASS_ASSO_CLASS_LIST o
+CLASS_ATTR_VISIBILITY Key k
+CLASS_OPERATION_COUNT UnRegister ALL
+CLASS_OPERATION_COUNT getRoomNo NON_PARAM
+CLASS_TOP_BASE rooms
+CLASS_ATTR_VISIBILITY Class1 ElcKey
+CLASS_OPERATION_COUNT enterRoom NON_RETURN
+CLASS_ASSO_CLASS_LIST lock
+CLASS_INFO_HIDDEN lock
+CLASS_ASSO_CLASS_LIST o
+CLASS_ATTR_VISIBILITY match matchedLockID
+CLASS_TOP_BASE o
+CLASS_OPERATION_COUNT Open NON_PARAM
+CLASS_TOP_BASE NoMoreKeyException
+CLASS_TOP_BASE lock
+CLASS_IMPLEMENT_INTERFACE_LIST NoMoreKeyException
+CLASS_COUNT
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST Class1
+CLASS_ATTR_COUNT keyID SELF_ONLY
+CLASS_OPERATION_COUNT match PARAM
+CLASS_INFO_HIDDEN client
+CLASS_OPERATION_VISIBILITY unlock Exception
+CLASS_ASSO_COUNT k
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY locateRoom Interface1
+CLASS_OPERATION_VISIBILITY e enterRoom
+CLASS_IMPLEMENT_INTERFACE_LIST d
+CLASS_ATTR_COUNT keys SELF_ONLY
+CLASS_INFO_HIDDEN Key
+CLASS_ATTR_VISIBILITY k sdfdsfgsfdg
+CLASS_TOP_BASE k
+CLASS_ASSO_CLASS_LIST client
+CLASS_ATTR_VISIBILITY Lock client
+CLASS_ATTR_VISIBILITY enterRoom d
+CLASS_INFO_HIDDEN rooms
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST match
+CLASS_TOP_BASE keys
+CLASS_TOP_BASE e
+CLASS_ASSO_COUNT Open
+CLASS_COUNT
+CLASS_INFO_HIDDEN ElcKey
+CLASS_INFO_HIDDEN Door
+CLASS_IMPLEMENT_INTERFACE_LIST Close
+CLASS_ATTR_COUNT rn ALL
+CLASS_COUNT
+CLASS_ATTR_COUNT o SELF_ONLY
+CLASS_INFO_HIDDEN Interface1
+CLASS_TOP_BASE Interface1
+CLASS_OPERATION_VISIBILITY e Class1
+CLASS_ATTR_COUNT clientID ALL
+CLASS_ASSO_CLASS_LIST unlock
+CLASS_INFO_HIDDEN unlock
+CLASS_TOP_BASE unlock
+CLASS_TOP_BASE o
+CLASS_TOP_BASE clientID
+CLASS_ATTR_COUNT roomNO ALL
+CLASS_OPERATION_VISIBILITY Door totalKeys
+CLASS_OPERATION_VISIBILITY unlock k
+CLASS_OPERATION_COUNT sigCode NON_PARAM
+CLASS_IMPLEMENT_INTERFACE_LIST getLockId
+CLASS_ASSO_CLASS_LIST lock
+CLASS_ATTR_COUNT bOpen SELF_ONLY
+CLASS_ASSO_CLASS_LIST k
+CLASS_INFO_HIDDEN Class1
+CLASS_OPERATION_COUNT Door RETURN
+CLASS_OPERATION_VISIBILITY rooms locateRoom
+CLASS_IMPLEMENT_INTERFACE_LIST getRoomNo
+CLASS_INFO_HIDDEN Close
+CLASS_ASSO_CLASS_LIST ElcKey
+CLASS_ATTR_VISIBILITY o Interface1
+CLASS_ATTR_VISIBILITY assignedKeys matchedLockID
+CLASS_OPERATION_COUNT lockedDoor NON_PARAM
+CLASS_ATTR_VISIBILITY keys Key
+CLASS_INFO_HIDDEN lockedDoor
+CLASS_ATTR_COUNT keyID ALL
+CLASS_INFO_HIDDEN sdfdsfgsfdg
+CLASS_TOP_BASE keyID
+CLASS_OPERATION_COUNT rn NON_PARAM
+CLASS_ATTR_COUNT Interface1 ALL
+CLASS_IMPLEMENT_INTERFACE_LIST Interface1
+CLASS_IMPLEMENT_INTERFACE_LIST Door
+CLASS_IMPLEMENT_INTERFACE_LIST clientID
+CLASS_IMPLEMENT_INTERFACE_LIST Locker
+CLASS_IMPLEMENT_INTERFACE_LIST lock
+CLASS_COUNT
+CLASS_ASSO_COUNT lock
+CLASS_TOP_BASE Door
+CLASS_ASSO_CLASS_LIST NoMoreKeyException
+CLASS_COUNT
+CLASS_TOP_BASE Register
+CLASS_TOP_BASE UnRegister
+CLASS_INFO_HIDDEN match
+CLASS_ATTR_COUNT k ALL
+CLASS_INFO_HIDDEN Client
+CLASS_OPERATION_COUNT matchedLockID NON_RETURN
+CLASS_OPERATION_COUNT k NON_PARAM
+CLASS_ASSO_COUNT assignedKeys
+CLASS_ATTR_VISIBILITY sdfdsfgsfdg equals
+CLASS_ATTR_VISIBILITY bOpen Locker
+CLASS_ASSO_COUNT Register
+CLASS_ATTR_COUNT Client ALL
+CLASS_ATTR_COUNT unlock SELF_ONLY
+CLASS_OPERATION_COUNT Interface1 NON_RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST Key
+CLASS_TOP_BASE o
+CLASS_IMPLEMENT_INTERFACE_LIST enterRoom
+CLASS_OPERATION_COUNT e ALL
+CLASS_INFO_HIDDEN Class1
+CLASS_ATTR_VISIBILITY k Locker
+CLASS_OPERATION_VISIBILITY k lock
+CLASS_OPERATION_VISIBILITY sigCode availableKeys
+CLASS_TOP_BASE leaveRoom
+CLASS_ASSO_CLASS_LIST Client
+CLASS_ASSO_COUNT equals
+CLASS_OPERATION_COUNT Client NON_RETURN
+CLASS_ATTR_COUNT availableKeys ALL
+CLASS_OPERATION_COUNT isOpen RETURN
+CLASS_ATTR_VISIBILITY getRoomNo lockedDoor
+CLASS_ATTR_VISIBILITY rn lockID
+CLASS_TOP_BASE match
+CLASS_ATTR_COUNT Door SELF_ONLY
+CLASS_ATTR_VISIBILITY locker unlock
+CLASS_INFO_HIDDEN clientID
+CLASS_ATTR_COUNT e SELF_ONLY
+CLASS_OPERATION_COUNT unlock ALL
+CLASS_OPERATION_COUNT ElcKey NON_RETURN
+CLASS_INFO_HIDDEN getRoomNo
+CLASS_INFO_HIDDEN Client
+CLASS_ATTR_COUNT k ALL
+CLASS_ASSO_CLASS_LIST availableKeys
+CLASS_ASSO_COUNT Door
+CLASS_COUNT
+CLASS_COUNT
+CLASS_OPERATION_COUNT d ALL
+CLASS_ATTR_VISIBILITY getRoomNo Door
+CLASS_IMPLEMENT_INTERFACE_LIST k
+CLASS_IMPLEMENT_INTERFACE_LIST locker
+CLASS_INFO_HIDDEN guests
+CLASS_OPERATION_COUNT bOpen RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST matchedLockID
+CLASS_ASSO_COUNT k
+CLASS_ASSO_CLASS_LIST Lock
+CLASS_ASSO_COUNT k
+CLASS_INFO_HIDDEN getLockId
+CLASS_COUNT
+CLASS_ATTR_COUNT Lock SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST k
+CLASS_IMPLEMENT_INTERFACE_LIST locateRoom
+CLASS_TOP_BASE totalKeys
+CLASS_INFO_HIDDEN getLockId
+CLASS_ATTR_COUNT equals ALL
+CLASS_TOP_BASE locker
+CLASS_OPERATION_VISIBILITY locker clientID
+CLASS_OPERATION_VISIBILITY rn o
+CLASS_ASSO_COUNT equals
+CLASS_TOP_BASE availableKeys
+CLASS_ASSO_CLASS_LIST o
+CLASS_OPERATION_COUNT k NON_PARAM
+CLASS_TOP_BASE enterRoom
+CLASS_OPERATION_VISIBILITY assignedKeys keyID
+CLASS_OPERATION_VISIBILITY getLockId getRoomNo
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY o ElcKey
+CLASS_IMPLEMENT_INTERFACE_LIST equals
+CLASS_ATTR_VISIBILITY NoMoreKeyException rn
+CLASS_ATTR_COUNT Exception ALL
+CLASS_ASSO_COUNT d
+CLASS_TOP_BASE rn
+CLASS_TOP_BASE locker
+CLASS_ATTR_COUNT rooms SELF_ONLY
+CLASS_ASSO_COUNT Locker
+CLASS_ASSO_CLASS_LIST equals
+CLASS_ASSO_CLASS_LIST getRoomNo
+CLASS_OPERATION_COUNT Register RETURN
+CLASS_OPERATION_VISIBILITY keys sdfdsfgsfdg
+CLASS_INFO_HIDDEN k
+CLASS_ASSO_CLASS_LIST keyID
+CLASS_ATTR_VISIBILITY o Lock
+CLASS_INFO_HIDDEN getMatchedLockId
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST NoMoreKeyException
+CLASS_OPERATION_COUNT totalKeys RETURN
+CLASS_ATTR_COUNT sigCode ALL
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST client
+CLASS_INFO_HIDDEN k
+CLASS_COUNT
+CLASS_INFO_HIDDEN NoMoreKeyException
+CLASS_ATTR_VISIBILITY d assignedKeys
+CLASS_OPERATION_VISIBILITY getMatchedLockId bOpen
+CLASS_COUNT
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY Client o
+CLASS_ATTR_COUNT assignedKeys SELF_ONLY
+CLASS_INFO_HIDDEN o
+CLASS_INFO_HIDDEN sdfdsfgsfdg
+CLASS_ATTR_COUNT lockedDoor SELF_ONLY
+CLASS_COUNT
+CLASS_ASSO_COUNT lock
+CLASS_ASSO_COUNT matchedLockID
+CLASS_TOP_BASE lockID
+CLASS_INFO_HIDDEN unlock
+CLASS_ATTR_VISIBILITY NoMoreKeyException lock
+CLASS_INFO_HIDDEN availableKeys
+CLASS_OPERATION_VISIBILITY rooms lockedDoor
+CLASS_COUNT
+CLASS_ATTR_COUNT getRoomNo ALL
+CLASS_OPERATION_COUNT e ALL
+CLASS_OPERATION_COUNT availableKeys PARAM
+CLASS_TOP_BASE Lock
+CLASS_OPERATION_COUNT Close RETURN
+CLASS_ASSO_COUNT Interface1
+CLASS_INFO_HIDDEN Class1
+CLASS_ASSO_COUNT Exception
+CLASS_ASSO_CLASS_LIST clientID
+CLASS_INFO_HIDDEN e
+CLASS_ATTR_COUNT Exception SELF_ONLY
+CLASS_ATTR_VISIBILITY leaveRoom leaveRoom
+CLASS_INFO_HIDDEN e
+CLASS_COUNT
+CLASS_OPERATION_COUNT isOpen ALL
+CLASS_COUNT
+CLASS_COUNT
+CLASS_ASSO_COUNT Class1
+CLASS_ATTR_COUNT getRoomNo ALL
+CLASS_COUNT
+CLASS_TOP_BASE lock
+CLASS_ASSO_CLASS_LIST client
+CLASS_IMPLEMENT_INTERFACE_LIST matchedLockID
+CLASS_IMPLEMENT_INTERFACE_LIST getMatchedLockId
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST rn
+CLASS_ASSO_COUNT Door
+CLASS_INFO_HIDDEN guests
+CLASS_TOP_BASE Door
+CLASS_ATTR_VISIBILITY Interface1 e
+CLASS_ASSO_COUNT equals
+CLASS_TOP_BASE unlock
+CLASS_IMPLEMENT_INTERFACE_LIST equals
+CLASS_INFO_HIDDEN Register
+CLASS_ATTR_COUNT enterRoom ALL
+CLASS_OPERATION_COUNT equals ALL
+CLASS_IMPLEMENT_INTERFACE_LIST equals
+CLASS_ASSO_COUNT sdfdsfgsfdg
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST unlock
+CLASS_OPERATION_VISIBILITY guests totalKeys
+CLASS_OPERATION_VISIBILITY lock Door
+CLASS_ATTR_VISIBILITY bOpen o
+CLASS_ASSO_COUNT Interface1
+CLASS_INFO_HIDDEN keys
+CLASS_ATTR_COUNT Door SELF_ONLY
+CLASS_ASSO_CLASS_LIST o
+CLASS_OPERATION_COUNT k PARAM
+CLASS_OPERATION_VISIBILITY Locker sdfdsfgsfdg
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY rn assignedKeys
+CLASS_COUNT
+CLASS_ASSO_COUNT match
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY rn lockedDoor
+CLASS_COUNT
+CLASS_ATTR_COUNT bOpen SELF_ONLY
+CLASS_ATTR_COUNT matchedLockID ALL
+CLASS_ATTR_VISIBILITY getMatchedLockId Locker
+CLASS_TOP_BASE keys
+CLASS_ATTR_VISIBILITY roomNO keys
+CLASS_OPERATION_VISIBILITY getMatchedLockId Client
+CLASS_ASSO_COUNT Key
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY NoMoreKeyException keys
+CLASS_ASSO_COUNT lockedDoor
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST UnRegister
+CLASS_ATTR_VISIBILITY equals Locker
+CLASS_ATTR_COUNT keys ALL
+CLASS_IMPLEMENT_INTERFACE_LIST rn
+CLASS_ATTR_COUNT availableKeys SELF_ONLY
+CLASS_ATTR_COUNT locateRoom SELF_ONLY
+CLASS_ATTR_VISIBILITY sigCode bOpen
+CLASS_INFO_HIDDEN clientID
+CLASS_OPERATION_VISIBILITY getLockId clientID
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY locker locateRoom
+CLASS_OPERATION_VISIBILITY clientID matchedLockID
+CLASS_COUNT
+CLASS_ASSO_COUNT sigCode
+CLASS_INFO_HIDDEN availableKeys
+CLASS_OPERATION_VISIBILITY sdfdsfgsfdg Close
+CLASS_ATTR_VISIBILITY e UnRegister
+CLASS_IMPLEMENT_INTERFACE_LIST sigCode
+CLASS_OPERATION_VISIBILITY Door availableKeys
+CLASS_OPERATION_VISIBILITY getLockId isOpen
+CLASS_ATTR_COUNT getRoomNo SELF_ONLY
+CLASS_ASSO_COUNT Register
+CLASS_OPERATION_VISIBILITY Register locateRoom
+CLASS_INFO_HIDDEN UnRegister
+CLASS_INFO_HIDDEN match
+CLASS_TOP_BASE lock
+CLASS_ATTR_VISIBILITY Lock getMatchedLockId
+CLASS_ASSO_COUNT Interface1
+CLASS_COUNT
+CLASS_TOP_BASE k
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY leaveRoom Door
+CLASS_OPERATION_COUNT k PARAM
+CLASS_ATTR_VISIBILITY Exception Key
+CLASS_TOP_BASE Door
+CLASS_ATTR_COUNT Door ALL
+CLASS_TOP_BASE bOpen
+CLASS_IMPLEMENT_INTERFACE_LIST rooms
+CLASS_ASSO_CLASS_LIST rooms
+CLASS_COUNT
+CLASS_ATTR_COUNT unlock SELF_ONLY
+CLASS_ASSO_CLASS_LIST totalKeys
+CLASS_INFO_HIDDEN Locker
+CLASS_INFO_HIDDEN matchedLockID
+CLASS_ASSO_COUNT Open
+CLASS_COUNT
+CLASS_INFO_HIDDEN lock
+CLASS_ASSO_CLASS_LIST Lock
+CLASS_ATTR_VISIBILITY k sigCode
+CLASS_INFO_HIDDEN rooms
+CLASS_ATTR_COUNT matchedLockID SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST o
+CLASS_IMPLEMENT_INTERFACE_LIST UnRegister
+CLASS_ASSO_CLASS_LIST Open
+CLASS_TOP_BASE NoMoreKeyException
+CLASS_OPERATION_VISIBILITY Client client
+CLASS_INFO_HIDDEN UnRegister
+CLASS_INFO_HIDDEN Class1
+CLASS_COUNT
+CLASS_OPERATION_COUNT leaveRoom ALL
+CLASS_ASSO_COUNT Interface1
+CLASS_INFO_HIDDEN k
+CLASS_IMPLEMENT_INTERFACE_LIST lock
+CLASS_TOP_BASE getMatchedLockId
+CLASS_OPERATION_COUNT getRoomNo PARAM
+CLASS_OPERATION_COUNT unlock RETURN
+CLASS_OPERATION_VISIBILITY e Register
+CLASS_ATTR_VISIBILITY Lock k
+CLASS_ATTR_COUNT unlock ALL
+CLASS_ATTR_COUNT lock ALL
+CLASS_COUNT
+CLASS_OPERATION_COUNT e NON_RETURN
+CLASS_ASSO_CLASS_LIST lockID
+CLASS_INFO_HIDDEN sigCode
+CLASS_INFO_HIDDEN keyID
+CLASS_OPERATION_VISIBILITY UnRegister equals
+CLASS_IMPLEMENT_INTERFACE_LIST Exception
+CLASS_IMPLEMENT_INTERFACE_LIST match
+CLASS_IMPLEMENT_INTERFACE_LIST k
+CLASS_ASSO_COUNT k
+CLASS_ASSO_COUNT Class1
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY k k
+CLASS_ASSO_CLASS_LIST Door
+CLASS_ATTR_VISIBILITY roomNO keys
+CLASS_ASSO_COUNT leaveRoom
+CLASS_OPERATION_COUNT Open NON_PARAM
+CLASS_TOP_BASE bOpen
+CLASS_ATTR_COUNT equals ALL
+CLASS_ATTR_COUNT k SELF_ONLY
+CLASS_TOP_BASE rooms
+CLASS_ATTR_VISIBILITY k k
+CLASS_OPERATION_VISIBILITY keys ElcKey
+CLASS_ATTR_VISIBILITY lock Open
+CLASS_OPERATION_VISIBILITY guests lock
+CLASS_ATTR_VISIBILITY assignedKeys lockID
+CLASS_OPERATION_COUNT enterRoom RETURN
+CLASS_ASSO_COUNT clientID
+CLASS_ATTR_VISIBILITY availableKeys client
+CLASS_IMPLEMENT_INTERFACE_LIST keyID
+CLASS_IMPLEMENT_INTERFACE_LIST unlock
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST locker
+CLASS_OPERATION_COUNT k NON_PARAM
+CLASS_ATTR_COUNT getLockId SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST lock
+CLASS_OPERATION_COUNT roomNO PARAM
+CLASS_ASSO_COUNT Lock
+CLASS_OPERATION_VISIBILITY d availableKeys
+CLASS_COUNT
+CLASS_TOP_BASE leaveRoom
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY getMatchedLockId UnRegister
+CLASS_INFO_HIDDEN Class1
+CLASS_INFO_HIDDEN k
+CLASS_OPERATION_COUNT availableKeys ALL
+CLASS_ASSO_COUNT lockID
+CLASS_OPERATION_COUNT rooms RETURN
+CLASS_TOP_BASE sdfdsfgsfdg
+CLASS_OPERATION_COUNT Door PARAM
+CLASS_ASSO_CLASS_LIST getLockId
+CLASS_IMPLEMENT_INTERFACE_LIST o
+CLASS_ATTR_VISIBILITY unlock k
+CLASS_TOP_BASE roomNO
+CLASS_IMPLEMENT_INTERFACE_LIST Lock
+CLASS_OPERATION_COUNT k NON_RETURN
+CLASS_ASSO_CLASS_LIST d
+CLASS_ASSO_COUNT match
+CLASS_IMPLEMENT_INTERFACE_LIST keys
+CLASS_ATTR_COUNT roomNO ALL
+CLASS_ATTR_COUNT lock SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST keys
+CLASS_IMPLEMENT_INTERFACE_LIST keys
+CLASS_ATTR_COUNT getRoomNo ALL
+CLASS_OPERATION_VISIBILITY sigCode k
+CLASS_IMPLEMENT_INTERFACE_LIST d
+CLASS_COUNT
+CLASS_OPERATION_COUNT lock NON_RETURN
+CLASS_ATTR_COUNT ElcKey ALL
+CLASS_OPERATION_VISIBILITY Close getMatchedLockId
+CLASS_IMPLEMENT_INTERFACE_LIST rn
+CLASS_ATTR_VISIBILITY UnRegister getMatchedLockId
+CLASS_ATTR_VISIBILITY Key equals
+CLASS_IMPLEMENT_INTERFACE_LIST lockID
+CLASS_COUNT
+CLASS_COUNT
+CLASS_ATTR_COUNT assignedKeys SELF_ONLY
+CLASS_OPERATION_VISIBILITY sdfdsfgsfdg enterRoom
+CLASS_ASSO_CLASS_LIST lockID
+CLASS_ASSO_CLASS_LIST Open
+CLASS_IMPLEMENT_INTERFACE_LIST match
+CLASS_INFO_HIDDEN Lock
+CLASS_TOP_BASE Close
+CLASS_ATTR_COUNT keys ALL
+CLASS_OPERATION_COUNT k ALL
+CLASS_TOP_BASE d
+CLASS_INFO_HIDDEN guests
+CLASS_ATTR_COUNT k ALL
+CLASS_ASSO_COUNT k
+CLASS_IMPLEMENT_INTERFACE_LIST k
+CLASS_OPERATION_VISIBILITY Door sigCode
+CLASS_ATTR_VISIBILITY k k
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY equals keys
+CLASS_OPERATION_VISIBILITY Interface1 k
+CLASS_INFO_HIDDEN client
+CLASS_OPERATION_VISIBILITY matchedLockID getRoomNo
+CLASS_IMPLEMENT_INTERFACE_LIST k
+CLASS_TOP_BASE Door
+CLASS_ASSO_COUNT rn
+CLASS_OPERATION_COUNT keys RETURN
+CLASS_OPERATION_VISIBILITY assignedKeys e
+CLASS_COUNT
+CLASS_OPERATION_COUNT matchedLockID RETURN
+CLASS_ASSO_COUNT enterRoom
+CLASS_OPERATION_COUNT k ALL
+CLASS_IMPLEMENT_INTERFACE_LIST k
+CLASS_TOP_BASE rn
+CLASS_COUNT
+CLASS_ATTR_COUNT assignedKeys ALL
+CLASS_TOP_BASE k
+CLASS_OPERATION_COUNT Lock ALL
+CLASS_TOP_BASE e
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST match
+CLASS_ATTR_COUNT lock SELF_ONLY
+CLASS_OPERATION_VISIBILITY locker Lock
+CLASS_ASSO_CLASS_LIST sigCode
+CLASS_ATTR_VISIBILITY Register clientID
+CLASS_IMPLEMENT_INTERFACE_LIST o
+CLASS_ATTR_VISIBILITY getRoomNo clientID
+CLASS_INFO_HIDDEN e
+CLASS_ATTR_VISIBILITY Exception Close
+CLASS_OPERATION_VISIBILITY guests matchedLockID
+CLASS_TOP_BASE keys
+CLASS_IMPLEMENT_INTERFACE_LIST Exception
+CLASS_ATTR_COUNT k SELF_ONLY
+CLASS_INFO_HIDDEN assignedKeys
+CLASS_IMPLEMENT_INTERFACE_LIST sdfdsfgsfdg
+CLASS_ATTR_COUNT getMatchedLockId ALL
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST getRoomNo
+CLASS_TOP_BASE Key
+CLASS_OPERATION_VISIBILITY Exception sigCode
+CLASS_IMPLEMENT_INTERFACE_LIST sdfdsfgsfdg
+CLASS_ASSO_CLASS_LIST ElcKey
+CLASS_COUNT
+CLASS_INFO_HIDDEN Locker
+CLASS_ATTR_COUNT ElcKey ALL
+CLASS_ATTR_VISIBILITY Client bOpen
+CLASS_ASSO_CLASS_LIST UnRegister
+CLASS_ATTR_VISIBILITY UnRegister leaveRoom
+CLASS_OPERATION_VISIBILITY unlock rooms
+CLASS_ASSO_COUNT Interface1
+CLASS_OPERATION_COUNT e NON_PARAM
+CLASS_TOP_BASE bOpen
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY Class1 locateRoom
+CLASS_ATTR_COUNT e SELF_ONLY
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST totalKeys
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY keyID keyID
+CLASS_ATTR_COUNT Key SELF_ONLY
+CLASS_OPERATION_COUNT Locker PARAM
+CLASS_OPERATION_COUNT unlock NON_RETURN
+CLASS_INFO_HIDDEN equals
+CLASS_COUNT
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST k
+CLASS_TOP_BASE Key
+CLASS_INFO_HIDDEN leaveRoom
+CLASS_ASSO_CLASS_LIST Exception
+CLASS_INFO_HIDDEN getMatchedLockId
+CLASS_ATTR_VISIBILITY Client Locker
+```
+
+
