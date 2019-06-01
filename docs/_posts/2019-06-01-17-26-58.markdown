@@ -1,0 +1,914 @@
+---
+layout:     post
+title:      "6 in iPhone test Model"
+subtitle:   "Error Report"
+date:       2019-06-01 17:26:58
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - CONFLICT
+    - CONFLICT
+
+---
+
+> “Critical Errors Occurred!”
+
+
+## Details
+
+Error on line **1**
+
+```
+./gen_case/iPhone.mdj_Model_6.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/iPhone.mdj)
+
+Error Info:
+
+```
+[!] FAILED On Line 1
+[!] ERROR: Line 1 {Failed, class "served" not found} -> ['bxy', 'wsyc', 'zmw', 'wsy', 'sdy']
+[!] ERROR: Line 1 {Total class count is 5.} -> ['qr']
+```
+
+Test Case:
+
+```
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"iPhone","_type":"UMLClass","_id":"AAAAAAFq990mUslw3Vk="}
+{"_parent":"AAAAAAFq990mUslw3Vk=","visibility":"public","name":"unlocked","_type":"UMLOperation","_id":"AAAAAAFq9+TaSsx5iEo="}
+{"_parent":"AAAAAAFq9+TaSsx5iEo=","name":null,"_type":"UMLParameter","_id":"AAAAAAFq9+T6AsyAFgk=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFq990mUslw3Vk=","visibility":"public","name":"covered","_type":"UMLOperation","_id":"AAAAAAFq+VQHPKBPJS0="}
+{"_parent":"AAAAAAFq+VQHPKBPJS0=","name":null,"_type":"UMLParameter","_id":"AAAAAAFq+VRmvaDPZf0=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFq990mUslw3Vk=","visibility":"public","name":"activate","_type":"UMLOperation","_id":"AAAAAAFq+VR60KE94pw="}
+{"_parent":"AAAAAAFq990mUslw3Vk=","visibility":"public","name":"call","_type":"UMLOperation","_id":"AAAAAAFq+VTYz6HgavU="}
+{"_parent":"AAAAAAFq+VTYz6HgavU=","name":"people","_type":"UMLParameter","_id":"AAAAAAFq+VVAl6IjQHY=","type":"String","direction":"in"}
+{"_parent":"AAAAAAFq990mUslw3Vk=","visibility":"public","name":"answer","_type":"UMLOperation","_id":"AAAAAAFq+VVYz6JtBTw="}
+{"_parent":"AAAAAAFq+VVYz6JtBTw=","name":null,"_type":"UMLParameter","_id":"AAAAAAFq+VWSPqKwsIo=","type":"String","direction":"return"}
+{"_parent":"AAAAAAFq990mUslw3Vk=","visibility":"public","name":"time","_type":"UMLOperation","_id":"AAAAAAFq+VWfWaL6Qhc="}
+{"_parent":"AAAAAAFq+VWfWaL6Qhc=","name":"current","_type":"UMLParameter","_id":"AAAAAAFq+VXrq6M9n4s=","type":"int","direction":"in"}
+{"_parent":"AAAAAAFq990mUslw3Vk=","visibility":"private","name":"activate","_type":"UMLOperation","_id":"AAAAAAFq+WSA56PnJf8="}
+{"_parent":"AAAAAAFq+WSA56PnJf8=","name":"date","_type":"UMLParameter","_id":"AAAAAAFq+WSplqQqas4=","type":"int","direction":"in"}
+{"_parent":"AAAAAAFq990mUslw3Vk=","visibility":"protected","name":"activate","_type":"UMLOperation","_id":"AAAAAAFq+WTLoaT5vEA="}
+{"_parent":"AAAAAAFq+WTLoaT5vEA=","name":"time","_type":"UMLParameter","_id":"AAAAAAFq+WUBNqU8fnY=","type":"int","direction":"in"}
+{"_parent":"AAAAAAFq990mUslw3Vk=","visibility":"package","name":"activate","_type":"UMLOperation","_id":"AAAAAAFq+WUlyqXnmDQ="}
+{"_parent":"AAAAAAFq+WUlyqXnmDQ=","name":"hour","_type":"UMLParameter","_id":"AAAAAAFq+WVPv6YqNDc=","type":"int","direction":"in"}
+{"_parent":"AAAAAAFq990mUslw3Vk=","visibility":"private","name":"activate","_type":"UMLOperation","_id":"AAAAAAFq+WWVB6dP+pU="}
+{"_parent":"AAAAAAFq990mUslw3Vk=","visibility":"private","name":"call","_type":"UMLOperation","_id":"AAAAAAFq+WX996fnrkk="}
+{"_parent":"AAAAAAFq+WX996fnrkk=","name":"number","_type":"UMLParameter","_id":"AAAAAAFq+WYnw6gqz8w=","type":"int","direction":"in"}
+{"_parent":"AAAAAAFq990mUslw3Vk=","visibility":"package","name":"call","_type":"UMLOperation","_id":"AAAAAAFq+WZDDaixoyA="}
+{"_parent":"AAAAAAFq+WZDDaixoyA=","name":"name","_type":"UMLParameter","_id":"AAAAAAFq+WaEy6j0Vuc=","type":"String","direction":"in"}
+{"_parent":"AAAAAAFq990mUslw3Vk=","name":"Inherit","_type":"UMLGeneralization","_id":"AAAAAAFq99+m8cuUPxk=","source":"AAAAAAFq990mUslw3Vk=","target":"AAAAAAFq9905a8nCKj0="}
+{"_parent":"AAAAAAFq990mUslw3Vk=","visibility":"protected","name":"model","_type":"UMLAttribute","_id":"AAAAAAFq9+R2gcxxPac=","type":"String"}
+{"_parent":"AAAAAAFq990mUslw3Vk=","visibility":"public","name":"name","_type":"UMLAttribute","_id":"AAAAAAFq9+UU6MyEVrI=","type":"String"}
+{"_parent":"AAAAAAFq990mUslw3Vk=","visibility":"package","name":"brand","_type":"UMLAttribute","_id":"AAAAAAFq+WpWravrl2A=","type":"String"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"SmartPhone","_type":"UMLClass","_id":"AAAAAAFq9905a8nCKj0="}
+{"_parent":"AAAAAAFq9905a8nCKj0=","visibility":"public","name":"best","_type":"UMLOperation","_id":"AAAAAAFq9+Ww7syTroA="}
+{"_parent":"AAAAAAFq9+Ww7syTroA=","name":null,"_type":"UMLParameter","_id":"AAAAAAFq9+XX9syazEI=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFq9905a8nCKj0=","visibility":"public","name":"available","_type":"UMLOperation","_id":"AAAAAAFq9+YeU8ycksY="}
+{"_parent":"AAAAAAFq9+YeU8ycksY=","name":null,"_type":"UMLParameter","_id":"AAAAAAFq9+Y3zsyjfeI=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFq9905a8nCKj0=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFq+W2nDLCVZtQ=","source":"AAAAAAFq9905a8nCKj0=","target":"AAAAAAFq+Wz6aa6SyQE="}
+{"_parent":"AAAAAAFq9905a8nCKj0=","visibility":"public","name":"priceTag","_type":"UMLAttribute","_id":"AAAAAAFq9+VtM8yM8ks=","type":"int"}
+{"_parent":"AAAAAAFq9905a8nCKj0=","visibility":"private","name":"smart","_type":"UMLAttribute","_id":"AAAAAAFq+WrZ3qy\/7Wo=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Electronics","_type":"UMLInterface","_id":"AAAAAAFq996uNss3ztc="}
+{"_parent":"AAAAAAFq996uNss3ztc=","visibility":"private","name":"available","_type":"UMLOperation","_id":"AAAAAAFq9+KUH8wogP8="}
+{"_parent":"AAAAAAFq9+KUH8wogP8=","name":null,"_type":"UMLParameter","_id":"AAAAAAFq9+K+H8wvzTI=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFq996uNss3ztc=","name":"Realize","_type":"UMLInterfaceRealization","_id":"AAAAAAFq997rL8t6oAY=","source":"AAAAAAFq9905a8nCKj0=","target":"AAAAAAFq996uNss3ztc="}
+{"_parent":"AAAAAAFq996uNss3ztc=","visibility":"package","name":"priceTag","_type":"UMLAttribute","_id":"AAAAAAFq9+I4QsweF7Q=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Microwave","_type":"UMLInterface","_id":"AAAAAAFq9+BJt8vUlY8="}
+{"_parent":"AAAAAAFq9+BJt8vUlY8=","visibility":"public","name":"enabled","_type":"UMLOperation","_id":"AAAAAAFq9+GagswSEZE="}
+{"_parent":"AAAAAAFq9+GagswSEZE=","name":null,"_type":"UMLParameter","_id":"AAAAAAFq9+IU88wZ7GY=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFq9+BJt8vUlY8=","name":"Use","_type":"UMLInterfaceRealization","_id":"AAAAAAFq+JX3r5enmmY=","source":"AAAAAAFq990mUslw3Vk=","target":"AAAAAAFq9+BJt8vUlY8="}
+{"_parent":"AAAAAAFq9+BJt8vUlY8=","visibility":"public","name":"waveLength","_type":"UMLAttribute","_id":"AAAAAAFq9+CjBswAOYk=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Consumer","_type":"UMLClass","_id":"AAAAAAFq+Jk5dZjZfTo="}
+{"_parent":"AAAAAAFq+Jk5dZjZfTo=","visibility":"public","name":"purchase","_type":"UMLOperation","_id":"AAAAAAFq+Jo3FZs\/jV0="}
+{"_parent":"AAAAAAFq+Jo3FZs\/jV0=","name":null,"_type":"UMLParameter","_id":"AAAAAAFq+JpdZJtkiMI=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFq+Jk5dZjZfTo=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFq+Jl2HZmIRFE=","end1":"AAAAAAFq+Jl2HZmHdeg=","_id":"AAAAAAFq+Jl2HZmGS+k="}
+{"reference":"AAAAAAFq+Jk5dZjZfTo=","multiplicity":"","_parent":"AAAAAAFq+Jl2HZmGS+k=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFq+Jl2HZmIRFE="}
+{"reference":"AAAAAAFq990mUslw3Vk=","multiplicity":"","_parent":"AAAAAAFq+Jl2HZmGS+k=","visibility":"public","name":"Likes","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFq+Jl2HZmHdeg="}
+{"_parent":"AAAAAAFq+Jk5dZjZfTo=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFq+JmgC5n0XIE=","end1":"AAAAAAFq+JmgC5nzuPo=","_id":"AAAAAAFq+JmgC5nybCI="}
+{"reference":"AAAAAAFq+Jk5dZjZfTo=","multiplicity":"","_parent":"AAAAAAFq+JmgC5nybCI=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFq+JmgC5n0XIE="}
+{"reference":"AAAAAAFq9905a8nCKj0=","multiplicity":"","_parent":"AAAAAAFq+JmgC5nybCI=","visibility":"public","name":"Wants","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFq+JmgC5nzuPo="}
+{"_parent":"AAAAAAFq+Jk5dZjZfTo=","visibility":"private","name":"name","_type":"UMLAttribute","_id":"AAAAAAFq+JoQq5rvJAQ=","type":"String"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Lawyer","_type":"UMLClass","_id":"AAAAAAFq+JqeKpuK37g="}
+{"_parent":"AAAAAAFq+JqeKpuK37g=","visibility":"public","name":"protect","_type":"UMLOperation","_id":"AAAAAAFq+JrgZJxY3IY="}
+{"_parent":"AAAAAAFq+JrgZJxY3IY=","name":null,"_type":"UMLParameter","_id":"AAAAAAFq+Jr0jZx9nTw=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFq+JqeKpuK37g=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFq+JsScZy4pCY=","end1":"AAAAAAFq+JsScZy3rXc=","_id":"AAAAAAFq+JsScZy2w9o="}
+{"reference":"AAAAAAFq9905a8nCKj0=","multiplicity":"","_parent":"AAAAAAFq+JsScZy2w9o=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFq+JsScZy4pCY="}
+{"reference":"AAAAAAFq+JqeKpuK37g=","multiplicity":"","_parent":"AAAAAAFq+JsScZy2w9o=","visibility":"public","name":"law","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFq+JsScZy3rXc="}
+{"_parent":"AAAAAAFq+JqeKpuK37g=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFq+J5ntJ6+rHU=","end1":"AAAAAAFq+J5ntJ69Kco=","_id":"AAAAAAFq+J5ntJ68QLg="}
+{"reference":"AAAAAAFq+JqeKpuK37g=","multiplicity":"","_parent":"AAAAAAFq+J5ntJ68QLg=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFq+J5ntJ6+rHU="}
+{"reference":"AAAAAAFq+JqeKpuK37g=","multiplicity":"","_parent":"AAAAAAFq+J5ntJ68QLg=","visibility":"public","name":"defend","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFq+J5ntJ69Kco="}
+{"_parent":"AAAAAAFq+JqeKpuK37g=","visibility":"public","name":"name","_type":"UMLAttribute","_id":"AAAAAAFq+Jq7spvwm9U=","type":"String"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Intelligence","_type":"UMLClass","_id":"AAAAAAFq+Wz6aa6SyQE="}
+{"_parent":"AAAAAAFq+Wz6aa6SyQE=","visibility":"private","name":"gain","_type":"UMLOperation","_id":"AAAAAAFq+W1ekq\/Li2I="}
+{"_parent":"AAAAAAFq+W1ekq\/Li2I=","name":null,"_type":"UMLParameter","_id":"AAAAAAFq+W125bAOxoE=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFq+Wz6aa6SyQE=","visibility":"private","name":"natural","_type":"UMLAttribute","_id":"AAAAAAFq+W0j+a9MsLo=","type":"boolean"}
+END_OF_MODEL
+CLASS_COUNT
+CLASS_TOP_BASE law
+CLASS_COUNT
+CLASS_OPERATION_COUNT best NON_RETURN
+CLASS_OPERATION_VISIBILITY law name
+CLASS_OPERATION_COUNT SmartPhone NON_RETURN
+CLASS_OPERATION_COUNT model RETURN
+CLASS_ASSO_CLASS_LIST covered
+CLASS_ATTR_COUNT call SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST enabled
+CLASS_IMPLEMENT_INTERFACE_LIST Likes
+CLASS_TOP_BASE gain
+CLASS_ATTR_COUNT hour ALL
+CLASS_OPERATION_COUNT Inherit PARAM
+CLASS_ASSO_COUNT activate
+CLASS_ATTR_COUNT name SELF_ONLY
+CLASS_ATTR_COUNT model SELF_ONLY
+CLASS_ASSO_CLASS_LIST answer
+CLASS_OPERATION_COUNT gain RETURN
+CLASS_OPERATION_COUNT Lawyer PARAM
+CLASS_ASSO_COUNT available
+CLASS_ATTR_COUNT iPhone ALL
+CLASS_OPERATION_VISIBILITY law unlocked
+CLASS_ATTR_COUNT Use ALL
+CLASS_ASSO_COUNT Intelligence
+CLASS_ASSO_CLASS_LIST name
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST enabled
+CLASS_COUNT
+CLASS_ASSO_COUNT Wants
+CLASS_ATTR_VISIBILITY brand activate
+CLASS_ATTR_COUNT date ALL
+CLASS_IMPLEMENT_INTERFACE_LIST name
+CLASS_IMPLEMENT_INTERFACE_LIST name
+CLASS_ASSO_CLASS_LIST Use
+CLASS_INFO_HIDDEN name
+CLASS_ASSO_COUNT Realize
+CLASS_ASSO_CLASS_LIST priceTag
+CLASS_ATTR_COUNT waveLength SELF_ONLY
+CLASS_INFO_HIDDEN defend
+CLASS_COUNT
+CLASS_ATTR_COUNT people ALL
+CLASS_OPERATION_COUNT call RETURN
+CLASS_COUNT
+CLASS_ASSO_COUNT Lawyer
+CLASS_INFO_HIDDEN natural
+CLASS_TOP_BASE purchase
+CLASS_COUNT
+CLASS_ATTR_COUNT name ALL
+CLASS_OPERATION_COUNT name RETURN
+CLASS_ASSO_COUNT available
+CLASS_COUNT
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY brand current
+CLASS_OPERATION_VISIBILITY priceTag Microwave
+CLASS_ASSO_COUNT current
+CLASS_ASSO_COUNT law
+CLASS_IMPLEMENT_INTERFACE_LIST protect
+CLASS_IMPLEMENT_INTERFACE_LIST Realize
+CLASS_ASSO_CLASS_LIST enabled
+CLASS_COUNT
+CLASS_COUNT
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST brand
+CLASS_ASSO_CLASS_LIST natural
+CLASS_IMPLEMENT_INTERFACE_LIST time
+CLASS_OPERATION_VISIBILITY name Inherit
+CLASS_ASSO_COUNT Intelligence
+CLASS_ASSO_CLASS_LIST number
+CLASS_OPERATION_COUNT defend RETURN
+CLASS_OPERATION_COUNT time NON_PARAM
+CLASS_OPERATION_COUNT hour NON_RETURN
+CLASS_OPERATION_COUNT purchase RETURN
+CLASS_COUNT
+CLASS_ASSO_COUNT Use
+CLASS_OPERATION_COUNT law PARAM
+CLASS_OPERATION_COUNT Wants NON_PARAM
+CLASS_ATTR_COUNT SmartPhone SELF_ONLY
+CLASS_ATTR_VISIBILITY Microwave call
+CLASS_INFO_HIDDEN Microwave
+CLASS_OPERATION_COUNT priceTag NON_PARAM
+CLASS_IMPLEMENT_INTERFACE_LIST Intelligence
+CLASS_OPERATION_COUNT call NON_PARAM
+CLASS_OPERATION_COUNT Use NON_RETURN
+CLASS_OPERATION_VISIBILITY Use smart
+CLASS_TOP_BASE waveLength
+CLASS_INFO_HIDDEN smart
+CLASS_ATTR_VISIBILITY Intelligence unlocked
+CLASS_ASSO_COUNT waveLength
+CLASS_OPERATION_VISIBILITY brand activate
+CLASS_ASSO_CLASS_LIST name
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY time waveLength
+CLASS_INFO_HIDDEN Electronics
+CLASS_INFO_HIDDEN call
+CLASS_OPERATION_COUNT Electronics RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST number
+CLASS_OPERATION_VISIBILITY available priceTag
+CLASS_ATTR_COUNT activate ALL
+CLASS_IMPLEMENT_INTERFACE_LIST enabled
+CLASS_ASSO_CLASS_LIST Realize
+CLASS_ATTR_VISIBILITY gain name
+CLASS_OPERATION_COUNT iPhone NON_RETURN
+CLASS_ASSO_COUNT date
+CLASS_ATTR_COUNT people ALL
+CLASS_INFO_HIDDEN priceTag
+CLASS_ATTR_VISIBILITY name time
+CLASS_IMPLEMENT_INTERFACE_LIST Use
+CLASS_TOP_BASE unlocked
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST available
+CLASS_OPERATION_COUNT Microwave PARAM
+CLASS_COUNT
+CLASS_TOP_BASE gain
+CLASS_INFO_HIDDEN Likes
+CLASS_ASSO_CLASS_LIST available
+CLASS_TOP_BASE Electronics
+CLASS_ASSO_COUNT activate
+CLASS_ASSO_COUNT waveLength
+CLASS_ATTR_COUNT Consumer ALL
+CLASS_OPERATION_VISIBILITY name law
+CLASS_INFO_HIDDEN natural
+CLASS_ASSO_CLASS_LIST date
+CLASS_OPERATION_VISIBILITY SmartPhone call
+CLASS_INFO_HIDDEN name
+CLASS_IMPLEMENT_INTERFACE_LIST Likes
+CLASS_COUNT
+CLASS_INFO_HIDDEN natural
+CLASS_OPERATION_COUNT activate PARAM
+CLASS_OPERATION_COUNT natural NON_RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST date
+CLASS_OPERATION_COUNT available ALL
+CLASS_OPERATION_COUNT activate RETURN
+CLASS_OPERATION_COUNT activate NON_RETURN
+CLASS_ATTR_VISIBILITY covered Likes
+CLASS_OPERATION_COUNT number RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST Inherit
+CLASS_INFO_HIDDEN iPhone
+CLASS_OPERATION_COUNT name RETURN
+CLASS_ATTR_COUNT enabled ALL
+CLASS_ASSO_COUNT name
+CLASS_ASSO_COUNT defend
+CLASS_OPERATION_VISIBILITY name name
+CLASS_INFO_HIDDEN Consumer
+CLASS_TOP_BASE waveLength
+CLASS_TOP_BASE available
+CLASS_IMPLEMENT_INTERFACE_LIST people
+CLASS_IMPLEMENT_INTERFACE_LIST Realize
+CLASS_ASSO_CLASS_LIST priceTag
+CLASS_ATTR_VISIBILITY Realize covered
+CLASS_ATTR_COUNT name SELF_ONLY
+CLASS_INFO_HIDDEN enabled
+CLASS_ATTR_VISIBILITY Inherit name
+CLASS_ASSO_COUNT Electronics
+CLASS_ATTR_VISIBILITY Likes natural
+CLASS_OPERATION_VISIBILITY Electronics waveLength
+CLASS_OPERATION_COUNT brand ALL
+CLASS_ATTR_VISIBILITY Inherit best
+CLASS_INFO_HIDDEN Use
+CLASS_INFO_HIDDEN activate
+CLASS_ASSO_COUNT Consumer
+CLASS_COUNT
+CLASS_ASSO_COUNT activate
+CLASS_COUNT
+CLASS_ASSO_COUNT Microwave
+CLASS_ATTR_VISIBILITY Microwave time
+CLASS_INFO_HIDDEN activate
+CLASS_ATTR_COUNT available SELF_ONLY
+CLASS_ATTR_VISIBILITY Intelligence time
+CLASS_ASSO_CLASS_LIST call
+CLASS_ATTR_VISIBILITY activate people
+CLASS_ASSO_CLASS_LIST brand
+CLASS_ASSO_CLASS_LIST activate
+CLASS_ASSO_COUNT Microwave
+CLASS_ASSO_CLASS_LIST defend
+CLASS_OPERATION_COUNT activate RETURN
+CLASS_ASSO_CLASS_LIST time
+CLASS_ATTR_VISIBILITY call iPhone
+CLASS_ATTR_VISIBILITY activate activate
+CLASS_ASSO_COUNT Inherit
+CLASS_INFO_HIDDEN current
+CLASS_INFO_HIDDEN Use
+CLASS_OPERATION_VISIBILITY name people
+CLASS_ATTR_VISIBILITY Wants Intelligence
+CLASS_ATTR_VISIBILITY best Lawyer
+CLASS_OPERATION_VISIBILITY people unlocked
+CLASS_ATTR_VISIBILITY name law
+CLASS_TOP_BASE brand
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY name waveLength
+CLASS_ASSO_CLASS_LIST model
+CLASS_ASSO_COUNT waveLength
+CLASS_ATTR_VISIBILITY number activate
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY current activate
+CLASS_TOP_BASE activate
+CLASS_ATTR_VISIBILITY Likes brand
+CLASS_ATTR_VISIBILITY model time
+CLASS_OPERATION_VISIBILITY answer natural
+CLASS_ASSO_COUNT iPhone
+CLASS_ASSO_COUNT unlocked
+CLASS_OPERATION_VISIBILITY Intelligence hour
+CLASS_ASSO_CLASS_LIST name
+CLASS_IMPLEMENT_INTERFACE_LIST number
+CLASS_IMPLEMENT_INTERFACE_LIST natural
+CLASS_ATTR_VISIBILITY activate natural
+CLASS_ATTR_VISIBILITY name gain
+CLASS_OPERATION_VISIBILITY Intelligence law
+CLASS_COUNT
+CLASS_INFO_HIDDEN best
+CLASS_OPERATION_COUNT activate NON_RETURN
+CLASS_INFO_HIDDEN people
+CLASS_ASSO_CLASS_LIST Use
+CLASS_ASSO_CLASS_LIST time
+CLASS_ATTR_COUNT best ALL
+CLASS_INFO_HIDDEN date
+CLASS_TOP_BASE Wants
+CLASS_ASSO_CLASS_LIST name
+CLASS_OPERATION_VISIBILITY unlocked Consumer
+CLASS_ASSO_CLASS_LIST law
+CLASS_INFO_HIDDEN call
+CLASS_ATTR_COUNT waveLength SELF_ONLY
+CLASS_OPERATION_VISIBILITY law priceTag
+CLASS_ASSO_CLASS_LIST Inherit
+CLASS_IMPLEMENT_INTERFACE_LIST available
+CLASS_OPERATION_VISIBILITY smart time
+CLASS_ASSO_CLASS_LIST protect
+CLASS_ASSO_CLASS_LIST available
+CLASS_ASSO_COUNT Realize
+CLASS_OPERATION_VISIBILITY current waveLength
+CLASS_INFO_HIDDEN name
+CLASS_ATTR_VISIBILITY protect Likes
+CLASS_ASSO_CLASS_LIST activate
+CLASS_ASSO_COUNT SmartPhone
+CLASS_ASSO_COUNT time
+CLASS_ATTR_COUNT number SELF_ONLY
+CLASS_ATTR_VISIBILITY activate gain
+CLASS_TOP_BASE natural
+CLASS_OPERATION_VISIBILITY priceTag call
+CLASS_ASSO_CLASS_LIST current
+CLASS_TOP_BASE priceTag
+CLASS_COUNT
+CLASS_ASSO_COUNT number
+CLASS_OPERATION_COUNT current PARAM
+CLASS_INFO_HIDDEN current
+CLASS_ASSO_COUNT waveLength
+CLASS_OPERATION_COUNT time ALL
+CLASS_ATTR_COUNT Microwave SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST date
+CLASS_ATTR_VISIBILITY call people
+CLASS_OPERATION_COUNT call NON_RETURN
+CLASS_OPERATION_COUNT Wants NON_RETURN
+CLASS_ATTR_VISIBILITY purchase Likes
+CLASS_INFO_HIDDEN iPhone
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST name
+CLASS_ATTR_VISIBILITY smart call
+CLASS_OPERATION_COUNT name ALL
+CLASS_ATTR_VISIBILITY answer call
+CLASS_COUNT
+CLASS_OPERATION_COUNT priceTag RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST people
+CLASS_ATTR_VISIBILITY SmartPhone Inherit
+CLASS_INFO_HIDDEN Intelligence
+CLASS_ATTR_VISIBILITY activate Likes
+CLASS_ASSO_CLASS_LIST activate
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST call
+CLASS_TOP_BASE name
+CLASS_OPERATION_VISIBILITY defend brand
+CLASS_ASSO_CLASS_LIST brand
+CLASS_INFO_HIDDEN SmartPhone
+CLASS_INFO_HIDDEN priceTag
+CLASS_ASSO_CLASS_LIST priceTag
+CLASS_OPERATION_VISIBILITY defend number
+CLASS_ATTR_VISIBILITY waveLength number
+CLASS_ASSO_COUNT name
+CLASS_OPERATION_VISIBILITY smart available
+CLASS_ASSO_COUNT priceTag
+CLASS_ATTR_VISIBILITY Consumer purchase
+CLASS_OPERATION_COUNT purchase RETURN
+CLASS_ASSO_COUNT SmartPhone
+CLASS_ATTR_COUNT Lawyer ALL
+CLASS_ASSO_COUNT available
+CLASS_ASSO_CLASS_LIST activate
+CLASS_ATTR_COUNT purchase SELF_ONLY
+CLASS_ATTR_COUNT call ALL
+CLASS_ASSO_COUNT name
+CLASS_INFO_HIDDEN Wants
+CLASS_IMPLEMENT_INTERFACE_LIST smart
+CLASS_COUNT
+CLASS_TOP_BASE activate
+CLASS_OPERATION_VISIBILITY activate activate
+CLASS_INFO_HIDDEN Wants
+CLASS_ATTR_VISIBILITY available hour
+CLASS_ASSO_CLASS_LIST Use
+CLASS_ATTR_VISIBILITY Likes date
+CLASS_ATTR_VISIBILITY Likes priceTag
+CLASS_OPERATION_VISIBILITY natural name
+CLASS_OPERATION_VISIBILITY name Use
+CLASS_ASSO_CLASS_LIST law
+CLASS_TOP_BASE purchase
+CLASS_ATTR_VISIBILITY activate activate
+CLASS_ATTR_COUNT covered SELF_ONLY
+CLASS_OPERATION_VISIBILITY available Microwave
+CLASS_INFO_HIDDEN answer
+CLASS_INFO_HIDDEN call
+CLASS_OPERATION_VISIBILITY Inherit waveLength
+CLASS_IMPLEMENT_INTERFACE_LIST brand
+CLASS_ATTR_COUNT covered ALL
+CLASS_ASSO_CLASS_LIST Inherit
+CLASS_ATTR_COUNT enabled SELF_ONLY
+CLASS_INFO_HIDDEN name
+CLASS_INFO_HIDDEN Realize
+CLASS_OPERATION_VISIBILITY protect Consumer
+CLASS_OPERATION_COUNT date ALL
+CLASS_OPERATION_COUNT name ALL
+CLASS_ASSO_CLASS_LIST waveLength
+CLASS_OPERATION_COUNT Likes ALL
+CLASS_IMPLEMENT_INTERFACE_LIST Inherit
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST Microwave
+CLASS_TOP_BASE smart
+CLASS_INFO_HIDDEN name
+CLASS_ATTR_COUNT call ALL
+CLASS_COUNT
+CLASS_COUNT
+CLASS_OPERATION_COUNT purchase ALL
+CLASS_INFO_HIDDEN SmartPhone
+CLASS_INFO_HIDDEN model
+CLASS_ATTR_VISIBILITY Use date
+CLASS_OPERATION_COUNT SmartPhone RETURN
+CLASS_ATTR_VISIBILITY priceTag activate
+CLASS_INFO_HIDDEN law
+CLASS_OPERATION_VISIBILITY Intelligence Inherit
+CLASS_ATTR_VISIBILITY answer unlocked
+CLASS_ASSO_CLASS_LIST current
+CLASS_ATTR_VISIBILITY number Electronics
+CLASS_IMPLEMENT_INTERFACE_LIST defend
+CLASS_ASSO_CLASS_LIST Likes
+CLASS_IMPLEMENT_INTERFACE_LIST call
+CLASS_TOP_BASE Realize
+CLASS_COUNT
+CLASS_COUNT
+CLASS_ASSO_COUNT Wants
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST call
+CLASS_ATTR_VISIBILITY purchase name
+CLASS_ATTR_COUNT activate SELF_ONLY
+CLASS_INFO_HIDDEN unlocked
+CLASS_ASSO_CLASS_LIST Wants
+CLASS_ASSO_COUNT priceTag
+CLASS_COUNT
+CLASS_ATTR_COUNT call SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST priceTag
+CLASS_INFO_HIDDEN name
+CLASS_INFO_HIDDEN Microwave
+CLASS_IMPLEMENT_INTERFACE_LIST activate
+CLASS_ASSO_CLASS_LIST available
+CLASS_ATTR_COUNT model SELF_ONLY
+CLASS_ATTR_VISIBILITY protect name
+CLASS_ASSO_COUNT Consumer
+CLASS_ATTR_COUNT Realize ALL
+CLASS_ASSO_COUNT people
+CLASS_OPERATION_VISIBILITY answer call
+CLASS_COUNT
+CLASS_ASSO_COUNT Lawyer
+CLASS_OPERATION_COUNT name NON_RETURN
+CLASS_ASSO_CLASS_LIST brand
+CLASS_OPERATION_VISIBILITY Use available
+CLASS_ATTR_VISIBILITY activate Inherit
+CLASS_ATTR_VISIBILITY activate priceTag
+CLASS_ATTR_VISIBILITY name defend
+CLASS_ATTR_COUNT Likes ALL
+CLASS_TOP_BASE activate
+CLASS_INFO_HIDDEN purchase
+CLASS_ASSO_CLASS_LIST people
+CLASS_INFO_HIDDEN natural
+CLASS_ATTR_VISIBILITY Inherit call
+CLASS_IMPLEMENT_INTERFACE_LIST protect
+CLASS_ASSO_COUNT smart
+CLASS_OPERATION_VISIBILITY call Wants
+CLASS_OPERATION_COUNT Inherit NON_RETURN
+CLASS_ASSO_COUNT SmartPhone
+CLASS_IMPLEMENT_INTERFACE_LIST smart
+CLASS_TOP_BASE enabled
+CLASS_ATTR_VISIBILITY brand unlocked
+CLASS_OPERATION_COUNT available ALL
+CLASS_OPERATION_VISIBILITY protect activate
+CLASS_OPERATION_VISIBILITY iPhone name
+CLASS_COUNT
+CLASS_INFO_HIDDEN available
+CLASS_INFO_HIDDEN name
+CLASS_ATTR_VISIBILITY priceTag unlocked
+CLASS_ASSO_CLASS_LIST hour
+CLASS_TOP_BASE law
+CLASS_OPERATION_VISIBILITY natural smart
+CLASS_ATTR_COUNT hour SELF_ONLY
+CLASS_ASSO_COUNT brand
+CLASS_ASSO_COUNT Realize
+CLASS_TOP_BASE Use
+CLASS_ATTR_VISIBILITY hour Inherit
+CLASS_TOP_BASE unlocked
+CLASS_OPERATION_COUNT waveLength RETURN
+CLASS_ASSO_CLASS_LIST name
+CLASS_ATTR_COUNT protect SELF_ONLY
+CLASS_ASSO_CLASS_LIST Wants
+CLASS_IMPLEMENT_INTERFACE_LIST Electronics
+CLASS_TOP_BASE activate
+CLASS_ASSO_COUNT date
+CLASS_COUNT
+CLASS_COUNT
+CLASS_OPERATION_COUNT call NON_RETURN
+CLASS_COUNT
+CLASS_COUNT
+CLASS_COUNT
+CLASS_INFO_HIDDEN activate
+CLASS_ATTR_VISIBILITY defend current
+CLASS_ASSO_COUNT natural
+CLASS_ATTR_VISIBILITY available iPhone
+CLASS_COUNT
+CLASS_ASSO_COUNT activate
+CLASS_IMPLEMENT_INTERFACE_LIST call
+CLASS_INFO_HIDDEN call
+CLASS_ASSO_COUNT activate
+CLASS_IMPLEMENT_INTERFACE_LIST best
+CLASS_OPERATION_COUNT Consumer NON_RETURN
+CLASS_ASSO_CLASS_LIST defend
+CLASS_ATTR_COUNT answer SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST covered
+CLASS_INFO_HIDDEN law
+CLASS_ASSO_CLASS_LIST current
+CLASS_IMPLEMENT_INTERFACE_LIST brand
+CLASS_ATTR_COUNT people ALL
+CLASS_ATTR_VISIBILITY Lawyer natural
+CLASS_TOP_BASE Inherit
+CLASS_ATTR_VISIBILITY Realize hour
+CLASS_TOP_BASE name
+CLASS_INFO_HIDDEN purchase
+CLASS_ASSO_COUNT Wants
+CLASS_OPERATION_VISIBILITY Realize Lawyer
+CLASS_IMPLEMENT_INTERFACE_LIST call
+CLASS_INFO_HIDDEN protect
+CLASS_ATTR_COUNT iPhone SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST name
+CLASS_ASSO_COUNT time
+CLASS_TOP_BASE purchase
+CLASS_OPERATION_VISIBILITY protect Wants
+CLASS_TOP_BASE enabled
+CLASS_ASSO_CLASS_LIST call
+CLASS_ATTR_COUNT covered SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST Use
+CLASS_ATTR_COUNT activate ALL
+CLASS_ASSO_CLASS_LIST priceTag
+CLASS_ASSO_CLASS_LIST name
+CLASS_ASSO_CLASS_LIST brand
+CLASS_ASSO_CLASS_LIST gain
+CLASS_COUNT
+CLASS_OPERATION_COUNT natural NON_RETURN
+CLASS_OPERATION_VISIBILITY call Microwave
+CLASS_ATTR_VISIBILITY model hour
+CLASS_INFO_HIDDEN activate
+CLASS_OPERATION_VISIBILITY number Microwave
+CLASS_ASSO_COUNT call
+CLASS_IMPLEMENT_INTERFACE_LIST smart
+CLASS_ATTR_VISIBILITY purchase activate
+CLASS_ATTR_VISIBILITY purchase waveLength
+CLASS_ASSO_COUNT current
+CLASS_ATTR_COUNT Lawyer SELF_ONLY
+CLASS_COUNT
+CLASS_OPERATION_COUNT Microwave NON_PARAM
+CLASS_TOP_BASE activate
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY brand defend
+CLASS_ATTR_COUNT model ALL
+CLASS_IMPLEMENT_INTERFACE_LIST name
+CLASS_ASSO_COUNT activate
+CLASS_ATTR_COUNT Microwave ALL
+CLASS_OPERATION_VISIBILITY activate law
+CLASS_OPERATION_COUNT best RETURN
+CLASS_ATTR_COUNT hour ALL
+CLASS_TOP_BASE answer
+CLASS_ASSO_CLASS_LIST iPhone
+CLASS_ATTR_COUNT activate SELF_ONLY
+CLASS_ASSO_COUNT number
+CLASS_ASSO_CLASS_LIST name
+CLASS_INFO_HIDDEN brand
+CLASS_ASSO_CLASS_LIST iPhone
+CLASS_IMPLEMENT_INTERFACE_LIST defend
+CLASS_IMPLEMENT_INTERFACE_LIST answer
+CLASS_ATTR_VISIBILITY current current
+CLASS_IMPLEMENT_INTERFACE_LIST purchase
+CLASS_TOP_BASE Consumer
+CLASS_COUNT
+CLASS_ATTR_COUNT activate SELF_ONLY
+CLASS_ATTR_COUNT name SELF_ONLY
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST Electronics
+CLASS_OPERATION_VISIBILITY natural covered
+CLASS_TOP_BASE smart
+CLASS_ASSO_COUNT waveLength
+CLASS_ATTR_COUNT enabled SELF_ONLY
+CLASS_OPERATION_COUNT unlocked NON_RETURN
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY smart Microwave
+CLASS_TOP_BASE best
+CLASS_INFO_HIDDEN Likes
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST activate
+CLASS_ASSO_CLASS_LIST time
+CLASS_ATTR_VISIBILITY priceTag unlocked
+CLASS_ATTR_VISIBILITY Intelligence people
+CLASS_TOP_BASE call
+CLASS_ATTR_COUNT name SELF_ONLY
+CLASS_OPERATION_COUNT unlocked PARAM
+CLASS_COUNT
+CLASS_OPERATION_COUNT purchase PARAM
+CLASS_TOP_BASE name
+CLASS_COUNT
+CLASS_COUNT
+CLASS_ATTR_COUNT law ALL
+CLASS_OPERATION_COUNT name PARAM
+CLASS_INFO_HIDDEN time
+CLASS_OPERATION_VISIBILITY hour current
+CLASS_OPERATION_COUNT current RETURN
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY model name
+CLASS_OPERATION_VISIBILITY activate Electronics
+CLASS_TOP_BASE current
+CLASS_TOP_BASE law
+CLASS_IMPLEMENT_INTERFACE_LIST call
+CLASS_OPERATION_COUNT Use PARAM
+CLASS_IMPLEMENT_INTERFACE_LIST Realize
+CLASS_COUNT
+CLASS_COUNT
+CLASS_ASSO_COUNT people
+CLASS_INFO_HIDDEN Use
+CLASS_COUNT
+CLASS_ASSO_COUNT available
+CLASS_INFO_HIDDEN model
+CLASS_INFO_HIDDEN current
+CLASS_COUNT
+CLASS_TOP_BASE natural
+CLASS_ATTR_VISIBILITY available law
+CLASS_INFO_HIDDEN brand
+CLASS_OPERATION_VISIBILITY protect activate
+CLASS_IMPLEMENT_INTERFACE_LIST call
+CLASS_TOP_BASE smart
+CLASS_ASSO_CLASS_LIST purchase
+CLASS_ATTR_COUNT name ALL
+CLASS_TOP_BASE brand
+CLASS_ATTR_COUNT Lawyer ALL
+CLASS_OPERATION_VISIBILITY name purchase
+CLASS_OPERATION_COUNT SmartPhone RETURN
+CLASS_OPERATION_COUNT iPhone ALL
+CLASS_OPERATION_COUNT natural ALL
+CLASS_ASSO_CLASS_LIST answer
+CLASS_ATTR_COUNT waveLength SELF_ONLY
+CLASS_ASSO_COUNT Lawyer
+CLASS_TOP_BASE priceTag
+CLASS_INFO_HIDDEN protect
+CLASS_INFO_HIDDEN current
+CLASS_ASSO_CLASS_LIST call
+CLASS_ASSO_COUNT SmartPhone
+CLASS_INFO_HIDDEN activate
+CLASS_ATTR_VISIBILITY current Realize
+CLASS_ATTR_COUNT Electronics SELF_ONLY
+CLASS_TOP_BASE activate
+CLASS_IMPLEMENT_INTERFACE_LIST activate
+CLASS_ASSO_COUNT priceTag
+CLASS_COUNT
+CLASS_COUNT
+CLASS_OPERATION_COUNT activate ALL
+CLASS_IMPLEMENT_INTERFACE_LIST call
+CLASS_ATTR_COUNT date ALL
+CLASS_INFO_HIDDEN Microwave
+CLASS_COUNT
+CLASS_INFO_HIDDEN priceTag
+CLASS_OPERATION_VISIBILITY current name
+CLASS_OPERATION_VISIBILITY call hour
+CLASS_ATTR_VISIBILITY brand protect
+CLASS_OPERATION_VISIBILITY priceTag best
+CLASS_IMPLEMENT_INTERFACE_LIST current
+CLASS_TOP_BASE name
+CLASS_INFO_HIDDEN gain
+CLASS_OPERATION_COUNT defend ALL
+CLASS_TOP_BASE law
+CLASS_IMPLEMENT_INTERFACE_LIST gain
+CLASS_COUNT
+CLASS_ATTR_COUNT natural ALL
+CLASS_INFO_HIDDEN available
+CLASS_TOP_BASE model
+CLASS_TOP_BASE best
+CLASS_ASSO_CLASS_LIST people
+CLASS_ASSO_COUNT call
+CLASS_ASSO_CLASS_LIST Intelligence
+CLASS_ASSO_CLASS_LIST people
+CLASS_OPERATION_VISIBILITY answer Wants
+CLASS_ATTR_VISIBILITY time available
+CLASS_IMPLEMENT_INTERFACE_LIST unlocked
+CLASS_ATTR_VISIBILITY law number
+CLASS_OPERATION_VISIBILITY priceTag current
+CLASS_ATTR_VISIBILITY SmartPhone priceTag
+CLASS_INFO_HIDDEN Intelligence
+CLASS_IMPLEMENT_INTERFACE_LIST time
+CLASS_ATTR_VISIBILITY gain waveLength
+CLASS_TOP_BASE time
+CLASS_OPERATION_COUNT enabled PARAM
+CLASS_COUNT
+CLASS_ATTR_COUNT covered SELF_ONLY
+CLASS_OPERATION_COUNT brand NON_RETURN
+CLASS_ATTR_COUNT Wants ALL
+CLASS_COUNT
+CLASS_TOP_BASE name
+CLASS_COUNT
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY protect law
+CLASS_COUNT
+CLASS_ASSO_COUNT name
+CLASS_COUNT
+CLASS_OPERATION_COUNT call ALL
+CLASS_INFO_HIDDEN time
+CLASS_ASSO_CLASS_LIST people
+CLASS_TOP_BASE activate
+CLASS_OPERATION_VISIBILITY available time
+CLASS_TOP_BASE people
+CLASS_ASSO_COUNT name
+CLASS_OPERATION_COUNT time NON_RETURN
+CLASS_COUNT
+CLASS_INFO_HIDDEN hour
+CLASS_OPERATION_VISIBILITY defend people
+CLASS_OPERATION_VISIBILITY purchase time
+CLASS_OPERATION_COUNT name RETURN
+CLASS_ASSO_COUNT activate
+CLASS_COUNT
+CLASS_TOP_BASE priceTag
+CLASS_ATTR_VISIBILITY covered name
+CLASS_COUNT
+CLASS_OPERATION_COUNT call ALL
+CLASS_ATTR_COUNT Microwave ALL
+CLASS_TOP_BASE waveLength
+CLASS_ATTR_COUNT defend ALL
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST law
+CLASS_ATTR_VISIBILITY name iPhone
+CLASS_ATTR_COUNT activate SELF_ONLY
+CLASS_ATTR_COUNT available ALL
+CLASS_TOP_BASE brand
+CLASS_ATTR_VISIBILITY name law
+CLASS_INFO_HIDDEN call
+CLASS_ATTR_VISIBILITY smart model
+CLASS_INFO_HIDDEN Consumer
+CLASS_OPERATION_VISIBILITY name covered
+CLASS_TOP_BASE SmartPhone
+CLASS_TOP_BASE call
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY name name
+CLASS_OPERATION_COUNT activate NON_PARAM
+CLASS_OPERATION_VISIBILITY enabled name
+CLASS_ASSO_COUNT defend
+CLASS_TOP_BASE date
+CLASS_ATTR_VISIBILITY name Wants
+CLASS_OPERATION_VISIBILITY answer name
+CLASS_OPERATION_VISIBILITY name date
+CLASS_INFO_HIDDEN Electronics
+CLASS_TOP_BASE Consumer
+CLASS_IMPLEMENT_INTERFACE_LIST time
+CLASS_OPERATION_VISIBILITY name activate
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY people available
+CLASS_OPERATION_COUNT name RETURN
+CLASS_ASSO_CLASS_LIST Use
+CLASS_OPERATION_VISIBILITY best protect
+CLASS_OPERATION_VISIBILITY protect Consumer
+CLASS_IMPLEMENT_INTERFACE_LIST hour
+CLASS_ASSO_COUNT enabled
+CLASS_INFO_HIDDEN brand
+CLASS_ATTR_VISIBILITY call name
+CLASS_TOP_BASE Lawyer
+CLASS_ASSO_CLASS_LIST people
+CLASS_ATTR_COUNT Electronics ALL
+CLASS_COUNT
+CLASS_ATTR_COUNT iPhone ALL
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY Consumer name
+CLASS_OPERATION_VISIBILITY law Intelligence
+CLASS_ASSO_CLASS_LIST brand
+CLASS_ASSO_COUNT activate
+CLASS_COUNT
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST answer
+CLASS_INFO_HIDDEN model
+CLASS_TOP_BASE activate
+CLASS_INFO_HIDDEN priceTag
+CLASS_INFO_HIDDEN number
+CLASS_INFO_HIDDEN Lawyer
+CLASS_IMPLEMENT_INTERFACE_LIST time
+CLASS_ATTR_VISIBILITY unlocked hour
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY number name
+CLASS_COUNT
+CLASS_ASSO_COUNT brand
+CLASS_TOP_BASE waveLength
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY people available
+CLASS_OPERATION_COUNT waveLength NON_RETURN
+CLASS_ATTR_VISIBILITY time current
+CLASS_IMPLEMENT_INTERFACE_LIST available
+CLASS_ATTR_VISIBILITY Lawyer name
+CLASS_ASSO_CLASS_LIST Electronics
+CLASS_IMPLEMENT_INTERFACE_LIST call
+CLASS_ASSO_COUNT defend
+CLASS_TOP_BASE covered
+CLASS_OPERATION_COUNT time ALL
+CLASS_ATTR_COUNT SmartPhone ALL
+CLASS_COUNT
+CLASS_OPERATION_COUNT smart NON_PARAM
+CLASS_TOP_BASE Consumer
+CLASS_ASSO_COUNT priceTag
+CLASS_ASSO_CLASS_LIST Consumer
+CLASS_ASSO_COUNT activate
+CLASS_OPERATION_VISIBILITY brand name
+CLASS_TOP_BASE people
+CLASS_OPERATION_COUNT model PARAM
+CLASS_ATTR_COUNT gain SELF_ONLY
+CLASS_INFO_HIDDEN SmartPhone
+CLASS_ASSO_COUNT call
+CLASS_OPERATION_COUNT iPhone NON_RETURN
+CLASS_COUNT
+CLASS_INFO_HIDDEN number
+CLASS_ASSO_COUNT smart
+CLASS_ATTR_VISIBILITY protect Inherit
+CLASS_OPERATION_COUNT waveLength NON_RETURN
+CLASS_ASSO_CLASS_LIST activate
+CLASS_OPERATION_VISIBILITY waveLength available
+CLASS_ATTR_VISIBILITY gain protect
+CLASS_OPERATION_VISIBILITY people Electronics
+CLASS_TOP_BASE name
+CLASS_ASSO_CLASS_LIST Electronics
+CLASS_ASSO_CLASS_LIST number
+CLASS_ASSO_CLASS_LIST activate
+CLASS_OPERATION_VISIBILITY Microwave hour
+CLASS_ATTR_COUNT model SELF_ONLY
+CLASS_ATTR_VISIBILITY defend call
+CLASS_COUNT
+CLASS_ATTR_COUNT Intelligence ALL
+CLASS_IMPLEMENT_INTERFACE_LIST Realize
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY Microwave hour
+CLASS_OPERATION_COUNT activate NON_RETURN
+CLASS_ATTR_COUNT Electronics SELF_ONLY
+CLASS_ASSO_CLASS_LIST priceTag
+CLASS_ATTR_VISIBILITY activate gain
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY Microwave Intelligence
+CLASS_OPERATION_COUNT people NON_PARAM
+CLASS_OPERATION_VISIBILITY activate available
+CLASS_IMPLEMENT_INTERFACE_LIST call
+CLASS_OPERATION_COUNT name NON_RETURN
+CLASS_OPERATION_VISIBILITY available Inherit
+CLASS_OPERATION_COUNT time RETURN
+CLASS_ASSO_CLASS_LIST available
+CLASS_ATTR_VISIBILITY priceTag Microwave
+CLASS_OPERATION_COUNT Likes NON_PARAM
+CLASS_ASSO_CLASS_LIST date
+CLASS_ASSO_CLASS_LIST Lawyer
+CLASS_ASSO_COUNT time
+CLASS_TOP_BASE brand
+CLASS_IMPLEMENT_INTERFACE_LIST SmartPhone
+CLASS_ATTR_VISIBILITY unlocked name
+CLASS_OPERATION_VISIBILITY Electronics smart
+CLASS_ASSO_CLASS_LIST activate
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY protect name
+CLASS_OPERATION_VISIBILITY activate covered
+CLASS_ATTR_COUNT hour SELF_ONLY
+CLASS_TOP_BASE people
+CLASS_ATTR_COUNT name ALL
+CLASS_ASSO_COUNT current
+CLASS_ASSO_CLASS_LIST smart
+CLASS_TOP_BASE activate
+CLASS_TOP_BASE iPhone
+CLASS_ASSO_CLASS_LIST available
+CLASS_ASSO_COUNT activate
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY available purchase
+CLASS_IMPLEMENT_INTERFACE_LIST answer
+CLASS_ATTR_VISIBILITY waveLength priceTag
+CLASS_ASSO_COUNT activate
+CLASS_OPERATION_COUNT name RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST SmartPhone
+CLASS_COUNT
+CLASS_OPERATION_COUNT brand NON_PARAM
+CLASS_OPERATION_VISIBILITY covered name
+CLASS_ATTR_COUNT SmartPhone ALL
+CLASS_OPERATION_VISIBILITY name Electronics
+CLASS_ATTR_VISIBILITY waveLength activate
+CLASS_OPERATION_VISIBILITY Lawyer protect
+CLASS_TOP_BASE activate
+CLASS_INFO_HIDDEN purchase
+```
+
+
