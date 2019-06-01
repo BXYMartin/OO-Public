@@ -1,0 +1,46 @@
+---
+layout:     post
+title:      "18 in open-close test GuideBookSample1"
+subtitle:   "Error Report"
+date:       2019-06-01 13:36:12
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - wsyc
+    - sdy
+    - bxy
+
+---
+
+> “Critical Errors Occurred!”
+
+
+## Details
+
+Error on line **19**
+
+```
+./gen_case/open-close.mdj_GuideBookSample1_18.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/open-close.mdj)
+
+Test case:
+
+```
+wsyc ERROR: Runtime Error Occurred!
+[    wsyc]  Time Out: Elapsed For 5 Seconds
+sdy ERROR: Runtime Error Occurred!
+[     sdy]  Time Out: Elapsed For 5 Seconds
+bxy ERROR: Runtime Error Occurred!
+[     bxy]  Time Out: Elapsed For 5 Seconds
+[!] FAILED On Line 275
+[!] ERROR: Line 275 {class "equals" not found} -> ['sdy']
+[!] ERROR: Line 275 {Failed, duplicated class "Name".} -> ['bxy', 'wsyc']
+```
+
+
