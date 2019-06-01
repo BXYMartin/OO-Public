@@ -1,0 +1,37 @@
+---
+layout:     post
+title:      "14 in Intricate test Model1"
+subtitle:   "Error Report"
+date:       2019-06-01 13:31:28
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+
+---
+
+> “Critical Errors Occurred!”
+
+
+## Details
+
+Error on line **162**
+
+```
+./gen_case/Intricate.mdj_Model1_14.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/Intricate.mdj)
+
+Test case:
+
+```
+[!] FAILED On Line 162
+[!] ERROR: Line 162 {Failed, attribute "C2" not found in class "C1".} -> ['sdy']
+[!] ERROR: Line 162 {Failed, attribute "C2" not found in class "C1".} -> ['wsyc']
+```
+
+
