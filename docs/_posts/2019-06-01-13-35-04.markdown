@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "13 in open-close test GuideBookSample1"
+title:      "17 in Intricate test Model"
 subtitle:   "Error Report"
 date:       2019-06-01 13:35:04
 author:     "BXYMartin"
@@ -20,14 +20,14 @@ tags:
 Error on line **103**
 
 ```
-./gen_case/open-close.mdj_GuideBookSample1_13.test
+./gen_case/Intricate.mdj_Model_17.test
 ```
 
 ## Files
 
 Model File:
 
-[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/open-close.mdj)
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/Intricate.mdj)
 
 Test case:
 
@@ -39,8 +39,8 @@ sdy ERROR: Runtime Error Occurred!
 bxy ERROR: Runtime Error Occurred!
 [     bxy]  Time Out: Elapsed For 5 Seconds
 [!] FAILED On Line 359
-[!] ERROR: Line 359 {t found} -> ['wsyc']
 [!] ERROR: Line 359 {Total class count is 7.} -> ['bxy', 'sdy']
+[!] ERROR: Line 359 {t found} -> ['wsyc']
 ```
 
 
