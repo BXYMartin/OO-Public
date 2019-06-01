@@ -254,7 +254,7 @@
 											"top": 527,
 											"width": 100.46435546875,
 											"height": 13,
-											"text": "+dup_in_same",
+											"text": "+dup_in_same_2",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1079,8 +1079,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFrB+qjlT/6taw="
 							},
-							"name": "dup_in_same",
-							"type": ""
+							"name": "dup_in_same_2"
 						}
 					]
 				},
