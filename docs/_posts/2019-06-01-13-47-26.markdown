@@ -1,0 +1,35 @@
+---
+layout:     post
+title:      "19 in weak_1 test Model"
+subtitle:   "Error Report"
+date:       2019-06-01 13:47:26
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+
+---
+
+> “Critical Errors Occurred!”
+
+
+## Details
+
+Error on line **1**
+
+```
+./gen_case/weak_1.mdj_Model_19.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/weak_1.mdj)
+
+Test case:
+
+```
+
+```
+
+
