@@ -1,0 +1,37 @@
+---
+layout:     post
+title:      "9 in iPhone test Model"
+subtitle:   "Error Report"
+date:       2019-06-01 13:39:27
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+
+---
+
+> “Critical Errors Occurred!”
+
+
+## Details
+
+Error on line **44**
+
+```
+./gen_case/iPhone.mdj_Model_9.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/iPhone.mdj)
+
+Test case:
+
+```
+[!] FAILED On Line 44
+[!] ERROR: Line 44 {Failed, class "k" not found} -> ['bxy', 'sdy']
+[!] ERROR: Line 44 {Failed, class "k" not found} -> ['wsyc']
+```
+
+
