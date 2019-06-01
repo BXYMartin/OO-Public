@@ -1,0 +1,41 @@
+---
+layout:     post
+title:      "5 in Intricate test Model1"
+subtitle:   "Error Report"
+date:       2019-06-01 13:34:38
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - wsyc
+    - bxy
+
+---
+
+> “Critical Errors Occurred!”
+
+
+## Details
+
+Error on line **1**
+
+```
+./gen_case/Intricate.mdj_Model1_5.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/Intricate.mdj)
+
+Test case:
+
+```
+wsyc ERROR: Runtime Error Occurred!
+[    wsyc]  Time Out: Elapsed For 5 Seconds
+bxy ERROR: Runtime Error Occurred!
+[     bxy]  Time Out: Elapsed For 5 Seconds
+[i]  INFO:	 Useful Lines Count 0/0
+```
+
+
