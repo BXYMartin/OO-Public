@@ -1,0 +1,37 @@
+---
+layout:     post
+title:      "19 in middle_4 test Model"
+subtitle:   "Error Report"
+date:       2019-06-01 13:48:57
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+
+---
+
+> “Critical Errors Occurred!”
+
+
+## Details
+
+Error on line **214**
+
+```
+./gen_case/middle_4.mdj_Model_19.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/middle_4.mdj)
+
+Test case:
+
+```
+[!] FAILED On Line 214
+[!] ERROR: Line 214 {Yes, information of class "Object" is hidden.Failed, class "b" not found} -> ['bxy']
+[!] ERROR: Line 214 {Yes, information of class "Object" is hidden.} -> ['wsyc', 'sdy']
+```
+
+
