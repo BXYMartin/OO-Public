@@ -1,0 +1,941 @@
+---
+layout:     post
+title:      "13 in Taxi test Class"
+subtitle:   "Error Report"
+date:       2019-06-01 17:24:40
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - CONFLICT
+    - CONFLICT
+
+---
+
+> “Critical Errors Occurred!”
+
+
+## Details
+
+Error on line **1**
+
+```
+./gen_case/Taxi.mdj_Class_13.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/Taxi.mdj)
+
+Error Info:
+
+```
+[!] FAILED On Line 1
+[!] ERROR: Line 1 {Total class count is 9.} -> ['qr']
+[!] ERROR: Line 1 {Failed, class "priceTag" not found} -> ['bxy', 'wsyc', 'sdy']
+```
+
+Test Case:
+
+```
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Request","_type":"UMLClass","_id":"AAAAAAFrC\/1\/7\/Dasw4="}
+{"_parent":"AAAAAAFrC\/1\/7\/Dasw4=","visibility":"public","name":"assign","_type":"UMLOperation","_id":"AAAAAAFrDAL+HPGAXk8="}
+{"_parent":"AAAAAAFrDAL+HPGAXk8=","name":"taxi","_type":"UMLParameter","_id":"AAAAAAFrDASiAfGVErU=","type":"Taxi","direction":"in"}
+{"_parent":"AAAAAAFrDAL+HPGAXk8=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrDASiAvGW3K0=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFrC\/1\/7\/Dasw4=","name":"waiting","_type":"UMLAssociation","end2":"AAAAAAFrDBCggPKT3hA=","end1":"AAAAAAFrDBCggPKSypQ=","_id":"AAAAAAFrDBCggPKRuyo="}
+{"reference":"AAAAAAFrDAtB5PHMClM=","multiplicity":"","_parent":"AAAAAAFrDBCggPKRuyo=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"shared","_id":"AAAAAAFrDBCggPKT3hA="}
+{"reference":"AAAAAAFrC\/1\/7\/Dasw4=","multiplicity":"*","_parent":"AAAAAAFrDBCggPKRuyo=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDBCggPKSypQ="}
+{"_parent":"AAAAAAFrC\/1\/7\/Dasw4=","name":"serving","_type":"UMLAssociation","end2":"AAAAAAFrDBGkAfRvHOE=","end1":"AAAAAAFrDBGkAPRumdw=","_id":"AAAAAAFrDBGkAPRtCy4="}
+{"reference":"AAAAAAFrDAtB5PHMClM=","multiplicity":"","_parent":"AAAAAAFrDBGkAPRtCy4=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"shared","_id":"AAAAAAFrDBGkAfRvHOE="}
+{"reference":"AAAAAAFrC\/1\/7\/Dasw4=","multiplicity":"*","_parent":"AAAAAAFrDBGkAPRtCy4=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDBGkAPRumdw="}
+{"_parent":"AAAAAAFrC\/1\/7\/Dasw4=","name":"served","_type":"UMLAssociation","end2":"AAAAAAFrDBHP+fURZaA=","end1":"AAAAAAFrDBHP+PUQiCw=","_id":"AAAAAAFrDBHP9\/UPXw0="}
+{"reference":"AAAAAAFrDAtB5PHMClM=","multiplicity":"","_parent":"AAAAAAFrDBHP9\/UPXw0=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"shared","_id":"AAAAAAFrDBHP+fURZaA="}
+{"reference":"AAAAAAFrC\/1\/7\/Dasw4=","multiplicity":"*","_parent":"AAAAAAFrDBHP9\/UPXw0=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDBHP+PUQiCw="}
+{"_parent":"AAAAAAFrC\/1\/7\/Dasw4=","name":"select","_type":"UMLAssociation","end2":"AAAAAAFrDB2tsyHa118=","end1":"AAAAAAFrDB2tsyHZYzM=","_id":"AAAAAAFrDB2tsyHY9vg="}
+{"reference":"AAAAAAFrDCautrNVtCc=","multiplicity":"*","_parent":"AAAAAAFrDB2tsyHY9vg=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDB2tsyHa118="}
+{"reference":"AAAAAAFrC\/3ak\/EEGB4=","multiplicity":"","_parent":"AAAAAAFrDB2tsyHY9vg=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDB2tsyHZYzM="}
+{"_parent":"AAAAAAFrC\/1\/7\/Dasw4=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrDCFqIzsZfSo=","end1":"AAAAAAFrDCFqIzsYDo0=","_id":"AAAAAAFrDCFqIzsXnAo="}
+{"reference":"AAAAAAFrDCautrNVtCc=","multiplicity":"*","_parent":"AAAAAAFrDCFqIzsXnAo=","visibility":"public","name":"broadcast","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDCFqIzsZfSo="}
+{"reference":"AAAAAAFrC\/3ak\/EEGB4=","multiplicity":"","_parent":"AAAAAAFrDCFqIzsXnAo=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDCFqIzsYDo0="}
+{"_parent":"AAAAAAFrC\/1\/7\/Dasw4=","visibility":"private","name":"from","_type":"UMLAttribute","_id":"AAAAAAFrC\/8H6PFcvlY=","type":{"$ref":"AAAAAAFrC\/6PafEvCHQ="}}
+{"_parent":"AAAAAAFrC\/1\/7\/Dasw4=","visibility":"private","name":"to","_type":"UMLAttribute","_id":"AAAAAAFrC\/8qpvFjc34=","type":{"$ref":"AAAAAAFrC\/6PafEvCHQ="}}
+{"_parent":"AAAAAAFrC\/1\/7\/Dasw4=","visibility":"private","name":"id","_type":"UMLAttribute","_id":"AAAAAAFrC\/9rPPFqyCg=","type":"String"}
+{"_parent":"AAAAAAFrC\/1\/7\/Dasw4=","visibility":"private","name":"user","_type":"UMLAttribute","_id":"AAAAAAFrC\/98XvFx8hc=","type":"String"}
+{"_parent":"AAAAAAFrC\/1\/7\/Dasw4=","visibility":"private","name":"taxi","_type":"UMLAttribute","_id":"AAAAAAFrC\/+X3vF4ok8=","type":"Taxi"}
+{"_parent":"AAAAAAFrC\/1\/7\/Dasw4=","visibility":"private","name":"current","_type":"UMLAttribute","_id":"AAAAAAFrDAMH0\/GGGMg=","type":"Time"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Preorder","_type":"UMLClass","_id":"AAAAAAFrC\/3ak\/EEGB4="}
+{"_parent":"AAAAAAFrC\/3ak\/EEGB4=","name":"Inherit Properties","_type":"UMLGeneralization","_id":"AAAAAAFrDAWQW\/GoQ+4=","source":"AAAAAAFrC\/3ak\/EEGB4=","target":"AAAAAAFrC\/1\/7\/Dasw4="}
+{"_parent":"AAAAAAFrC\/3ak\/EEGB4=","visibility":"private","name":"schedule","_type":"UMLAttribute","_id":"AAAAAAFrDAUSMfGg52I=","type":"Time"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Position","_type":"UMLClass","_id":"AAAAAAFrC\/6PafEvCHQ="}
+{"_parent":"AAAAAAFrC\/6PafEvCHQ=","visibility":"private","name":"x","_type":"UMLAttribute","_id":"AAAAAAFrDAYb4fG7tAg=","type":"int"}
+{"_parent":"AAAAAAFrC\/6PafEvCHQ=","visibility":"private","name":"y","_type":"UMLAttribute","_id":"AAAAAAFrDAZRQfHDrQo=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Passenger","_type":"UMLClass","_id":"AAAAAAFrDAtB5PHMClM="}
+{"_parent":"AAAAAAFrDAtB5PHMClM=","visibility":"public","name":"callTaxi","_type":"UMLOperation","_id":"AAAAAAFrDAvPOfH2Ygc="}
+{"_parent":"AAAAAAFrDAvPOfH2Ygc=","name":"from","_type":"UMLParameter","_id":"AAAAAAFrDAx7h\/IGi1c=","type":{"$ref":"AAAAAAFrC\/6PafEvCHQ="},"direction":"in"}
+{"_parent":"AAAAAAFrDAvPOfH2Ygc=","name":"to","_type":"UMLParameter","_id":"AAAAAAFrDAx7iPIHVrc=","type":{"$ref":"AAAAAAFrC\/6PafEvCHQ="},"direction":"in"}
+{"_parent":"AAAAAAFrDAvPOfH2Ygc=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrDAx7iPIIDfE=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFrDAtB5PHMClM=","visibility":"public","name":"bookTaxi","_type":"UMLOperation","_id":"AAAAAAFrDAwyOfH+AyE="}
+{"_parent":"AAAAAAFrDAwyOfH+AyE=","name":"from","_type":"UMLParameter","_id":"AAAAAAFrDA0nu\/INLoY=","type":{"$ref":"AAAAAAFrC\/6PafEvCHQ="},"direction":"in"}
+{"_parent":"AAAAAAFrDAwyOfH+AyE=","name":"to","_type":"UMLParameter","_id":"AAAAAAFrDA0nu\/IO9Fo=","type":{"$ref":"AAAAAAFrC\/6PafEvCHQ="},"direction":"in"}
+{"_parent":"AAAAAAFrDAwyOfH+AyE=","name":"time","_type":"UMLParameter","_id":"AAAAAAFrDA0nu\/IPDSY=","type":"Time","direction":"in"}
+{"_parent":"AAAAAAFrDAwyOfH+AyE=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrDA0nvPIQ6ec=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFrDAtB5PHMClM=","visibility":"public","name":"notifyAll","_type":"UMLOperation","_id":"AAAAAAFrDA1+ivIV2hk="}
+{"_parent":"AAAAAAFrDA1+ivIV2hk=","name":"request","_type":"UMLParameter","_id":"AAAAAAFrDA4gLfIdO\/A=","type":{"$ref":"AAAAAAFrC\/1\/7\/Dasw4="},"direction":"in"}
+{"_parent":"AAAAAAFrDA1+ivIV2hk=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrDA4gLvIeoXY=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFrDAtB5PHMClM=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrDCRkvHQwXUw=","end1":"AAAAAAFrDCRkvHQvyBQ=","_id":"AAAAAAFrDCRkvHQu9U0="}
+{"reference":"AAAAAAFrDAtB5PHMClM=","multiplicity":"","_parent":"AAAAAAFrDCRkvHQu9U0=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"shared","_id":"AAAAAAFrDCRkvHQwXUw="}
+{"reference":"AAAAAAFrC\/1\/7\/Dasw4=","multiplicity":"*","_parent":"AAAAAAFrDCRkvHQu9U0=","visibility":"public","name":"waiting","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDCRkvHQvyBQ="}
+{"_parent":"AAAAAAFrDAtB5PHMClM=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrDEABAquLMtQ=","end1":"AAAAAAFrDEABAquKbUE=","_id":"AAAAAAFrDEABAquJgn8="}
+{"reference":"AAAAAAFrDD6N65F2GH8=","multiplicity":"","_parent":"AAAAAAFrDEABAquJgn8=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"shared","_id":"AAAAAAFrDEABAquLMtQ="}
+{"reference":"AAAAAAFrDAtB5PHMClM=","multiplicity":"","_parent":"AAAAAAFrDEABAquJgn8=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDEABAquKbUE="}
+{"_parent":"AAAAAAFrDAtB5PHMClM=","name":"waiting","_type":"UMLAssociation","end2":"AAAAAAFrDEAxMK\/RGzQ=","end1":"AAAAAAFrDEAxMK\/QURw=","_id":"AAAAAAFrDEAxMK\/P5j0="}
+{"reference":"AAAAAAFrDAtB5PHMClM=","multiplicity":"","_parent":"AAAAAAFrDEAxMK\/P5j0=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"shared","_id":"AAAAAAFrDEAxMK\/RGzQ="}
+{"reference":"AAAAAAFrDD6N65F2GH8=","multiplicity":"*","_parent":"AAAAAAFrDEAxMK\/P5j0=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDEAxMK\/QURw="}
+{"_parent":"AAAAAAFrDAtB5PHMClM=","visibility":"private","name":"id","_type":"UMLAttribute","_id":"AAAAAAFrDEq3N3Ngf60=","type":"String"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"NormalTaxi","_type":"UMLClass","_id":"AAAAAAFrDBVmmwEgGtM="}
+{"_parent":"AAAAAAFrDBVmmwEgGtM=","name":"serving","_type":"UMLAssociation","end2":"AAAAAAFrDBaj0AXk+8s=","end1":"AAAAAAFrDBaj0AXjJeY=","_id":"AAAAAAFrDBaj0AXiXd8="}
+{"reference":"AAAAAAFrDAtB5PHMClM=","multiplicity":"","_parent":"AAAAAAFrDBaj0AXiXd8=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"shared","_id":"AAAAAAFrDBaj0AXk+8s="}
+{"reference":"AAAAAAFrDBVmmwEgGtM=","multiplicity":"*","_parent":"AAAAAAFrDBaj0AXiXd8=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDBaj0AXjJeY="}
+{"_parent":"AAAAAAFrDBVmmwEgGtM=","name":"waiting","_type":"UMLAssociation","end2":"AAAAAAFrDBcQBgk7OTE=","end1":"AAAAAAFrDBcQBgk68yA=","_id":"AAAAAAFrDBcQBgk5KWQ="}
+{"reference":"AAAAAAFrDAtB5PHMClM=","multiplicity":"","_parent":"AAAAAAFrDBcQBgk5KWQ=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"shared","_id":"AAAAAAFrDBcQBgk7OTE="}
+{"reference":"AAAAAAFrDD6N65F2GH8=","multiplicity":"*","_parent":"AAAAAAFrDBcQBgk5KWQ=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDBcQBgk68yA="}
+{"_parent":"AAAAAAFrDBVmmwEgGtM=","name":"served","_type":"UMLAssociation","end2":"AAAAAAFrDBpgtA\/lahg=","end1":"AAAAAAFrDBpgtA\/kzHE=","_id":"AAAAAAFrDBpgtA\/jcqY="}
+{"reference":"AAAAAAFrC\/1\/7\/Dasw4=","multiplicity":"*","_parent":"AAAAAAFrDBpgtA\/jcqY=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDBpgtA\/lahg="}
+{"reference":"AAAAAAFrDBVmmwEgGtM=","multiplicity":"","_parent":"AAAAAAFrDBpgtA\/jcqY=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDBpgtA\/kzHE="}
+{"_parent":"AAAAAAFrDBVmmwEgGtM=","name":"served","_type":"UMLAssociation","end2":"AAAAAAFrDBtSPxL+nHY=","end1":"AAAAAAFrDBtSPxL98EQ=","_id":"AAAAAAFrDBtSPxL8Srk="}
+{"reference":"AAAAAAFrC\/1\/7\/Dasw4=","multiplicity":"*","_parent":"AAAAAAFrDBtSPxL8Srk=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDBtSPxL+nHY="}
+{"reference":"AAAAAAFrDBVmmwEgGtM=","multiplicity":"","_parent":"AAAAAAFrDBtSPxL8Srk=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDBtSPxL98EQ="}
+{"_parent":"AAAAAAFrDBVmmwEgGtM=","name":"decision","_type":"UMLAssociation","end2":"AAAAAAFrDB6nTSUd6JE=","end1":"AAAAAAFrDB6nTSUcFDI=","_id":"AAAAAAFrDB6nTSUbUUI="}
+{"reference":"AAAAAAFrC\/3ak\/EEGB4=","multiplicity":"0..3","_parent":"AAAAAAFrDB6nTSUbUUI=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDB6nTSUd6JE="}
+{"reference":"AAAAAAFrDCautrNVtCc=","multiplicity":"","_parent":"AAAAAAFrDB6nTSUbUUI=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDB6nTSUcFDI="}
+{"_parent":"AAAAAAFrDBVmmwEgGtM=","name":"served","_type":"UMLAssociation","end2":"AAAAAAFrDCKKkVajyYk=","end1":"AAAAAAFrDCKKkVaiSJc=","_id":"AAAAAAFrDCKKkVahErQ="}
+{"reference":"AAAAAAFrC\/3ak\/EEGB4=","multiplicity":"*","_parent":"AAAAAAFrDCKKkVahErQ=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDCKKkVajyYk="}
+{"reference":"AAAAAAFrDCautrNVtCc=","multiplicity":"","_parent":"AAAAAAFrDCKKkVahErQ=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDCKKkVaiSJc="}
+{"_parent":"AAAAAAFrDBVmmwEgGtM=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrDCNN3GTcl+8=","end1":"AAAAAAFrDCNN3GTblJY=","_id":"AAAAAAFrDCNN3GTaCz4="}
+{"reference":"AAAAAAFrDAtB5PHMClM=","multiplicity":"","_parent":"AAAAAAFrDCNN3GTaCz4=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"shared","_id":"AAAAAAFrDCNN3GTcl+8="}
+{"reference":"AAAAAAFrDD6N65F2GH8=","multiplicity":"*","_parent":"AAAAAAFrDCNN3GTaCz4=","visibility":"public","name":"serving","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDCNN3GTblJY="}
+{"_parent":"AAAAAAFrDBVmmwEgGtM=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrDJz3wBecxOs=","end1":"AAAAAAFrDJz3wBebBk0=","_id":"AAAAAAFrDJz3wBeaTB8="}
+{"reference":"AAAAAAFrDJRWXgZW+G4=","multiplicity":"1","_parent":"AAAAAAFrDJz3wBeaTB8=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDJz3wBecxOs="}
+{"reference":"AAAAAAFrDBVmmwEgGtM=","multiplicity":"1","_parent":"AAAAAAFrDJz3wBeaTB8=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrDJz3wBebBk0="}
+{"_parent":"AAAAAAFrDBVmmwEgGtM=","visibility":"private","name":"id","_type":"UMLAttribute","_id":"AAAAAAFrDBV9jgGk9mU=","type":"String"}
+{"_parent":"AAAAAAFrDBVmmwEgGtM=","visibility":"private","name":"status","_type":"UMLAttribute","_id":"AAAAAAFrDBWahQIFeDI=","type":{"$ref":"AAAAAAFrDJRWXgZW+G4="}}
+{"_parent":"AAAAAAFrDBVmmwEgGtM=","visibility":"private","name":"current","_type":"UMLAttribute","_id":"AAAAAAFrDBYFyASExvQ=","type":{"$ref":"AAAAAAFrC\/6PafEvCHQ="}}
+{"_parent":"AAAAAAFrDBVmmwEgGtM=","visibility":"private","name":"order","_type":"UMLAttribute","_id":"AAAAAAFrDJx7RhKyd+Y=","type":{"$ref":"AAAAAAFrC\/1\/7\/Dasw4="}}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"SpecialTaxi","_type":"UMLClass","_id":"AAAAAAFrDCautrNVtCc="}
+{"_parent":"AAAAAAFrDCautrNVtCc=","name":"Specialized","_type":"UMLGeneralization","_id":"AAAAAAFrDCkNm8+EhU0=","source":"AAAAAAFrDCautrNVtCc=","target":"AAAAAAFrDBVmmwEgGtM="}
+{"_parent":"AAAAAAFrDCautrNVtCc=","visibility":"private","name":"preorder","_type":"UMLAttribute","_id":"AAAAAAFrDCbzrLSNoSo=","type":{"$ref":"AAAAAAFrC\/1\/7\/Dasw4="}}
+{"_parent":"AAAAAAFrDCautrNVtCc=","visibility":"private","name":"waiting","_type":"UMLAttribute","_id":"AAAAAAFrDKqQp3p+aA4=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Taxi","_type":"UMLInterface","_id":"AAAAAAFrDD6N65F2GH8="}
+{"_parent":"AAAAAAFrDD6N65F2GH8=","visibility":"public","name":"setStatus","_type":"UMLOperation","_id":"AAAAAAFrDD9bQJ9JuQ8="}
+{"_parent":"AAAAAAFrDD9bQJ9JuQ8=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrDD+CV6BhUJA=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFrDD6N65F2GH8=","name":"Realization","_type":"UMLInterfaceRealization","_id":"AAAAAAFrDEKmdA5ICMs=","source":"AAAAAAFrDBVmmwEgGtM=","target":"AAAAAAFrDD6N65F2GH8="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Time","_type":"UMLClass","_id":"AAAAAAFrDI2AYFxUIns="}
+{"_parent":"AAAAAAFrDI2AYFxUIns=","visibility":"private","name":"time","_type":"UMLAttribute","_id":"AAAAAAFrDI2Vol6ghX4=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Status","_type":"UMLClass","_id":"AAAAAAFrDJRWXgZW+G4="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"SpecialStatus","_type":"UMLClass","_id":"AAAAAAFrDJYht1vtFq4="}
+{"_parent":"AAAAAAFrDJYht1vtFq4=","name":"Generalize","_type":"UMLGeneralization","_id":"AAAAAAFrDJeqmGBib4Q=","source":"AAAAAAFrDJYht1vtFq4=","target":"AAAAAAFrDJRWXgZW+G4="}
+END_OF_MODEL
+CLASS_COUNT
+CLASS_COUNT
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST Time
+CLASS_IMPLEMENT_INTERFACE_LIST Passenger
+CLASS_TOP_BASE from
+CLASS_INFO_HIDDEN bookTaxi
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY Realization Time
+CLASS_OPERATION_COUNT SpecialStatus PARAM
+CLASS_INFO_HIDDEN waiting
+CLASS_IMPLEMENT_INTERFACE_LIST from
+CLASS_IMPLEMENT_INTERFACE_LIST Specialized
+CLASS_ASSO_COUNT status
+CLASS_INFO_HIDDEN served
+CLASS_ATTR_COUNT time SELF_ONLY
+CLASS_OPERATION_COUNT y NON_RETURN
+CLASS_INFO_HIDDEN Time
+CLASS_ATTR_COUNT callTaxi SELF_ONLY
+CLASS_ATTR_VISIBILITY SpecialStatus select
+CLASS_ATTR_VISIBILITY waiting time
+CLASS_ATTR_COUNT taxi SELF_ONLY
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST Generalize
+CLASS_ATTR_COUNT current ALL
+CLASS_OPERATION_VISIBILITY time served
+CLASS_ATTR_VISIBILITY broadcast served
+CLASS_IMPLEMENT_INTERFACE_LIST to
+CLASS_IMPLEMENT_INTERFACE_LIST to
+CLASS_ASSO_CLASS_LIST serving
+CLASS_COUNT
+CLASS_OPERATION_COUNT served NON_PARAM
+CLASS_INFO_HIDDEN id
+CLASS_ATTR_COUNT waiting SELF_ONLY
+CLASS_ATTR_VISIBILITY served setStatus
+CLASS_INFO_HIDDEN waiting
+CLASS_INFO_HIDDEN waiting
+CLASS_OPERATION_COUNT setStatus ALL
+CLASS_ASSO_COUNT from
+CLASS_COUNT
+CLASS_OPERATION_COUNT NormalTaxi ALL
+CLASS_ASSO_COUNT SpecialStatus
+CLASS_ASSO_CLASS_LIST assign
+CLASS_OPERATION_COUNT order NON_RETURN
+CLASS_OPERATION_COUNT taxi NON_PARAM
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST taxi
+CLASS_IMPLEMENT_INTERFACE_LIST waiting
+CLASS_IMPLEMENT_INTERFACE_LIST preorder
+CLASS_OPERATION_COUNT id RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST id
+CLASS_ASSO_CLASS_LIST Position
+CLASS_ASSO_CLASS_LIST setStatus
+CLASS_ASSO_COUNT x
+CLASS_COUNT
+CLASS_OPERATION_COUNT to PARAM
+CLASS_ASSO_CLASS_LIST served
+CLASS_ATTR_COUNT waiting SELF_ONLY
+CLASS_OPERATION_COUNT time NON_RETURN
+CLASS_COUNT
+CLASS_TOP_BASE request
+CLASS_ASSO_CLASS_LIST preorder
+CLASS_INFO_HIDDEN decision
+CLASS_ASSO_CLASS_LIST schedule
+CLASS_TOP_BASE time
+CLASS_OPERATION_VISIBILITY order Specialized
+CLASS_OPERATION_COUNT taxi ALL
+CLASS_ATTR_VISIBILITY serving Status
+CLASS_ATTR_COUNT Taxi SELF_ONLY
+CLASS_INFO_HIDDEN preorder
+CLASS_OPERATION_VISIBILITY serving served
+CLASS_ASSO_COUNT Specialized
+CLASS_ASSO_CLASS_LIST id
+CLASS_TOP_BASE setStatus
+CLASS_ASSO_COUNT setStatus
+CLASS_ASSO_COUNT served
+CLASS_IMPLEMENT_INTERFACE_LIST select
+CLASS_INFO_HIDDEN time
+CLASS_ATTR_VISIBILITY Realization Time
+CLASS_ATTR_VISIBILITY waiting Realization
+CLASS_ASSO_CLASS_LIST Position
+CLASS_ASSO_COUNT waiting
+CLASS_ATTR_VISIBILITY served serving
+CLASS_COUNT
+CLASS_ASSO_COUNT time
+CLASS_INFO_HIDDEN time
+CLASS_ASSO_COUNT request
+CLASS_OPERATION_COUNT SpecialTaxi PARAM
+CLASS_ASSO_COUNT current
+CLASS_ASSO_CLASS_LIST Position
+CLASS_ATTR_COUNT to SELF_ONLY
+CLASS_ATTR_VISIBILITY select callTaxi
+CLASS_INFO_HIDDEN Position
+CLASS_IMPLEMENT_INTERFACE_LIST from
+CLASS_ASSO_CLASS_LIST id
+CLASS_COUNT
+CLASS_ATTR_COUNT broadcast SELF_ONLY
+CLASS_ASSO_COUNT Status
+CLASS_ASSO_COUNT setStatus
+CLASS_COUNT
+CLASS_TOP_BASE waiting
+CLASS_IMPLEMENT_INTERFACE_LIST x
+CLASS_ASSO_COUNT assign
+CLASS_INFO_HIDDEN from
+CLASS_OPERATION_COUNT time NON_PARAM
+CLASS_ATTR_VISIBILITY Taxi served
+CLASS_COUNT
+CLASS_INFO_HIDDEN Request
+CLASS_INFO_HIDDEN id
+CLASS_ASSO_CLASS_LIST waiting
+CLASS_INFO_HIDDEN waiting
+CLASS_OPERATION_COUNT Taxi NON_RETURN
+CLASS_ASSO_COUNT preorder
+CLASS_ATTR_COUNT waiting SELF_ONLY
+CLASS_ATTR_COUNT Realization SELF_ONLY
+CLASS_ATTR_COUNT id SELF_ONLY
+CLASS_TOP_BASE serving
+CLASS_ASSO_CLASS_LIST status
+CLASS_OPERATION_VISIBILITY Taxi NormalTaxi
+CLASS_OPERATION_COUNT Request NON_RETURN
+CLASS_ASSO_COUNT taxi
+CLASS_OPERATION_VISIBILITY taxi served
+CLASS_OPERATION_VISIBILITY preorder user
+CLASS_ASSO_CLASS_LIST serving
+CLASS_TOP_BASE waiting
+CLASS_OPERATION_VISIBILITY waiting served
+CLASS_TOP_BASE bookTaxi
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY Position from
+CLASS_ASSO_CLASS_LIST status
+CLASS_OPERATION_COUNT order RETURN
+CLASS_OPERATION_VISIBILITY id Time
+CLASS_IMPLEMENT_INTERFACE_LIST user
+CLASS_TOP_BASE broadcast
+CLASS_TOP_BASE x
+CLASS_TOP_BASE time
+CLASS_TOP_BASE assign
+CLASS_TOP_BASE callTaxi
+CLASS_INFO_HIDDEN Request
+CLASS_ATTR_COUNT Passenger ALL
+CLASS_OPERATION_VISIBILITY to taxi
+CLASS_IMPLEMENT_INTERFACE_LIST waiting
+CLASS_OPERATION_VISIBILITY Status current
+CLASS_ATTR_VISIBILITY to id
+CLASS_ASSO_COUNT Taxi
+CLASS_COUNT
+CLASS_TOP_BASE Generalize
+CLASS_OPERATION_COUNT waiting NON_RETURN
+CLASS_INFO_HIDDEN taxi
+CLASS_ASSO_CLASS_LIST waiting
+CLASS_OPERATION_VISIBILITY from user
+CLASS_ASSO_CLASS_LIST user
+CLASS_ATTR_VISIBILITY y Passenger
+CLASS_OPERATION_VISIBILITY status Status
+CLASS_OPERATION_VISIBILITY served select
+CLASS_ATTR_COUNT Preorder ALL
+CLASS_INFO_HIDDEN NormalTaxi
+CLASS_OPERATION_COUNT Request RETURN
+CLASS_OPERATION_VISIBILITY id waiting
+CLASS_OPERATION_COUNT NormalTaxi RETURN
+CLASS_INFO_HIDDEN from
+CLASS_IMPLEMENT_INTERFACE_LIST taxi
+CLASS_TOP_BASE to
+CLASS_OPERATION_VISIBILITY select y
+CLASS_ASSO_CLASS_LIST from
+CLASS_ATTR_VISIBILITY time assign
+CLASS_ATTR_COUNT from SELF_ONLY
+CLASS_OPERATION_VISIBILITY time taxi
+CLASS_ATTR_VISIBILITY status status
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST decision
+CLASS_ATTR_COUNT setStatus ALL
+CLASS_ATTR_COUNT Realization ALL
+CLASS_OPERATION_COUNT select PARAM
+CLASS_OPERATION_COUNT current PARAM
+CLASS_ATTR_COUNT Taxi SELF_ONLY
+CLASS_INFO_HIDDEN serving
+CLASS_ASSO_CLASS_LIST serving
+CLASS_ATTR_COUNT taxi ALL
+CLASS_ASSO_CLASS_LIST Specialized
+CLASS_OPERATION_COUNT Preorder RETURN
+CLASS_INFO_HIDDEN served
+CLASS_COUNT
+CLASS_OPERATION_COUNT served PARAM
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY select bookTaxi
+CLASS_TOP_BASE waiting
+CLASS_ATTR_COUNT decision ALL
+CLASS_IMPLEMENT_INTERFACE_LIST taxi
+CLASS_OPERATION_COUNT from NON_PARAM
+CLASS_ATTR_COUNT waiting SELF_ONLY
+CLASS_OPERATION_VISIBILITY id taxi
+CLASS_OPERATION_COUNT notifyAll NON_RETURN
+CLASS_ASSO_CLASS_LIST waiting
+CLASS_ASSO_CLASS_LIST preorder
+CLASS_OPERATION_COUNT preorder NON_PARAM
+CLASS_ATTR_COUNT NormalTaxi SELF_ONLY
+CLASS_COUNT
+CLASS_INFO_HIDDEN serving
+CLASS_ASSO_COUNT taxi
+CLASS_IMPLEMENT_INTERFACE_LIST Specialized
+CLASS_OPERATION_VISIBILITY Generalize taxi
+CLASS_ATTR_COUNT served SELF_ONLY
+CLASS_ATTR_VISIBILITY Status from
+CLASS_ATTR_VISIBILITY served time
+CLASS_INFO_HIDDEN id
+CLASS_INFO_HIDDEN served
+CLASS_INFO_HIDDEN callTaxi
+CLASS_ASSO_COUNT order
+CLASS_OPERATION_VISIBILITY schedule served
+CLASS_ATTR_VISIBILITY decision served
+CLASS_ATTR_COUNT current ALL
+CLASS_INFO_HIDDEN served
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST to
+CLASS_INFO_HIDDEN NormalTaxi
+CLASS_ASSO_COUNT request
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY preorder serving
+CLASS_ATTR_COUNT waiting ALL
+CLASS_OPERATION_VISIBILITY Realization time
+CLASS_ATTR_COUNT id ALL
+CLASS_OPERATION_VISIBILITY waiting Specialized
+CLASS_OPERATION_VISIBILITY Time served
+CLASS_ASSO_CLASS_LIST id
+CLASS_TOP_BASE Status
+CLASS_ATTR_VISIBILITY status current
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY served Generalize
+CLASS_IMPLEMENT_INTERFACE_LIST from
+CLASS_COUNT
+CLASS_ATTR_COUNT id SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST order
+CLASS_ATTR_VISIBILITY status SpecialStatus
+CLASS_ASSO_CLASS_LIST Passenger
+CLASS_OPERATION_VISIBILITY waiting Generalize
+CLASS_ATTR_COUNT Position ALL
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY decision time
+CLASS_ATTR_COUNT id SELF_ONLY
+CLASS_ATTR_VISIBILITY preorder to
+CLASS_INFO_HIDDEN id
+CLASS_INFO_HIDDEN y
+CLASS_INFO_HIDDEN select
+CLASS_INFO_HIDDEN to
+CLASS_ASSO_COUNT id
+CLASS_ASSO_CLASS_LIST from
+CLASS_ATTR_VISIBILITY Position assign
+CLASS_TOP_BASE waiting
+CLASS_ATTR_COUNT order SELF_ONLY
+CLASS_ASSO_COUNT setStatus
+CLASS_OPERATION_COUNT broadcast NON_RETURN
+CLASS_ATTR_VISIBILITY served taxi
+CLASS_ASSO_CLASS_LIST broadcast
+CLASS_OPERATION_COUNT served NON_RETURN
+CLASS_ATTR_VISIBILITY to preorder
+CLASS_ATTR_VISIBILITY from Realization
+CLASS_ASSO_COUNT Status
+CLASS_OPERATION_VISIBILITY x Specialized
+CLASS_TOP_BASE served
+CLASS_ATTR_COUNT select ALL
+CLASS_ATTR_COUNT waiting ALL
+CLASS_IMPLEMENT_INTERFACE_LIST Generalize
+CLASS_ASSO_CLASS_LIST y
+CLASS_INFO_HIDDEN Request
+CLASS_INFO_HIDDEN user
+CLASS_IMPLEMENT_INTERFACE_LIST current
+CLASS_OPERATION_COUNT from ALL
+CLASS_ATTR_COUNT Preorder ALL
+CLASS_TOP_BASE SpecialTaxi
+CLASS_COUNT
+CLASS_INFO_HIDDEN from
+CLASS_ASSO_CLASS_LIST y
+CLASS_TOP_BASE schedule
+CLASS_IMPLEMENT_INTERFACE_LIST id
+CLASS_INFO_HIDDEN NormalTaxi
+CLASS_ASSO_COUNT schedule
+CLASS_OPERATION_COUNT serving NON_PARAM
+CLASS_COUNT
+CLASS_ATTR_COUNT broadcast SELF_ONLY
+CLASS_ASSO_COUNT serving
+CLASS_OPERATION_COUNT id ALL
+CLASS_OPERATION_COUNT waiting RETURN
+CLASS_COUNT
+CLASS_ASSO_COUNT Status
+CLASS_ASSO_COUNT from
+CLASS_ATTR_COUNT served SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST request
+CLASS_ASSO_COUNT NormalTaxi
+CLASS_INFO_HIDDEN waiting
+CLASS_TOP_BASE Realization
+CLASS_OPERATION_COUNT to NON_PARAM
+CLASS_OPERATION_COUNT time ALL
+CLASS_OPERATION_COUNT waiting NON_RETURN
+CLASS_ASSO_COUNT user
+CLASS_TOP_BASE Taxi
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST preorder
+CLASS_ASSO_COUNT Passenger
+CLASS_TOP_BASE Position
+CLASS_ASSO_CLASS_LIST order
+CLASS_IMPLEMENT_INTERFACE_LIST Generalize
+CLASS_TOP_BASE order
+CLASS_ASSO_COUNT Time
+CLASS_OPERATION_VISIBILITY order current
+CLASS_COUNT
+CLASS_ASSO_COUNT current
+CLASS_ATTR_COUNT waiting SELF_ONLY
+CLASS_INFO_HIDDEN serving
+CLASS_TOP_BASE serving
+CLASS_IMPLEMENT_INTERFACE_LIST Time
+CLASS_INFO_HIDDEN current
+CLASS_INFO_HIDDEN served
+CLASS_TOP_BASE Preorder
+CLASS_ATTR_VISIBILITY callTaxi Status
+CLASS_ATTR_VISIBILITY assign waiting
+CLASS_OPERATION_VISIBILITY served serving
+CLASS_TOP_BASE request
+CLASS_OPERATION_COUNT Position NON_RETURN
+CLASS_ATTR_COUNT setStatus SELF_ONLY
+CLASS_ASSO_CLASS_LIST current
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY served Generalize
+CLASS_ATTR_COUNT Time SELF_ONLY
+CLASS_ATTR_VISIBILITY Passenger request
+CLASS_ASSO_CLASS_LIST waiting
+CLASS_OPERATION_COUNT user NON_RETURN
+CLASS_ASSO_CLASS_LIST from
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY from serving
+CLASS_ASSO_CLASS_LIST broadcast
+CLASS_OPERATION_VISIBILITY preorder Taxi
+CLASS_ASSO_COUNT served
+CLASS_ASSO_COUNT serving
+CLASS_ASSO_CLASS_LIST y
+CLASS_ASSO_CLASS_LIST y
+CLASS_COUNT
+CLASS_COUNT
+CLASS_TOP_BASE Passenger
+CLASS_ATTR_COUNT serving ALL
+CLASS_OPERATION_VISIBILITY Preorder waiting
+CLASS_TOP_BASE waiting
+CLASS_INFO_HIDDEN serving
+CLASS_TOP_BASE select
+CLASS_OPERATION_VISIBILITY callTaxi id
+CLASS_COUNT
+CLASS_INFO_HIDDEN SpecialStatus
+CLASS_ASSO_COUNT from
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST served
+CLASS_OPERATION_COUNT Specialized ALL
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY request serving
+CLASS_OPERATION_COUNT taxi NON_RETURN
+CLASS_ASSO_COUNT Preorder
+CLASS_TOP_BASE Realization
+CLASS_ATTR_COUNT notifyAll ALL
+CLASS_OPERATION_COUNT Taxi RETURN
+CLASS_ATTR_VISIBILITY id request
+CLASS_INFO_HIDDEN waiting
+CLASS_ATTR_VISIBILITY serving setStatus
+CLASS_ATTR_VISIBILITY request id
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY SpecialStatus from
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY served id
+CLASS_ATTR_COUNT SpecialTaxi SELF_ONLY
+CLASS_TOP_BASE id
+CLASS_IMPLEMENT_INTERFACE_LIST preorder
+CLASS_TOP_BASE Status
+CLASS_ATTR_COUNT served SELF_ONLY
+CLASS_IMPLEMENT_INTERFACE_LIST preorder
+CLASS_ASSO_COUNT served
+CLASS_OPERATION_VISIBILITY schedule order
+CLASS_ASSO_COUNT broadcast
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST setStatus
+CLASS_INFO_HIDDEN waiting
+CLASS_TOP_BASE Realization
+CLASS_TOP_BASE bookTaxi
+CLASS_ASSO_CLASS_LIST request
+CLASS_ATTR_COUNT served ALL
+CLASS_ASSO_COUNT schedule
+CLASS_COUNT
+CLASS_ATTR_COUNT current SELF_ONLY
+CLASS_ASSO_CLASS_LIST Status
+CLASS_INFO_HIDDEN Preorder
+CLASS_INFO_HIDDEN served
+CLASS_OPERATION_COUNT taxi RETURN
+CLASS_INFO_HIDDEN Preorder
+CLASS_TOP_BASE Generalize
+CLASS_TOP_BASE waiting
+CLASS_OPERATION_VISIBILITY time SpecialTaxi
+CLASS_OPERATION_COUNT from NON_PARAM
+CLASS_TOP_BASE waiting
+CLASS_ATTR_COUNT served SELF_ONLY
+CLASS_ASSO_COUNT id
+CLASS_ASSO_COUNT setStatus
+CLASS_ASSO_COUNT waiting
+CLASS_ATTR_VISIBILITY to waiting
+CLASS_OPERATION_VISIBILITY taxi waiting
+CLASS_OPERATION_VISIBILITY waiting current
+CLASS_ATTR_VISIBILITY user id
+CLASS_OPERATION_COUNT waiting RETURN
+CLASS_ASSO_COUNT decision
+CLASS_ATTR_COUNT assign SELF_ONLY
+CLASS_OPERATION_VISIBILITY time id
+CLASS_ATTR_COUNT current ALL
+CLASS_TOP_BASE taxi
+CLASS_INFO_HIDDEN y
+CLASS_IMPLEMENT_INTERFACE_LIST assign
+CLASS_ATTR_COUNT from SELF_ONLY
+CLASS_ATTR_COUNT time ALL
+CLASS_IMPLEMENT_INTERFACE_LIST from
+CLASS_TOP_BASE waiting
+CLASS_IMPLEMENT_INTERFACE_LIST request
+CLASS_OPERATION_VISIBILITY taxi waiting
+CLASS_ASSO_COUNT preorder
+CLASS_ASSO_CLASS_LIST assign
+CLASS_OPERATION_VISIBILITY broadcast time
+CLASS_INFO_HIDDEN served
+CLASS_OPERATION_COUNT select NON_PARAM
+CLASS_INFO_HIDDEN id
+CLASS_ATTR_VISIBILITY SpecialTaxi y
+CLASS_OPERATION_VISIBILITY Position schedule
+CLASS_OPERATION_COUNT taxi PARAM
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY preorder to
+CLASS_COUNT
+CLASS_INFO_HIDDEN served
+CLASS_OPERATION_VISIBILITY order time
+CLASS_OPERATION_COUNT waiting NON_PARAM
+CLASS_ASSO_CLASS_LIST Taxi
+CLASS_ASSO_CLASS_LIST SpecialTaxi
+CLASS_ATTR_VISIBILITY x served
+CLASS_ASSO_COUNT Passenger
+CLASS_ATTR_COUNT waiting SELF_ONLY
+CLASS_ASSO_COUNT x
+CLASS_ATTR_COUNT served ALL
+CLASS_COUNT
+CLASS_ASSO_COUNT Taxi
+CLASS_OPERATION_COUNT id RETURN
+CLASS_ASSO_CLASS_LIST schedule
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY from broadcast
+CLASS_ATTR_VISIBILITY Generalize select
+CLASS_ASSO_COUNT assign
+CLASS_ASSO_CLASS_LIST x
+CLASS_IMPLEMENT_INTERFACE_LIST Status
+CLASS_IMPLEMENT_INTERFACE_LIST Time
+CLASS_ASSO_CLASS_LIST taxi
+CLASS_OPERATION_VISIBILITY assign setStatus
+CLASS_OPERATION_COUNT waiting RETURN
+CLASS_OPERATION_COUNT id NON_PARAM
+CLASS_TOP_BASE waiting
+CLASS_IMPLEMENT_INTERFACE_LIST time
+CLASS_TOP_BASE waiting
+CLASS_COUNT
+CLASS_INFO_HIDDEN bookTaxi
+CLASS_COUNT
+CLASS_TOP_BASE Realization
+CLASS_OPERATION_COUNT select NON_PARAM
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST status
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST y
+CLASS_ASSO_COUNT request
+CLASS_ASSO_COUNT waiting
+CLASS_IMPLEMENT_INTERFACE_LIST Realization
+CLASS_INFO_HIDDEN served
+CLASS_ATTR_VISIBILITY serving taxi
+CLASS_IMPLEMENT_INTERFACE_LIST preorder
+CLASS_ASSO_CLASS_LIST served
+CLASS_IMPLEMENT_INTERFACE_LIST select
+CLASS_TOP_BASE request
+CLASS_INFO_HIDDEN Time
+CLASS_OPERATION_VISIBILITY Position Specialized
+CLASS_ATTR_COUNT to SELF_ONLY
+CLASS_COUNT
+CLASS_TOP_BASE Taxi
+CLASS_ASSO_CLASS_LIST served
+CLASS_IMPLEMENT_INTERFACE_LIST serving
+CLASS_ATTR_COUNT Position ALL
+CLASS_OPERATION_VISIBILITY time from
+CLASS_OPERATION_COUNT served RETURN
+CLASS_OPERATION_VISIBILITY current taxi
+CLASS_ASSO_COUNT user
+CLASS_ASSO_CLASS_LIST to
+CLASS_IMPLEMENT_INTERFACE_LIST notifyAll
+CLASS_ASSO_CLASS_LIST waiting
+CLASS_OPERATION_COUNT schedule PARAM
+CLASS_ASSO_CLASS_LIST waiting
+CLASS_TOP_BASE served
+CLASS_ASSO_CLASS_LIST id
+CLASS_OPERATION_COUNT SpecialTaxi PARAM
+CLASS_OPERATION_COUNT served NON_RETURN
+CLASS_INFO_HIDDEN Specialized
+CLASS_INFO_HIDDEN callTaxi
+CLASS_ATTR_COUNT callTaxi SELF_ONLY
+CLASS_OPERATION_VISIBILITY serving waiting
+CLASS_ASSO_COUNT from
+CLASS_ASSO_CLASS_LIST SpecialTaxi
+CLASS_TOP_BASE current
+CLASS_OPERATION_VISIBILITY decision waiting
+CLASS_ASSO_CLASS_LIST setStatus
+CLASS_ASSO_COUNT broadcast
+CLASS_TOP_BASE from
+CLASS_INFO_HIDDEN serving
+CLASS_INFO_HIDDEN taxi
+CLASS_ASSO_CLASS_LIST current
+CLASS_COUNT
+CLASS_ASSO_COUNT to
+CLASS_OPERATION_VISIBILITY time time
+CLASS_OPERATION_COUNT Specialized ALL
+CLASS_OPERATION_VISIBILITY to Preorder
+CLASS_TOP_BASE from
+CLASS_IMPLEMENT_INTERFACE_LIST time
+CLASS_ASSO_COUNT Request
+CLASS_OPERATION_COUNT Realization RETURN
+CLASS_ATTR_COUNT served SELF_ONLY
+CLASS_OPERATION_COUNT user NON_RETURN
+CLASS_ATTR_COUNT serving SELF_ONLY
+CLASS_INFO_HIDDEN waiting
+CLASS_TOP_BASE broadcast
+CLASS_OPERATION_COUNT Taxi NON_PARAM
+CLASS_ATTR_COUNT Generalize SELF_ONLY
+CLASS_OPERATION_COUNT notifyAll NON_RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST NormalTaxi
+CLASS_OPERATION_VISIBILITY time served
+CLASS_OPERATION_VISIBILITY time Preorder
+CLASS_ASSO_COUNT Time
+CLASS_ASSO_CLASS_LIST from
+CLASS_INFO_HIDDEN current
+CLASS_OPERATION_COUNT waiting NON_RETURN
+CLASS_TOP_BASE current
+CLASS_OPERATION_COUNT assign NON_PARAM
+CLASS_IMPLEMENT_INTERFACE_LIST Specialized
+CLASS_OPERATION_COUNT served NON_PARAM
+CLASS_IMPLEMENT_INTERFACE_LIST NormalTaxi
+CLASS_IMPLEMENT_INTERFACE_LIST taxi
+CLASS_ATTR_VISIBILITY decision notifyAll
+CLASS_INFO_HIDDEN bookTaxi
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST served
+CLASS_IMPLEMENT_INTERFACE_LIST select
+CLASS_TOP_BASE bookTaxi
+CLASS_OPERATION_COUNT serving ALL
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY y assign
+CLASS_OPERATION_COUNT waiting ALL
+CLASS_TOP_BASE taxi
+CLASS_IMPLEMENT_INTERFACE_LIST broadcast
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY broadcast status
+CLASS_ATTR_COUNT current SELF_ONLY
+CLASS_OPERATION_COUNT served RETURN
+CLASS_OPERATION_VISIBILITY current current
+CLASS_OPERATION_COUNT waiting NON_RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST served
+CLASS_OPERATION_VISIBILITY Status from
+CLASS_COUNT
+CLASS_TOP_BASE serving
+CLASS_INFO_HIDDEN serving
+CLASS_OPERATION_VISIBILITY waiting Realization
+CLASS_INFO_HIDDEN from
+CLASS_ASSO_CLASS_LIST decision
+CLASS_ASSO_CLASS_LIST to
+CLASS_ASSO_CLASS_LIST Specialized
+CLASS_ATTR_COUNT to ALL
+CLASS_TOP_BASE waiting
+CLASS_ATTR_VISIBILITY to serving
+CLASS_ATTR_VISIBILITY schedule serving
+CLASS_OPERATION_COUNT served ALL
+CLASS_ASSO_CLASS_LIST SpecialTaxi
+CLASS_TOP_BASE waiting
+CLASS_COUNT
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST from
+CLASS_ASSO_CLASS_LIST served
+CLASS_TOP_BASE Passenger
+CLASS_ASSO_COUNT schedule
+CLASS_IMPLEMENT_INTERFACE_LIST x
+CLASS_ATTR_VISIBILITY taxi id
+CLASS_ASSO_CLASS_LIST id
+CLASS_ASSO_CLASS_LIST order
+CLASS_OPERATION_COUNT served NON_PARAM
+CLASS_IMPLEMENT_INTERFACE_LIST order
+CLASS_IMPLEMENT_INTERFACE_LIST y
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY Taxi Preorder
+CLASS_INFO_HIDDEN id
+CLASS_OPERATION_COUNT to NON_PARAM
+CLASS_IMPLEMENT_INTERFACE_LIST Request
+CLASS_ATTR_COUNT bookTaxi ALL
+CLASS_ATTR_VISIBILITY Specialized served
+CLASS_IMPLEMENT_INTERFACE_LIST decision
+CLASS_ASSO_CLASS_LIST SpecialStatus
+CLASS_ATTR_VISIBILITY preorder Request
+CLASS_ASSO_CLASS_LIST served
+CLASS_INFO_HIDDEN select
+CLASS_OPERATION_VISIBILITY from to
+CLASS_ATTR_VISIBILITY served id
+CLASS_ASSO_COUNT Realization
+CLASS_ATTR_COUNT served ALL
+CLASS_ATTR_COUNT from SELF_ONLY
+CLASS_TOP_BASE to
+CLASS_OPERATION_VISIBILITY request id
+CLASS_ATTR_VISIBILITY Request Position
+CLASS_ASSO_CLASS_LIST order
+CLASS_COUNT
+CLASS_ASSO_COUNT from
+CLASS_OPERATION_VISIBILITY from from
+CLASS_ATTR_VISIBILITY select serving
+CLASS_INFO_HIDDEN Realization
+CLASS_ATTR_VISIBILITY time taxi
+CLASS_ASSO_CLASS_LIST time
+CLASS_ASSO_COUNT taxi
+CLASS_OPERATION_COUNT served NON_RETURN
+CLASS_TOP_BASE select
+CLASS_OPERATION_COUNT Realization NON_PARAM
+CLASS_ASSO_COUNT SpecialTaxi
+CLASS_COUNT
+CLASS_OPERATION_COUNT from NON_PARAM
+CLASS_ATTR_VISIBILITY to served
+CLASS_IMPLEMENT_INTERFACE_LIST served
+CLASS_ATTR_COUNT SpecialTaxi ALL
+CLASS_ATTR_VISIBILITY served decision
+CLASS_ASSO_CLASS_LIST current
+CLASS_IMPLEMENT_INTERFACE_LIST time
+CLASS_TOP_BASE waiting
+CLASS_ASSO_CLASS_LIST serving
+CLASS_ATTR_VISIBILITY from assign
+CLASS_IMPLEMENT_INTERFACE_LIST setStatus
+CLASS_TOP_BASE waiting
+CLASS_TOP_BASE notifyAll
+CLASS_ASSO_CLASS_LIST bookTaxi
+CLASS_OPERATION_COUNT setStatus ALL
+CLASS_INFO_HIDDEN from
+CLASS_COUNT
+CLASS_COUNT
+CLASS_INFO_HIDDEN served
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY schedule id
+CLASS_ATTR_COUNT id SELF_ONLY
+CLASS_ASSO_COUNT from
+CLASS_ATTR_VISIBILITY broadcast served
+CLASS_ATTR_VISIBILITY Request request
+CLASS_ATTR_COUNT Generalize SELF_ONLY
+CLASS_ATTR_COUNT served SELF_ONLY
+CLASS_ASSO_CLASS_LIST NormalTaxi
+CLASS_COUNT
+CLASS_ATTR_COUNT served SELF_ONLY
+CLASS_OPERATION_VISIBILITY setStatus to
+CLASS_ATTR_VISIBILITY id waiting
+CLASS_INFO_HIDDEN time
+CLASS_OPERATION_VISIBILITY broadcast bookTaxi
+CLASS_INFO_HIDDEN callTaxi
+CLASS_OPERATION_VISIBILITY bookTaxi select
+CLASS_ASSO_COUNT NormalTaxi
+CLASS_ATTR_VISIBILITY serving time
+CLASS_TOP_BASE taxi
+CLASS_IMPLEMENT_INTERFACE_LIST serving
+CLASS_OPERATION_COUNT time ALL
+CLASS_ASSO_CLASS_LIST serving
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST SpecialTaxi
+CLASS_TOP_BASE taxi
+CLASS_ASSO_CLASS_LIST from
+CLASS_INFO_HIDDEN current
+CLASS_INFO_HIDDEN to
+CLASS_OPERATION_COUNT Generalize NON_RETURN
+CLASS_IMPLEMENT_INTERFACE_LIST taxi
+CLASS_ATTR_COUNT taxi SELF_ONLY
+CLASS_ATTR_VISIBILITY from schedule
+CLASS_ASSO_COUNT Position
+CLASS_TOP_BASE Realization
+CLASS_ATTR_VISIBILITY id waiting
+CLASS_OPERATION_VISIBILITY callTaxi Status
+CLASS_ATTR_VISIBILITY Preorder Taxi
+CLASS_ATTR_COUNT broadcast SELF_ONLY
+CLASS_TOP_BASE to
+CLASS_IMPLEMENT_INTERFACE_LIST assign
+CLASS_ATTR_VISIBILITY Time Specialized
+CLASS_COUNT
+CLASS_ATTR_VISIBILITY time waiting
+CLASS_COUNT
+CLASS_COUNT
+CLASS_ATTR_COUNT served SELF_ONLY
+CLASS_ASSO_COUNT waiting
+CLASS_ASSO_COUNT id
+CLASS_IMPLEMENT_INTERFACE_LIST order
+CLASS_ASSO_CLASS_LIST Passenger
+CLASS_COUNT
+CLASS_ATTR_COUNT taxi SELF_ONLY
+CLASS_INFO_HIDDEN current
+CLASS_ASSO_COUNT Time
+CLASS_ASSO_COUNT waiting
+CLASS_INFO_HIDDEN serving
+CLASS_ASSO_CLASS_LIST schedule
+CLASS_TOP_BASE time
+CLASS_ASSO_CLASS_LIST Taxi
+CLASS_COUNT
+CLASS_COUNT
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY served taxi
+CLASS_ASSO_COUNT assign
+CLASS_ASSO_CLASS_LIST Specialized
+CLASS_OPERATION_VISIBILITY served Preorder
+CLASS_ATTR_VISIBILITY Passenger served
+CLASS_IMPLEMENT_INTERFACE_LIST Time
+CLASS_COUNT
+CLASS_ATTR_COUNT Position SELF_ONLY
+CLASS_ASSO_CLASS_LIST assign
+CLASS_COUNT
+CLASS_TOP_BASE callTaxi
+CLASS_TOP_BASE NormalTaxi
+CLASS_ATTR_VISIBILITY time Taxi
+CLASS_OPERATION_COUNT request NON_PARAM
+CLASS_IMPLEMENT_INTERFACE_LIST preorder
+CLASS_COUNT
+CLASS_ASSO_COUNT decision
+CLASS_OPERATION_VISIBILITY current taxi
+CLASS_ASSO_COUNT current
+CLASS_COUNT
+CLASS_ASSO_COUNT id
+CLASS_ATTR_COUNT schedule ALL
+CLASS_OPERATION_VISIBILITY NormalTaxi user
+CLASS_INFO_HIDDEN served
+CLASS_ASSO_CLASS_LIST Status
+CLASS_ASSO_CLASS_LIST Generalize
+CLASS_TOP_BASE request
+CLASS_ATTR_VISIBILITY decision select
+CLASS_OPERATION_VISIBILITY from decision
+CLASS_TOP_BASE time
+CLASS_ASSO_CLASS_LIST id
+CLASS_ATTR_VISIBILITY decision Generalize
+CLASS_COUNT
+CLASS_OPERATION_COUNT id RETURN
+CLASS_OPERATION_COUNT SpecialTaxi NON_PARAM
+CLASS_ATTR_VISIBILITY to taxi
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST request
+CLASS_COUNT
+CLASS_IMPLEMENT_INTERFACE_LIST x
+CLASS_OPERATION_COUNT waiting NON_PARAM
+CLASS_COUNT
+CLASS_INFO_HIDDEN id
+CLASS_ATTR_COUNT served ALL
+CLASS_INFO_HIDDEN select
+CLASS_OPERATION_COUNT waiting ALL
+CLASS_ATTR_COUNT schedule SELF_ONLY
+CLASS_ASSO_CLASS_LIST assign
+CLASS_OPERATION_COUNT waiting RETURN
+CLASS_OPERATION_VISIBILITY serving id
+CLASS_IMPLEMENT_INTERFACE_LIST assign
+CLASS_OPERATION_COUNT Preorder ALL
+CLASS_COUNT
+CLASS_OPERATION_COUNT id NON_RETURN
+CLASS_COUNT
+CLASS_OPERATION_VISIBILITY decision waiting
+CLASS_COUNT
+CLASS_TOP_BASE user
+CLASS_IMPLEMENT_INTERFACE_LIST id
+CLASS_ASSO_COUNT from
+CLASS_OPERATION_VISIBILITY waiting taxi
+CLASS_IMPLEMENT_INTERFACE_LIST id
+CLASS_TOP_BASE Realization
+CLASS_OPERATION_VISIBILITY from served
+CLASS_ATTR_VISIBILITY Position Status
+CLASS_OPERATION_VISIBILITY waiting waiting
+CLASS_TOP_BASE Generalize
+CLASS_INFO_HIDDEN order
+CLASS_TOP_BASE NormalTaxi
+CLASS_OPERATION_COUNT id ALL
+CLASS_TOP_BASE served
+CLASS_ATTR_VISIBILITY notifyAll Status
+CLASS_ASSO_COUNT status
+CLASS_COUNT
+CLASS_ASSO_CLASS_LIST select
+CLASS_OPERATION_VISIBILITY taxi Preorder
+CLASS_INFO_HIDDEN SpecialTaxi
+CLASS_COUNT
+CLASS_COUNT
+CLASS_OPERATION_COUNT time PARAM
+CLASS_INFO_HIDDEN to
+CLASS_ATTR_VISIBILITY request Position
+CLASS_ASSO_COUNT from
+CLASS_IMPLEMENT_INTERFACE_LIST Passenger
+CLASS_OPERATION_COUNT time PARAM
+CLASS_INFO_HIDDEN served
+CLASS_INFO_HIDDEN taxi
+CLASS_TOP_BASE SpecialStatus
+CLASS_OPERATION_COUNT setStatus NON_PARAM
+CLASS_OPERATION_COUNT taxi PARAM
+CLASS_ATTR_VISIBILITY Position taxi
+CLASS_ASSO_CLASS_LIST user
+CLASS_ASSO_CLASS_LIST serving
+CLASS_IMPLEMENT_INTERFACE_LIST Time
+CLASS_OPERATION_COUNT waiting ALL
+CLASS_ASSO_COUNT request
+```
+
+
