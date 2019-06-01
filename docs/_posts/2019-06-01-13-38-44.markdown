@@ -1,0 +1,38 @@
+---
+layout:     post
+title:      "6 in open-close test GuideBookSample2"
+subtitle:   "Error Report"
+date:       2019-06-01 13:38:44
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - wsyc
+
+---
+
+> “Critical Errors Occurred!”
+
+
+## Details
+
+Error on line **1**
+
+```
+./gen_case/open-close.mdj_GuideBookSample2_6.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/open-close.mdj)
+
+Test case:
+
+```
+wsyc ERROR: Runtime Error Occurred!
+[    wsyc]  Time Out: Elapsed For 5 Seconds
+[i]  INFO:	 Useful Lines Count 0/0
+```
+
+
