@@ -1,0 +1,49 @@
+---
+layout:     post
+title:      "Check Finished"
+subtitle:   "Success Report"
+date:       2019-06-02 21:12:04
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+---
+
+**Time: 2019-06-02 21:12:04**
+
+> “Check Success!”
+
+
+## Details
+
+Successful participants:
+
+```
+bxy.jar
+Main.jar
+mjl.jar
+qr.jar
+qyj.jar
+sdy.jar
+wsyc.jar
+wsy.jar
+```
+
+Models are:
+
+```
+Full.mdj
+g1_1.mdj
+g1_2.mdj
+g1_3.mdj
+g2.mdj
+g3.mdj
+g4.mdj
+Intense.mdj
+Intricate.mdj
+iPhone.mdj
+Mess.mdj
+open-close.mdj
+Simple.mdj
+Taxi.mdj
+```
+
