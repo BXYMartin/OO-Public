@@ -124,18 +124,17 @@
         request.onload = function(e) {
           if (request.status >= 200 && request.status < 400){
             data = JSON.parse(request.responseText);
-              console.log(data);
             gitMethods.delData(delUrl, options, {"message": "Error Resolved By Http Request", "sha": data.sha }, gitMethods.setDelPostHTML);
           } else {
             // Unsuccessful request - invalid username/ lost internet connectivity/ exceeded rate limit/ API URL not found
             gitMethods.renderContent(gitMethods.getRenderedHTML(gitTemplates.notFoundTpl, data), options.selector,'.gt-container');
-            console.error('An error occurred while connecting to GitHub API.');
+            console.log('An error occurred while connecting to GitHub API.');
           }
         }
 
 
         request.onerror = function(e) {
-          console.error('An error occurred while connecting to GitHub API.');
+          console.log('An error occurred while connecting to GitHub API.');
         };
 
         request.send();
@@ -154,10 +153,10 @@
     Github.hasPost = function (options) {
       if(options = gitMethods.initialize(options, ['path', 'selector'], 0)){
         var delUrl = gitApiUrl + 'repos/Catherine9811/OO-Posts/contents/' + options.path;
-          gitMethods.renderButton(true, options.selector);
         gitMethods.getData(delUrl, options, gitMethods.getDelPostHTML);
       } else{
-        console.error("Parameters not passed correctly");
+        console.log("Parameters not passed correctly");
+        gitMethods.renderButton(true, options.selector);
       }
     },
 
@@ -559,17 +558,16 @@
         request.onload = function(e) {
           if (request.status >= 200 && request.status < 400){
             data = JSON.parse(request.responseText);
-              console.log(data);
             callback(data, options);
           } else {
             // Unsuccessful request - invalid username/ lost internet connectivity/ exceeded rate limit/ API URL not found
             gitMethods.renderContent(gitMethods.getRenderedHTML(gitTemplates.notFoundTpl, data), options.selector,'.gt-container');
-            console.error('An error occurred while connecting to GitHub API.');
+            console.log('An error occurred while connecting to GitHub API.');
           }
         };
 
         request.onerror = function(e) {
-          console.error('An error occurred while connecting to GitHub API.');
+          console.log('An error occurred while connecting to GitHub API.');
         };
 
         request.send(JSON.stringify(param));
@@ -592,12 +590,12 @@
           } else {
             // Unsuccessful request - invalid username/ lost internet connectivity/ exceeded rate limit/ API URL not found
             gitMethods.renderContent(gitMethods.getRenderedHTML(gitTemplates.notFoundTpl, data), options.selector,'.gt-container');
-            console.error('An error occurred while connecting to GitHub API.');
+            console.log('An error occurred while connecting to GitHub API.');
           }
         };
 
         request.onerror = function(e) {
-          console.error('An error occurred while connecting to GitHub API.');
+          console.log('An error occurred while connecting to GitHub API.');
         };
 
         request.send();
