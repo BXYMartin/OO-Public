@@ -189,28 +189,7 @@ layout: default
 <!-- disqus 公共JS代码 end -->
 {% endif %}
 
-
-<!-- Adding underscore.js dependency -->
-<script type="text/javascript" src="underscore-min.js"></script>
-
-<!-- Adding github.js library -->
-<script type="text/javascript" src="github.js"></script>
-
-<script type="text/javascript" src="encrypt.js"></script>
-
-<script type="text/javascript">
-    var auth = Encryption.decrypt("97bdb22cd5e6519f625ffdd9db57f9220a985677eaa1345042527368ea1ac372187ba84740355e9b03070340");
-    var name = document.getElementById("file").innerHTML;
-    function del() {
-        Github.delPost({OAuth: "\"" + auth + "\"", selector: '#delete', path: "\"" + name + "\""});
-
-    };
-    window.onload = function() {
-        Github.hasPost({OAuth: "\"" + auth + "\"", selector: '#delete', path: "\"" + name + "\""});
-    }
-</script>
-
-
+{% include footer.html %}
 
 {% if site.anchorjs %}
 <!-- async load function -->
