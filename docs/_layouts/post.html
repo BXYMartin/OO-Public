@@ -227,9 +227,9 @@ layout: default
     }
 </style>
 {% endif %}
-<style>
+<script src="{{ "/js/mo.min.js " | prepend: site.baseurl  }}"></script>
 
-</style>
+<script src="{{ "/js/diss.js " | prepend: site.baseurl  }}"></script>
 <script type="text/javascript">
     var auth = Encryption.decrypt("97bdb22cd5e6519f625ffdd9db57f9220a985677eaa1345042527368ea1ac372187ba84740355e9b03070340");
     var name = document.getElementById("file").innerHTML;
