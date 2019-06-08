@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2016, Codrops
  * http://www.codrops.com
  */
@@ -25,13 +25,13 @@
 		isIETouch = navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
 		return [].indexOf.call(window, 'ontouchstart') >= 0 || isIETouch;
 	};
-	
+
 	// taken from mo.js demos
 	var isIOS = isIOSSafari(),
 		clickHandler = isIOS || isTouch() ? 'touchstart' : 'click';
 
 	function extend( a, b ) {
-		for( var key in b ) { 
+		for( var key in b ) {
 			if( b.hasOwnProperty( key ) ) {
 				a[key] = b[key];
 			}
@@ -47,7 +47,7 @@
 		this.checked = false;
 
 		this.timeline = new mojs.Timeline();
-		
+
 		for(var i = 0, len = this.options.tweens.length; i < len; ++i) {
 			this.timeline.add(this.options.tweens[i]);
 		}
@@ -77,7 +77,7 @@
 		});
 	}
 
-	
+
 
 	Animocon.prototype.options = {
 		tweens : [
@@ -127,7 +127,7 @@
 						stroke: '#FF3333',
 						strokeWidth: {30:0},
 						opacity: 0.6,
-						x: '50%',     
+						x: '50%',
 						y: '50%',
 						isRunLess: true,
 						easing: mojs.easing.bezier(0.1, 1, 0.3, 1)
@@ -142,7 +142,7 @@
 						stroke: '#FF3300',
 						strokeWidth: {20:0},
 						opacity: 0.3,
-						x: '50%',     
+						x: '50%',
 						y: '50%',
 						isRunLess: true,
 						easing: mojs.easing.bezier(0.1, 1, 0.3, 1)
@@ -155,10 +155,8 @@
 					})
 				]
 			});
-						
+
 		}
 	}
-	
-	init();
 
 })(window);
