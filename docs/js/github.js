@@ -257,7 +257,6 @@
               console.log(request0["message"])
             };
 
-            var b = new Base64();
             console.log('\'' + JSON.stringify(mess) + '\'');
             request0.send(JSON.stringify(mess));
         };

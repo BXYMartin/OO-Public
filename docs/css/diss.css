@@ -1,5 +1,6 @@
 .content > li {
 	float: left;
+    width: 180px;
 	list-style: none;
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -8,6 +9,7 @@
 }
 
 .container {
+    width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -27,5 +29,5 @@
 }
 
 .icobutton {
-	font-size: 30px !important;
+	font-size: 25px !important;
 }
