@@ -312,8 +312,10 @@ layout: default
 
 	function init(items) {
 		for (var i = 0; i < items.length; i++) {
-            alert(items[i].outerHTML);
 			var el7 = items[i].querySelector('button.icobutton');
+            if (el7 == null) {
+                continue;
+            }
 			var span = el7.querySelector('span');
 			new Animocon(el7, {
 				tweens : [
