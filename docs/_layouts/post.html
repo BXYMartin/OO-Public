@@ -309,9 +309,8 @@ layout: default
 	};
 
 	// grid items:
-	var items = [].slice.call(document.querySelectorAll('li'));
 
-	function init() {
+	function init(items) {
 		for (var i = 0; i < items.length; i++) {
 			var el7 = items[i].querySelector('button.icobutton');
 			var span = el7.querySelector('span');
@@ -393,7 +392,8 @@ layout: default
         Github.getDiss({OAuth: auth, selector: 'li > button.icobutton > div.count > div.number', root: 'li > button.icobutton', path: name});
     }
     $(document).ready(function(){
-        init();
+        var items = [].slice.call(document.querySelectorAll('li'));
+        init(items);
     });
 </script>
 <style>
