@@ -387,12 +387,14 @@ layout: default
     };
     function callback() {
         Github.updateDiss({OAuth: auth, root: 'li > button.icobutton', path: name});
-        init();
     }
     window.onload = function() {
         Github.hasPost({OAuth: auth, selector: '#delete', path: name});
         Github.getDiss({OAuth: auth, selector: 'li > button.icobutton > div.count > div.number', root: 'li > button.icobutton', path: name});
     }
+    $(document).ready(function(){
+        init();
+    });
 </script>
 <style>
     .gt-still-activity{
