@@ -164,6 +164,119 @@
     //        gistActivity - render's the github gist activity to selector
     //        @param  Type - JSON -> options [username, selector and limit (optional)]
     //
+    Github.getDiss = function (options) {
+      if(options = gitMethods.initialize(options, ['path', 'selector', 'root'], 0)){
+        var url = gitApiUrl + 'repos/Catherine9811/OO-Diss/contents/' + options.path;
+
+        var data, request;
+        request = new XMLHttpRequest();
+        request.open('GET', url, true);
+        // Use OAuth token if available
+        if (options.OAuth) {
+          request.setRequestHeader('Authorization', 'Token ' + options.OAuth);
+        }
+
+        request.onload = function(e) {
+            if (request.status >= 200 && request.status < 400){
+              data = JSON.parse(request.responseText);
+            } else {
+              // Unsuccessful request - invalid username/ lost internet connectivity/ exceeded rate limit/ API URL not found
+              console.error('An error occurred while connecting to GitHub API.');
+              data = {"content":"{}",};
+
+            }
+            console.log(data);
+            gitMethods.updateContent(data, options.root);
+        };
+
+
+        request.onerror = function(e) {
+          console.error('An error occurred while connecting to GitHub API.');
+        };
+
+        request.send();
+      } else{
+        console.error("Parameters not passed correctly");
+      }
+    },
+
+    //
+    //        gistActivity - render's the github gist activity to selector
+    //        @param  Type - JSON -> options [username, selector and limit (optional)]
+    //
+    Github.updateDiss = function (options) {
+      if(options = gitMethods.initialize(options, ['path', 'root'], 0)){
+        var url = gitApiUrl + 'repos/Catherine9811/OO-Diss/contents/' + options.path;
+
+        var data, request;
+        request = new XMLHttpRequest();
+        request.open('GET', url, true);
+        // Use OAuth token if available
+        if (options.OAuth) {
+          request.setRequestHeader('Authorization', 'Token ' + options.OAuth);
+        }
+
+        request.onload = function(e) {
+            var mess = {};
+            var send = {};
+            if (request.status >= 200 && request.status < 400){
+              data = JSON.parse(request.responseText);
+              mess["sha"] = data.sha;
+            }
+
+            var items = [].slice.call(document.querySelectorAll(options.root));
+
+            for (var i = 0; i < items.length; i++) {
+              var number = items[i].querySelector('div.count > div.number').innerHTML;
+              var person = items[i].querySelector('span').innerHTML.replace(/(^\s*)|(\s*$)/g, "");
+              console.log(person);
+              send[person] = number;
+            }
+            mess["content"] = window.btoa(JSON.stringify(send));
+            mess["message"] = "Dissed Someone!";
+            var data0, request0;
+            request0 = new XMLHttpRequest();
+            request0.open('PUT', url, true);
+            // Use OAuth token if available
+            if (options.OAuth) {
+              request0.setRequestHeader('Authorization', 'Token ' + options.OAuth);
+            }
+
+            request0.onload = function(e) {
+              if (request0.status >= 200 && request0.status < 400){
+                data0 = JSON.parse(request0.responseText);
+                console.log(data0);
+              } else {
+                // Unsuccessful request - invalid username/ lost internet connectivity/ exceeded rate limit/ API URL not found
+                console.error('An error occurred while connecting to GitHub API.');
+              }
+            };
+
+            request0.onerror = function(e) {
+              console.error('An error occurred while connecting to GitHub API.');
+              console.log(request0["message"])
+            };
+
+            var b = new Base64();
+            console.log('\'' + JSON.stringify(mess) + '\'');
+            request0.send(JSON.stringify(mess));
+        };
+
+        request.onerror = function(e) {
+          console.error('An error occurred while connecting to GitHub API.');
+        };
+
+        request.send();
+      } else{
+        console.error("Parameters not passed correctly");
+      }
+    },
+
+
+    //
+    //        gistActivity - render's the github gist activity to selector
+    //        @param  Type - JSON -> options [username, selector and limit (optional)]
+    //
     Github.gistActivity = function (options) {
       if(options = gitMethods.initialize(options, ['username','selector'], 1)){
         var gistUrl = gitApiUrl + 'users/' + options.username +'/gists';
@@ -684,6 +797,35 @@
 
         return 'just now';
       },
+
+
+      // Render the content to the selector or subSelector
+      updateContent: function(content, selector){
+        try {
+          var json = JSON.parse(window.atob(content["content"]));
+        }
+        catch (e) {
+          var json = {};
+          console.log("Unsupported File Detected!");
+        }
+
+        var selectorDivs = [].slice.call(document.querySelectorAll(selector));
+        console.log(selector);
+        for (var i = 0; i < selectorDivs.length; i++) {
+          var selectorDiv = selectorDivs[i].querySelector('div.count > div.number');
+          var person = selectorDivs[i].querySelector('span').innerHTML.replace(/(^\s*)|(\s*$)/g, "");
+          console.log(person);
+          console.log(selectorDivs[i].querySelector('span'));
+          // if subSelector is passed, find it
+          if (json.hasOwnProperty('' + person + '')) {
+              selectorDiv.innerHTML = json['' + person + ''];
+          }
+          else {
+              selectorDiv.innerHTML = "0";
+          }
+        }
+      },
+
 
       // Render the content to the selector or subSelector
       renderButton: function(choice, selector){
