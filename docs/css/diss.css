@@ -1,35 +1,4 @@
-*,
-*::after,
-*::before {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-body {
-	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	counter-reset: gridcounter;
-	color: #000;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-a {
-	text-decoration: none;
-	color: #999;
-	outline: none;
-}
-
-a:hover,
-a:focus {
-	color: #000;
-	outline: none;
-}
-
-ol {
-	display: inline;
-}
-
-li {
+.content > li {
 	float: left;
 	list-style: none;
 	padding-top: 100px;
@@ -38,7 +7,7 @@ li {
 	padding-right: 30px;
 }
 
-.container{
+.container {
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -60,4 +29,3 @@ li {
 .icobutton {
 	font-size: 30px !important;
 }
-/* Content */
