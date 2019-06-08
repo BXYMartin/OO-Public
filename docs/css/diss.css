@@ -7,6 +7,11 @@
 	padding-right: 30px;
 }
 
+.btn {
+    border-radius:10px;
+    background-color: #c0c1c3;
+}
+
 .diss {
     position: relative;
     top: -60px;
