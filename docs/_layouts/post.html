@@ -123,7 +123,7 @@ layout: default
                 {% if site.featured-tags %}
                 <section>
                     <hr class="hidden-sm hidden-xs">
-                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <h5><a href="/tags/">ERROR TAGS</a></h5>
                     <div class="tags">
         				{% for tag in site.tags %}
                             {% if tag[1].size > {{site.featured-condition-size}} %}
@@ -189,6 +189,7 @@ layout: default
 <!-- disqus 公共JS代码 end -->
 {% endif %}
 
+{% include footer.html %}
 
 {% if site.anchorjs %}
 <!-- async load function -->
@@ -202,9 +203,10 @@ layout: default
       s.parentNode.insertBefore(o, s);
     }
 </script>
+
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
 <script>
-    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
         anchors.options = {
           visible: 'always',
           placement: 'right',
@@ -225,3 +227,183 @@ layout: default
     }
 </style>
 {% endif %}
+<script src="{{ "/js/mo.min.js " | prepend: site.baseurl  }}"></script>
+
+<script>
+// taken from mo.js demos
+	function isIOSSafari() {
+		var userAgent;
+		userAgent = window.navigator.userAgent;
+		return userAgent.match(/iPad/i) || userAgent.match(/iPhone/i);
+	};
+
+	// taken from mo.js demos
+	function isTouch() {
+		var isIETouch;
+		isIETouch = navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
+		return [].indexOf.call(window, 'ontouchstart') >= 0 || isIETouch;
+	};
+
+	// taken from mo.js demos
+	var isIOS = isIOSSafari(),
+		clickHandler = isIOS || isTouch() ? 'touchstart' : 'click';
+
+	function extend( a, b ) {
+		for( var key in b ) {
+			if( b.hasOwnProperty( key ) ) {
+				a[key] = b[key];
+			}
+		}
+		return a;
+	}
+
+	function Animocon(el, options) {
+		this.el = el;
+		this.options = extend( {}, this.options );
+		extend( this.options, options );
+
+		this.checked = false;
+
+		this.timeline = new mojs.Timeline();
+
+		for(var i = 0, len = this.options.tweens.length; i < len; ++i) {
+			this.timeline.add(this.options.tweens[i]);
+		}
+
+		var self = this;
+		this.el.addEventListener(clickHandler, function() {
+			if ( self.checked ) {
+				return;
+				//this.style.color='#c0c1c3';
+			}
+			else {
+				this.style.color='#FF0000';
+				var num = this.querySelector('div.count > div.number');
+				self.timeline.add(
+				new mojs.Tween({
+					duration : 1000,
+					onUpdate: function(progress) {
+						var elasticOutProgress = mojs.easing.elastic.out(progress);
+						num.style.WebkitTransform = num.style.transform = 'translate3d(' + -50*(1-elasticOutProgress) + '%,0,0)';
+					}
+				}));
+				self.timeline.start();
+				num.innerHTML = parseInt(num.innerHTML) + 1;
+			}
+			self.checked = !self.checked;
+			callback();
+		});
+	}
+
+
+
+	Animocon.prototype.options = {
+		tweens : [
+			new mojs.Burst({
+				shape : 'circle',
+				isRunLess: true
+			})
+		],
+		onCheck : function() { return false; },
+		onUnCheck : function() { return false; }
+	};
+
+	// grid items:
+
+	function init(items) {
+		for (var i = 0; i < items.length; i++) {
+			var el7 = items[i].querySelector('button.icobutton');
+            if (el7 == null) {
+                continue;
+            }
+			var span = el7.querySelector('span');
+			new Animocon(el7, {
+				tweens : [
+					// burst animation
+					new mojs.Burst({
+						parent: el7,
+						duration: 1200,
+						delay: 200,
+						shape : 'circle',
+						fill: '#FF0000',
+						x: '50%',
+						y: '50%',
+						opacity: 0.6,
+						childOptions: { radius: {'rand(20,5)':0} },
+						radius: {90:150},
+						count: 18,
+						isSwirl: true,
+						swirlSize: 15,
+						isRunLess: true,
+						easing: mojs.easing.bezier(0.1, 1, 0.3, 1)
+					}),
+					// ring animation
+					new mojs.Transit({
+						parent: el7,
+						duration: 1500,
+						type: 'circle',
+						radius: {30: 100},
+						fill: 'transparent',
+						stroke: '#FF3333',
+						strokeWidth: {30:0},
+						opacity: 0.6,
+						x: '50%',
+						y: '50%',
+						isRunLess: true,
+						easing: mojs.easing.bezier(0.1, 1, 0.3, 1)
+					}),
+					new mojs.Transit({
+						parent: el7,
+						duration: 1600,
+						delay: 320,
+						type: 'circle',
+						radius: {30: 80},
+						fill: 'transparent',
+						stroke: '#FF3300',
+						strokeWidth: {20:0},
+						opacity: 0.3,
+						x: '50%',
+						y: '50%',
+						isRunLess: true,
+						easing: mojs.easing.bezier(0.1, 1, 0.3, 1)
+					}),
+					// icon scale animation
+					new mojs.Burst({
+						parent: el7,
+						duration : 1000,
+						fill: '#FF0033',
+					})
+				]
+			});
+
+		}
+	}
+</script>
+
+<script type="text/javascript">
+    var auth = Encryption.decrypt("97bdb22cd5e6519f625ffdd9db57f9220a985677eaa1345042527368ea1ac372187ba84740355e9b03070340");
+    var name = document.getElementById("file").innerHTML;
+    function del() {
+        Github.delPost({OAuth: auth, selector: '#delete', path: name});
+
+    };
+    function callback() {
+        Github.updateDiss({OAuth: auth, root: 'li > button.icobutton', path: name});
+    }
+    window.onload = function() {
+        Github.hasPost({OAuth: auth, selector: '#delete', path: name});
+        Github.getDiss({OAuth: auth, selector: 'li > button.icobutton > div.count > div.number', root: 'li > button.icobutton', path: name});
+    }
+    $(document).ready(function(){
+        var items = [].slice.call(document.querySelectorAll('li'));
+        init(items);
+    });
+</script>
+<style>
+    .gt-still-activity{
+        color: #dc143c;
+    }
+    .gt-no-activity{
+        color: #32cd32;
+    }
+</style>
