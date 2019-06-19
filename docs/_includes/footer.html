@@ -13,6 +13,15 @@
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/hux-blog.min.js " | prepend: site.baseurl }}"></script>
 
+<!-- Adding underscore.js dependency -->
+<script src="{{ "/js/underscore-min.js " | prepend: site.baseurl  }}"></script>
+
+<!-- Adding github.js library -->
+<script src="{{ "/js/github.js " | prepend: site.baseurl  }}"></script>
+
+<script src="{{ "/js/encrypt.js " | prepend: site.baseurl  }}"></script>
+
+
 
 <!-- async load function -->
 <script>
@@ -61,7 +70,7 @@
 
 <!--fastClick.js -->
 <script>
-    async("http://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
         var $nav = document.querySelector("nav");
         if($nav) FastClick.attach($nav);
     })

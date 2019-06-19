@@ -1,0 +1,5 @@
+[submodule "docs/_posts"]
+	path = docs/_posts
+	url = https://github.com/Catherine9811/OO-Posts.git
+[submodule "docs._posts"]
+	branch = master
